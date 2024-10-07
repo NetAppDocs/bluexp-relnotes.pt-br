@@ -1,0 +1,37 @@
+= Flash Cache e suporte a alta velocidade de gravação no Google Cloud
+:allow-uri-read: 
+
+
+As seguintes alterações foram introduzidas com a versão 3.9.32 do conetor.
+
+
+
+=== Flash Cache e suporte a alta velocidade de gravação no Google Cloud
+
+O Flash Cache e a alta velocidade de gravação podem ser ativados separadamente no Google Cloud para Cloud Volumes ONTAP 9.13.1 e posterior. A alta velocidade de gravação está disponível em todos os tipos de instância compatíveis. O Flash Cache é compatível com os seguintes tipos de instância:
+
+* n2-padrão-16
+* n2-padrão-32
+* n2-padrão-48
+* n2-padrão-64
+
+
+Você pode usar esses recursos separadamente ou em conjunto em implantações de nó único e par de alta disponibilidade.
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Inicie o Cloud Volumes ONTAP no Google Cloud"^]
+
+
+
+=== Melhorias nos relatórios de uso
+
+Várias melhorias nas informações exibidas nos relatórios de uso estão agora disponíveis. A seguir estão os aprimoramentos dos relatórios de uso:
+
+* A unidade TIB está agora incluída no nome das colunas.
+* Um novo campo "node(s)" para números de série está agora incluído.
+* Uma nova coluna "tipo de workload" agora está incluída no relatório de uso das VMs de storage.
+* Nomes de ambientes de trabalho agora incluídos nos relatórios de uso de volume e VMs de storage.
+* O tipo de volume "arquivo" agora é rotulado como "primário (leitura/gravação)".
+* O tipo de volume "secundário" agora é rotulado como "secundário (DP)".
+
+
+Para obter mais informações sobre relatórios de uso, link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["Transfira relatórios de utilização"^]consulte .

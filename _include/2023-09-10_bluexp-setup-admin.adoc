@@ -1,0 +1,10 @@
+= 
+:allow-uri-read: 
+
+
+* Quando você cria um conetor no AWS a partir do BlueXP , agora você pode pesquisar no campo par de chaves para encontrar mais facilmente o par de chaves que deseja usar com a instância do Connector.
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["Uma captura de tela da opção de pesquisa no campo par de chaves que aparece na página rede ao criar um conetor na AWS a partir do BlueXP ."]
+
+* Esta atualização também inclui correções de bugs.
+

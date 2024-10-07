@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+O serviço atualizado de relatórios de migração do BlueXP  fornece atualizações para os dados do relatório. Os relatórios agora incluem capacidade alocada.

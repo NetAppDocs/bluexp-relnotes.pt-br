@@ -1,0 +1,21 @@
+= Implantações pequenas e médias temporariamente indisponíveis
+:allow-uri-read: 
+
+
+
+
+=== Implantações pequenas e médias temporariamente indisponíveis
+
+Ao implantar uma instância de classificação do BlueXP  na AWS, a opção de selecionar *Deploy > Configuration* e escolher uma instância pequena ou média não estará disponível no momento. Você ainda pode implantar a instância usando o tamanho de instância grande selecionando *Deploy > Deploy*.
+
+
+
+=== Aplique etiquetas em até 100.000 itens da página de resultados da investigação
+
+No passado, você só poderia aplicar tags a uma única página de cada vez na página de resultados da investigação (20 itens). Agora você pode selecionar *todos* itens nas páginas de resultados da investigação e aplicar tags a todos os itens - até 100.000 itens de cada vez. https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assigning-tags-to-files["Veja como"].
+
+
+
+=== Identificar arquivos duplicados com um tamanho mínimo de arquivo de 1 MB
+
+Classificação BlueXP  usada para identificar arquivos duplicados somente quando os arquivos eram 50 MB ou maiores. Agora, arquivos duplicados começando com 1 MB podem ser identificados. Você pode usar os filtros de página de investigação "tamanho do arquivo" junto com "Duplicates" para ver quais arquivos de um determinado tamanho são duplicados em seu ambiente.

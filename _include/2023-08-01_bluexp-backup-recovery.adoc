@@ -1,0 +1,45 @@
+= Foi adicionado suporte para fazer backup de volumes em buckets em sistemas ONTAP configurados com S3
+:allow-uri-read: 
+
+
+[IMPORTANT]
+====
+* Devido a um importante aprimoramento de segurança, seu conetor agora requer acesso de saída à Internet a um endpoint adicional para gerenciar recursos de backup e recuperação em seu ambiente de nuvem pública. Se este endpoint não tiver sido adicionado à lista "permitido" no firewall, verá um erro na IU sobre "Serviço indisponível" ou "Falha ao determinar o estado do serviço":
++
+https://NetApp-cloud-account.auth0.com
+
+* Uma assinatura PAYGO de backup e recuperação agora é necessária quando você estiver usando o pacote "CVO Professional" que permite agrupar backup e recuperação do Cloud Volumes ONTAP e do BlueXP . Isso não era necessário no passado. Nenhuma cobrança será cobrada na assinatura de backup e recuperação de sistemas Cloud Volumes ONTAP qualificados, mas ela será necessária ao configurar o backup em novos volumes.
+
+
+====
+
+
+=== Foi adicionado suporte para fazer backup de volumes em buckets em sistemas ONTAP configurados com S3
+
+Agora você pode usar um sistema ONTAP que foi configurado para o Simple Storage Service (S3) para fazer backup de volumes no storage de objetos. Isso é compatível com sistemas ONTAP no local e sistemas Cloud Volumes ONTAP. Essa configuração é suportada em implantações de nuvem e em locais locais locais sem acesso à Internet (uma implantação em modo "privada").
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-to-ontap-s3.html["Saiba mais"].
+
+
+
+=== Agora você pode incluir snapshots existentes de um volume protegido em seus arquivos de backup
+
+No passado, você conseguiu incluir cópias Snapshot existentes de volumes de leitura e gravação em seu arquivo de backup inicial para storage de objetos (em vez de começar com a cópia Snapshot mais recente). As cópias Snapshot existentes de volumes somente leitura (volumes de proteção de dados) não foram incluídas no arquivo de backup. Agora você pode optar por incluir cópias Snapshot mais antigas no arquivo de backup para volumes "DP".
+
+O assistente de backup exibe um prompt no final das etapas de backup, onde você pode selecionar esses "instantâneos existentes".
+
+
+
+=== O backup e a recuperação do BlueXP  não são mais compatíveis com o backup automático de volumes adicionados no futuro
+
+Anteriormente, você poderia marcar uma caixa no assistente de backup para aplicar a política de backup selecionada a todos os volumes futuros adicionados ao cluster. Esta funcionalidade foi removida com base no feedback do utilizador e na falta de utilização desta funcionalidade. Você precisará ativar manualmente os backups de quaisquer novos volumes adicionados ao cluster.
+
+
+
+=== A página monitorização de trabalhos foi atualizada com novas funcionalidades
+
+A página Monitoramento de tarefas agora fornece mais informações relacionadas à estratégia de backup 3-2-1. O serviço também fornece notificações de alerta adicionais relacionadas à estratégia de backup.
+
+O filtro tipo "Backup Lifecycle" foi renomeado para "retenção". Use esse filtro para controlar o ciclo de vida do backup e identificar a expiração de todas as cópias de backup. O tipo de tarefa "retenção" captura todos os trabalhos de exclusão Instantânea iniciados em um volume protegido pelo backup e recuperação do BlueXP .
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["Saiba mais sobre o Monitor de trabalhos atualizado"].

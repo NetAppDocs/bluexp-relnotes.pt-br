@@ -1,0 +1,33 @@
+= Gerenciamento de novas políticas para dados do ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Gerenciamento de novas políticas para dados do ONTAP
+
+Esta versão inclui a capacidade da IU criar políticas Snapshot personalizadas, políticas de replicação e políticas para backups para storage de objetos para dados do ONTAP.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["Saiba mais sobre políticas"].
+
+
+
+=== Suporte para restaurar arquivos e pastas de volumes no armazenamento de objetos do ONTAP S3
+
+Anteriormente, não era possível restaurar arquivos e pastas usando o recurso "Procurar e Restaurar" quando os volumes foram copiados para o armazenamento de objetos do ONTAP S3. Esta versão remove essa restrição.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["Saiba mais sobre como restaurar dados"].
+
+
+
+=== Capacidade de arquivar dados de backup imediatamente em vez de gravar primeiro no storage padrão
+
+Agora você pode enviar seus arquivos de backup imediatamente para o armazenamento de arquivamento, em vez de gravar os dados no storage de nuvem padrão. Isso pode ser especialmente útil para usuários que raramente precisam acessar dados de backups na nuvem ou usuários que estão substituindo um ambiente de backup em fita.
+
+
+
+=== Suporte adicional para backup e restauração de volumes SnapLock
+
+Agora, o backup e a recuperação podem fazer backup dos volumes FlexVol e FlexGroup configurados usando os modos de proteção SnapLock Compliance ou SnapLock Enterprise. Os clusters precisam estar executando o ONTAP 9.14 ou superior para esse suporte. O backup de volumes do FlexVol usando o modo SnapLock Enterprise tem sido suportado desde a versão 9.11.1 do ONTAP. As versões anteriores do ONTAP não oferecem suporte para fazer backup de volumes de proteção SnapLock.
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Saiba mais sobre como proteger dados do ONTAP"].

@@ -1,0 +1,23 @@
+= Novas regiões com suporte para implantações de várias zonas de disponibilidade de HA no Azure
+:allow-uri-read: 
+
+
+As seguintes alterações foram introduzidas com a versão 3.9.34 do conetor.
+
+
+
+=== Novas regiões com suporte para implantações de várias zonas de disponibilidade de HA no Azure
+
+As seguintes regiões no Azure agora oferecem suporte a implantações de várias zonas de disponibilidade altamente disponíveis para o Cloud Volumes ONTAP 9.14.0 e posterior:
+
+* Leste da Austrália
+* Leste da Ásia
+* França Central
+* Norte da Europa
+* Qatar Central
+* Suécia Central
+* Europa Ocidental
+* West US 2
+
+
+Para obter uma lista de todas as regiões que suportam várias zonas de disponibilidade, consulte https://bluexp.netapp.com/cloud-volumes-global-regions["Mapa das Regiões globais no Azure"^] .
