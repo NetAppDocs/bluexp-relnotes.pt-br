@@ -127,7 +127,11 @@ O BlueXP  agora suporta o conetor com hosts Red Hat Enterprise Linux que têm o
 
 O suporte para SELinux começa com a versão 3.9.40 para o modo padrão e modo restrito e com a versão 3.9.42 para o modo privado.
 
-O BlueXP  não suporta SELinux com hosts Ubuntu.
+Observe as seguintes limitações:
+
+* O BlueXP  não suporta SELinux com hosts Ubuntu.
+* Gerenciamento de sistemas Cloud Volumes ONTAP não é suportado por conetores que têm SELinux habilitado no sistema operacional.
+
 
 https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux["Saiba mais sobre o SELinux"^]
 
@@ -198,7 +202,7 @@ Esta versão inicial de alertas do BlueXP  inclui os seguintes recursos:
 
 * *Página da lista de alertas do BlueXP *: Você pode identificar rapidamente clusters do ONTAP com baixa capacidade ou baixo desempenho, avaliar a extensão da disponibilidade e identificar riscos de segurança. Você pode visualizar alertas relacionados a capacidade, performance, proteção, disponibilidade, segurança e configuração.
 * *Detalhes dos alertas*: Você pode detalhar os detalhes do alerta e encontrar recomendações.
-* *Exibir detalhes do cluster vinculados ao Gerenciador do sistema*: Com os alertas do BlueXP , você pode visualizar os alertas associados ao ambiente de armazenamento do ONTAP e analisar os detalhes vinculados ao Gerenciador do sistema do NetApp.
+* *Exibir detalhes do cluster vinculados ao Gerenciador do sistema*: Com os alertas do BlueXP , você pode visualizar os alertas associados ao ambiente de armazenamento do ONTAP e analisar os detalhes vinculados ao Gerenciador do sistema do ONTAP.
 
 
 https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Saiba mais sobre os alertas do BlueXP"].
@@ -211,6 +215,10 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Saiba mais sobr
 
 === 30 de julho de 2023
 
+
+
+==== Suporte para três regiões adicionais
+
 Agora, os clientes podem criar o Amazon FSX para sistemas de arquivos NetApp ONTAP em três novas regiões da AWS: Europa (Zurique), Europa (Espanha) e Ásia-Pacífico (Hyderabad).
 
 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["O Amazon FSX para NetApp ONTAP agora está disponível em três regiões adicionais"^]Consulte para obter detalhes completos.
@@ -219,17 +227,33 @@ link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-
 
 === 02 de julho de 2023
 
-* Agora você pode link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["Adicione uma VM de storage"]acessar o sistema de arquivos do Amazon FSX for NetApp ONTAP usando o BlueXP .
-* A guia **Minhas oportunidades** agora é **minha propriedade**. A documentação é atualizada para refletir o novo nome.
 
+
+==== Adicione uma VM de storage
+
+Agora você pode link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["Adicione uma VM de storage"]acessar o sistema de arquivos do Amazon FSX for NetApp ONTAP usando o BlueXP .
+
+
+
+==== **A aba Minhas oportunidades** agora é **minha propriedade**
+
+A guia **Minhas oportunidades** agora é **minha propriedade**. A documentação é atualizada para refletir o novo nome.
 
 
 
 === 04 de junho de 2023
 
-* Quando link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["criando um ambiente de trabalho"], pode especificar a hora de início da janela de manutenção semanal de 30 minutos para garantir que a manutenção não entra em conflito com as atividades empresariais críticas.
-* Quando link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["criando um volume"]o , você pode habilitar a otimização de dados criando um FlexGroup para distribuir dados entre volumes.
 
+
+==== Hora de início da janela de manutenção
+
+Quando link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["criando um ambiente de trabalho"], pode especificar a hora de início da janela de manutenção semanal de 30 minutos para garantir que a manutenção não entra em conflito com as atividades empresariais críticas.
+
+
+
+==== Distribuir dados de volume usando FlexGroups
+
+Quando link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["criando um volume"]o , você pode habilitar a otimização de dados criando um FlexGroup para distribuir dados entre volumes.
 
 
 
@@ -489,6 +513,29 @@ Para obter detalhes, consulte https://docs.netapp.com/us-en/bluexp-classificatio
 
 
 
+=== 25 de outubro de 2024
+
+
+
+==== Máquinas da série N1 indisponíveis para seleção no BlueXP
+
+As máquinas da série n1 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Google Cloud. As máquinas da série n1 serão mantidas e suportadas apenas em sistemas existentes mais antigos. Novas implantações do Cloud Volumes ONTAP são suportadas no Google Cloud apenas a partir da versão 9,8. Recomendamos que mude para os tipos de máquinas da série n2 compatíveis com o Cloud Volumes ONTAP 9,8 e posterior. As máquinas da série n1, no entanto, estarão disponíveis para novas implantações realizadas através da API.
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Configurações compatíveis no Google Cloud"^].
+
+
+
+==== Suporte a zonas locais para Amazon Web Services em modo privado
+
+O BlueXP  agora oferece suporte a zonas locais da AWS para implantações de alta disponibilidade (HA) do Cloud Volumes ONTAP no modo privado. O suporte anteriormente limitado apenas ao modo padrão foi agora estendido para incluir o modo privado.
+
+
+NOTE: As zonas locais da AWS não são suportadas ao usar o BlueXP  no modo restrito.
+
+Para obter mais informações sobre zonas locais da AWS com implantações de HA, link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha.html#aws-local-zones["Zonas locais da AWS"^]consulte .
+
+
+
 === 7 de outubro de 2024
 
 
@@ -521,18 +568,6 @@ Saiba mais sobre esses recursos:
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-protecting-ransomware.html["Aumento da proteção contra ransomware"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html["STORAGE WORM"^]
 
-
-
-
-=== 23 de agosto de 2024
-
-
-
-==== A região oeste do Canadá agora é compatível com a AWS
-
-A região Oeste do Canadá agora é suportada na AWS para Cloud Volumes ONTAP 9.12.1 GA e posterior.
-
-Para obter uma lista de todas as regiões, consulte https://bluexp.netapp.com/cloud-volumes-global-regions["Mapa das regiões globais na AWS"^].
 
 
 

@@ -26,16 +26,12 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["Configuração 
 
 == Armazenamento
 
-* https://docs.netapp.com/us-en/bluexp-blob-storage/index.html["Storage Azure Blob"^]
-* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/whats-new.html["Amazon FSX para ONTAP"^]
 * https://docs.netapp.com/us-en/bluexp-s3-storage/whats-new.html["Storage Amazon S3"^]
-* Cloud Volumes ONTAP
-+
-** https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Notas de versão para Cloud Volumes ONTAP"^]
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Notas de versão para gerenciamento de Cloud Volumes ONTAP no BlueXP "^]
-
-
+* https://docs.netapp.com/us-en/bluexp-blob-storage/index.html["Storage Azure Blob"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Gestão de Cloud Volumes ONTAP em BlueXP "^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["Cloud Volumes Service para Google Cloud"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["Sistemas e-Series"^]
 * https://docs.netapp.com/us-en/bluexp-google-cloud-storage/whats-new.html["Google Cloud Storage"^]
@@ -48,10 +44,12 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["Configuração 
 == Serviços de dados
 
 * https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["Alertas"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Catálogo de automação"^]
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["Backup e recuperação"^]
 * https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["Classificação"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-ops/whats-new.html["Operações da nuvem"^]
 * https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html["Copiar e sincronizar"^]
+* https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Consultor digital"^]
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["Carteira digital"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/release-notes/dr-whats-new.html["Recuperação de desastres"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/release-notes/whats-new.html["Eficiência económica"^]
