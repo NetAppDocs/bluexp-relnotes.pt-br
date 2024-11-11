@@ -338,8 +338,6 @@
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">Saiba mais sobre os alertas do BlueXP</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>.</block>
   <block id="942e802a236d6542c0c6f797428d8abb" category="section-title">02 de julho de 2023</block>
-  <block id="d41b120a4f792ebe6195de3355c6309a" category="inline-link-macro">Adicione uma VM de storage</block>
-  <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">Agora você pode <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block>acessar o sistema de arquivos do Amazon FSX for NetApp ONTAP usando o BlueXP .</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">A guia **Minhas oportunidades** agora é **minha propriedade**. A documentação é atualizada para refletir o novo nome.</block>
   <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">04 de junho de 2023</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">5 de março de 2023</block>
@@ -752,4 +750,5 @@
   <block id="8d9d085ab6acd5074907258fafcff341" category="paragraph">Anteriormente, você poderia habilitar o storage WORM ao criar um ambiente de trabalho do Cloud Volumes ONTAP no BlueXP . Agora, o BlueXP  oferece a você a opção de habilitar WORM em um ambiente de trabalho, mesmo que WORM não tenha sido ativado durante a criação. Depois de ativá-lo, não é possível desativar WORM.</block>
   <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">Habilitando WORM em um ambiente de trabalho do Cloud Volumes ONTAP</block>
   <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
+  <block id="2cce67162f5e7dda1e726a6c1514801d" category="paragraph">Agora você pode adicionar uma VM de armazenamento ao sistema de arquivos do Amazon FSX for NetApp ONTAP usando o BlueXP .</block>
 </blocks>
