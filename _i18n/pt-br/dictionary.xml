@@ -332,7 +332,6 @@
   <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">30 de setembro de 2024</block>
   <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="cell">27 de setembro de 2024</block>
-  <block id="c842acaca9e3ea9ec2dc61f28e69ea15" category="cell">9 de setembro de 2024</block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="cell">30 de julho de 2023</block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="cell">22 de abril de 2024</block>
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="cell">18 de setembro de 2022</block>
@@ -416,15 +415,6 @@
   <block id="1b658f77da3dfa84be0559359889c6d1" category="section-title">Experiência de usuário aprimorada na seleção de versão para atualização</block>
   <block id="76723ae6fdfacae29242fdb7085394b0" category="paragraph">A partir desta versão, quando você tentar atualizar o Cloud Volumes ONTAP usando a notificação BlueXP , você receberá orientações sobre as versões padrão, mais recentes e compatíveis a serem usadas. Além disso, agora você pode selecionar o patch mais recente ou a versão principal compatível com sua instância do Cloud Volumes ONTAP, ou inserir manualmente uma versão para atualização.</block>
   <block id="2182ff9388484137699eb937c0df0141" category="inline-link">Atualize o software Cloud Volumes ONTAP</block>
-  <block id="cdd78645b017b927a25b5449e345f823" category="section-title">As funcionalidades WORM e ARP não são mais carregáveis</block>
-  <block id="c5686848892b4de33534dcc294c33fff" category="paragraph">Os recursos de segurança e proteção de dados incorporados do WORM (Write Once Read many) e do ARP (Autonomous ransomware Protection) serão oferecidos com licenças do Cloud Volumes ONTAP sem custo adicional. O novo modelo de preços se aplica às assinaturas BYOL e PAYGO/Marketplace novas e existentes da AWS, Azure e Google Cloud. As licenças baseadas em capacidade e baseadas em nós contêm ARP e WORM para todas as configurações, incluindo nó único e pares de alta disponibilidade (HA), sem custo adicional.</block>
-  <block id="9dab6b96899670128353b1e92c2b8997" category="paragraph">O preço simplificado traz a você esses benefícios:</block>
-  <block id="000f6c26eec43af35931bc5e6fbf9f49" category="list-text">As contas que atualmente incluem WORM e ARP não terão mais cobranças por esses recursos. No futuro, sua cobrança só terá cobranças pelo uso da capacidade, como foi antes dessa alteração. Worm e ARP não serão mais incluídos em suas contas futuras.</block>
-  <block id="3817bf50b7761fc5155c59e4a334d37a" category="list-text">Se suas contas atuais não incluírem esses recursos, agora você pode optar por WORM e ARP sem custo adicional.</block>
-  <block id="1974af11cb1ac87d0b58d8696f893e4d" category="list-text">Todas as ofertas do Cloud Volumes ONTAP para quaisquer novas contas excluirão cobranças por WORM e ARP.</block>
-  <block id="0e3986fb787ff1e55f1d15206f8b39d9" category="paragraph">Saiba mais sobre esses recursos:</block>
-  <block id="0c0c93dcca58dc6ba5a46ef2bf56980b" category="inline-link">Aumento da proteção contra ransomware</block>
-  <block id="8aca368ccd90320c96e8a69a43545003" category="inline-link">STORAGE WORM</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 de setembro de 2020</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Suporte ao Cloud Volumes Service para Google Cloud</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">Agora você pode gerenciar o Cloud Volumes Service para Google Cloud diretamente do BlueXP :</block>
@@ -653,8 +643,6 @@
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">Versão 1,36</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">Versão 1,35</block>
   <block id="448c087351c52cb72f971666e2159491" category="paragraph"><block ref="448c087351c52cb72f971666e2159491" category="inline-link-rx"></block></block>
-  <block id="7a73f560e215c4ff952d3384c5435ae9" category="list-text"><block ref="7a73f560e215c4ff952d3384c5435ae9" category="inline-link-rx"></block></block>
-  <block id="c8eac8ecc3bb9bb52e4fa6b3d34c3c38" category="list-text"><block ref="c8eac8ecc3bb9bb52e4fa6b3d34c3c38" category="inline-link-rx"></block></block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">Correções de bugs</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">Ofertas de suporte</block>
   <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">Os indicadores ambientais que fornecem insights sobre a saúde ambiental de seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>consulte .</block>
@@ -735,4 +723,33 @@
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Agora você pode usar a fábrica de carga de trabalho do <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. A experiência do console do BlueXP  fornece a mesma funcionalidade que o console de fábrica da carga de trabalho.</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Saiba como acessar a fábrica da carga de trabalho a partir do console BlueXP</block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">Se você está procurando a opção _Advanced view_, que permite gerenciar um sistema de arquivos FSX for ONTAP usando o Gerenciador de sistema do ONTAP, agora você pode encontrar essa opção na tela do BlueXP  depois de selecionar o ambiente de trabalho.</block>
+  <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">Uma captura de tela do painel direito no BlueXP  Canvas depois de selecionar um ambiente de trabalho que mostra a opção Gerenciador de sistema.</block>
+  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="059b6fdd2ea839d9327c322a4c87e168" category="section-title">Fim da disponibilidade para licenças baseadas em nós</block>
+  <block id="73dfeef5d38f87e4c1d9e4b6417db109" category="paragraph">A NetApp planejou o fim da disponibilidade (EOA) e o fim do suporte (EOS) do licenciamento baseado em nós da Cloud Volumes ONTAP. A partir de 11 de novembro de 2024, a disponibilidade limitada de licenças baseadas em nós foi encerrada. O suporte para licenciamento baseado em nós termina em 31 de dezembro de 2024. Após a EOA de suas licenças baseadas em nós, você deve fazer a transição para o licenciamento baseado em capacidade usando a ferramenta de conversão de licença do BlueXP .</block>
+  <block id="412842ace3db013f5cc3f99342aac206" category="paragraph">Para compromissos anuais ou de longo prazo, a NetApp recomenda que você entre em Contato com seu representante da NetApp antes da data da EOA ou da data de expiração da licença para garantir que os pré-requisitos para a transição estejam em vigor. Se não tiver um contrato de longo prazo para um nó Cloud Volumes ONTAP e executar o seu sistema com base numa subscrição PAYGO a pedido, é importante planear a sua conversão antes da data EOS. Para contratos de longo prazo e assinaturas PAYGO, você pode usar a ferramenta de conversão de licenças BlueXP  para uma conversão perfeita.</block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">Término da disponibilidade de licenças baseadas em nós</block>
+  <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link">Converta licenças baseadas em nós em capacidade</block>
+  <block id="2293617fe352e42e5a1e5d757463cb39" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block> <block ref="5987d844b1ad687ea551a96a31c7c0df" category="inline-link-rx"></block></block>
+  <block id="a4b4a128b8ea43df8551a18d37b0bfcd" category="section-title">Remoção de implantações baseadas em nós do BlueXP</block>
+  <block id="04b144a0be31129b4ac9a0f2751271d9" category="paragraph">A opção de implantar sistemas Cloud Volumes ONTAP usando licenças baseadas em nós é obsoleta no BlueXP . Exceto em alguns casos especiais, você não pode usar licenças baseadas em nós para implantações do Cloud Volumes ONTAP para nenhum provedor de nuvem.</block>
+  <block id="11c97a8e296f1428a1d4c9a2253b1bfb" category="paragraph">A NetApp reconhece os seguintes requisitos exclusivos de licenciamento em conformidade com as obrigações contratuais e as necessidades operacionais, e continuará a dar suporte a licenças baseadas em nós nessas situações:</block>
+  <block id="57389c1aef6c1264d9ad4bbe74640b2e" category="list-text">Clientes do USPS</block>
+  <block id="43b1a7bfd4243a44cf321f03e7878ffd" category="list-text">Implantações em modo privado</block>
+  <block id="bbef1435f544b56bbed0e1c536c2515e" category="list-text">Implementações da região da China do Cloud Volumes ONTAP na AWS</block>
+  <block id="e6eb4bcca3ad358d710ea99dd5c577d1" category="list-text">Se você tiver um nó de by-node válido e não expirado, traga sua própria licença (licença BYOL)</block>
+  <block id="677ce77d69762bd9f63d8a2760e6a0c4" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block></block>
+  <block id="02077474df02850d5f691ab4c25f3b7c" category="section-title">Adição de uma categoria inativa de dados do Cloud Volumes ONTAP no storage Azure Blob</block>
+  <block id="b37931f01938eae6736d1bea8fd72fed" category="paragraph">O BlueXP  agora permite que você selecione uma categoria inativa para armazenar os dados da categoria de capacidade no storage Blob do Azure. Adicionar a camada fria às camadas quentes e frias existentes fornece uma opção de storage mais econômica e uma melhor economia.</block>
+  <block id="176cd61977ca55fd13eff7c7ba3659f5" category="inline-link">Categorização de dados no Azure</block>
+  <block id="2ede20fe3152113b3c27cd841c879ccf" category="paragraph"><block ref="2ede20fe3152113b3c27cd841c879ccf" category="inline-link-rx"></block></block>
+  <block id="7a315b4592c0ed57964da376a6b04868" category="section-title">Opção para restringir o acesso público à conta de armazenamento do Azure</block>
+  <block id="c11ad5eeb4b3088d2c151593e9c1204e" category="paragraph">Agora você tem a opção de restringir o acesso público à sua conta de storage para sistemas Cloud Volumes ONTAP no Azure. Ao desativar o acesso, você pode proteger seu endereço IP privado da exposição mesmo dentro do mesmo VNet, caso haja necessidade de cumprir com as políticas de segurança da sua organização. Essa opção também desativa a disposição de dados em camadas dos sistemas Cloud Volumes ONTAP e se aplica a pares de nó único e alta disponibilidade.</block>
+  <block id="390a3dfacd9551e05363b9eb09a0464c" category="inline-link">Regras do grupo de segurança</block>
+  <block id="69e89afe4b2013c34ff51df883ddc022" category="paragraph"><block ref="9064ea2dae3c9dc76b91a834ab88d8bf" category="inline-link-rx"></block>.</block>
+  <block id="f87269f0bcffd4dd379148db58c41b11" category="section-title">Habilitação DE WORM após a implantação do Cloud Volumes ONTAP</block>
+  <block id="8d9d085ab6acd5074907258fafcff341" category="paragraph">Anteriormente, você poderia habilitar o storage WORM ao criar um ambiente de trabalho do Cloud Volumes ONTAP no BlueXP . Agora, o BlueXP  oferece a você a opção de habilitar WORM em um ambiente de trabalho, mesmo que WORM não tenha sido ativado durante a criação. Depois de ativá-lo, não é possível desativar WORM.</block>
+  <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">Habilitando WORM em um ambiente de trabalho do Cloud Volumes ONTAP</block>
+  <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
 </blocks>

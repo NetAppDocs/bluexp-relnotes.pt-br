@@ -184,6 +184,10 @@ As tarefas de gerenciamento do sistema de arquivos do FSX for ONTAP, como adicio
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["Saiba mais sobre os recursos do FSX for ONTAP na fábrica de cargas de trabalho do BlueXP"^]
 
+Se você está procurando a opção _Advanced view_, que permite gerenciar um sistema de arquivos FSX for ONTAP usando o Gerenciador de sistema do ONTAP, agora você pode encontrar essa opção na tela do BlueXP  depois de selecionar o ambiente de trabalho.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["Uma captura de tela do painel direito no BlueXP  Canvas depois de selecionar um ambiente de trabalho que mostra a opção Gerenciador de sistema."]
+
 
 
 === 30 de julho de 2023
@@ -459,6 +463,60 @@ Para obter detalhes, link:task-scanning-storagegrid.html["Digitalizar dados Stor
 
 
 
+=== 11 de novembro de 2024
+
+
+
+==== Fim da disponibilidade para licenças baseadas em nós
+
+A NetApp planejou o fim da disponibilidade (EOA) e o fim do suporte (EOS) do licenciamento baseado em nós da Cloud Volumes ONTAP. A partir de 11 de novembro de 2024, a disponibilidade limitada de licenças baseadas em nós foi encerrada. O suporte para licenciamento baseado em nós termina em 31 de dezembro de 2024. Após a EOA de suas licenças baseadas em nós, você deve fazer a transição para o licenciamento baseado em capacidade usando a ferramenta de conversão de licença do BlueXP .
+
+Para compromissos anuais ou de longo prazo, a NetApp recomenda que você entre em Contato com seu representante da NetApp antes da data da EOA ou da data de expiração da licença para garantir que os pré-requisitos para a transição estejam em vigor. Se não tiver um contrato de longo prazo para um nó Cloud Volumes ONTAP e executar o seu sistema com base numa subscrição PAYGO a pedido, é importante planear a sua conversão antes da data EOS. Para contratos de longo prazo e assinaturas PAYGO, você pode usar a ferramenta de conversão de licenças BlueXP  para uma conversão perfeita.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["Término da disponibilidade de licenças baseadas em nós"^] https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-convert-node-capacity.html["Converta licenças baseadas em nós em capacidade"^]
+
+
+
+==== Remoção de implantações baseadas em nós do BlueXP
+
+A opção de implantar sistemas Cloud Volumes ONTAP usando licenças baseadas em nós é obsoleta no BlueXP . Exceto em alguns casos especiais, você não pode usar licenças baseadas em nós para implantações do Cloud Volumes ONTAP para nenhum provedor de nuvem.
+
+A NetApp reconhece os seguintes requisitos exclusivos de licenciamento em conformidade com as obrigações contratuais e as necessidades operacionais, e continuará a dar suporte a licenças baseadas em nós nessas situações:
+
+* Clientes do USPS
+* Implantações em modo privado
+* Implementações da região da China do Cloud Volumes ONTAP na AWS
+* Se você tiver um nó de by-node válido e não expirado, traga sua própria licença (licença BYOL)
+
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["Término da disponibilidade de licenças baseadas em nós"^]
+
+
+
+==== Adição de uma categoria inativa de dados do Cloud Volumes ONTAP no storage Azure Blob
+
+O BlueXP  agora permite que você selecione uma categoria inativa para armazenar os dados da categoria de capacidade no storage Blob do Azure. Adicionar a camada fria às camadas quentes e frias existentes fornece uma opção de storage mais econômica e uma melhor economia.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html#data-tiering-in-azure["Categorização de dados no Azure"^]
+
+
+
+==== Opção para restringir o acesso público à conta de armazenamento do Azure
+
+Agora você tem a opção de restringir o acesso público à sua conta de storage para sistemas Cloud Volumes ONTAP no Azure. Ao desativar o acesso, você pode proteger seu endereço IP privado da exposição mesmo dentro do mesmo VNet, caso haja necessidade de cumprir com as políticas de segurança da sua organização. Essa opção também desativa a disposição de dados em camadas dos sistemas Cloud Volumes ONTAP e se aplica a pares de nó único e alta disponibilidade.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/reference-networking-azure.html#security-group-rules["Regras do grupo de segurança"^].
+
+
+
+==== Habilitação DE WORM após a implantação do Cloud Volumes ONTAP
+
+Anteriormente, você poderia habilitar o storage WORM ao criar um ambiente de trabalho do Cloud Volumes ONTAP no BlueXP . Agora, o BlueXP  oferece a você a opção de habilitar WORM em um ambiente de trabalho, mesmo que WORM não tenha sido ativado durante a criação. Depois de ativá-lo, não é possível desativar WORM.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabling-worm-on-a-cloud-volumes-ontap-working-environment["Habilitando WORM em um ambiente de trabalho do Cloud Volumes ONTAP"^]
+
+
+
 === 25 de outubro de 2024
 
 
@@ -491,29 +549,6 @@ Para obter mais informações sobre zonas locais da AWS com implantações de HA
 A partir desta versão, quando você tentar atualizar o Cloud Volumes ONTAP usando a notificação BlueXP , você receberá orientações sobre as versões padrão, mais recentes e compatíveis a serem usadas. Além disso, agora você pode selecionar o patch mais recente ou a versão principal compatível com sua instância do Cloud Volumes ONTAP, ou inserir manualmente uma versão para atualização.
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-from-bluexp-notifications["Atualize o software Cloud Volumes ONTAP"]
-
-
-
-=== 9 de setembro de 2024
-
-
-
-==== As funcionalidades WORM e ARP não são mais carregáveis
-
-Os recursos de segurança e proteção de dados incorporados do WORM (Write Once Read many) e do ARP (Autonomous ransomware Protection) serão oferecidos com licenças do Cloud Volumes ONTAP sem custo adicional. O novo modelo de preços se aplica às assinaturas BYOL e PAYGO/Marketplace novas e existentes da AWS, Azure e Google Cloud. As licenças baseadas em capacidade e baseadas em nós contêm ARP e WORM para todas as configurações, incluindo nó único e pares de alta disponibilidade (HA), sem custo adicional.
-
-O preço simplificado traz a você esses benefícios:
-
-* As contas que atualmente incluem WORM e ARP não terão mais cobranças por esses recursos. No futuro, sua cobrança só terá cobranças pelo uso da capacidade, como foi antes dessa alteração. Worm e ARP não serão mais incluídos em suas contas futuras.
-* Se suas contas atuais não incluírem esses recursos, agora você pode optar por WORM e ARP sem custo adicional.
-* Todas as ofertas do Cloud Volumes ONTAP para quaisquer novas contas excluirão cobranças por WORM e ARP.
-
-
-Saiba mais sobre esses recursos:
-
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-protecting-ransomware.html["Aumento da proteção contra ransomware"]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html["STORAGE WORM"]
-
 
 
 
