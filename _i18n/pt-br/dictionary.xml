@@ -331,40 +331,11 @@
   <block id="a86bab47fe0d1d4772388e14bf7532a0" category="inline-link">Saiba mais sobre o SELinux</block>
   <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">30 de setembro de 2024</block>
-  <block id="0beb94109608ff82d313b33947162f96" category="section-title">Lançamento do modo privado (3,9.44)</block>
-  <block id="5d515ef1c3774ed67ad6115621a1ca59" category="paragraph">Uma nova versão do modo privado está agora disponível para download a partir do site de suporte da NetApp.</block>
-  <block id="f1fb6fd189345cf04ef77974b58bcbfc" category="paragraph">Esta versão inclui as seguintes versões dos componentes e serviços do BlueXP  compatíveis com o modo privado.</block>
-  <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">Serviço</block>
-  <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">Versão incluída</block>
-  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">Conetor</block>
-  <block id="8dd8dbe371973ff01954f1d0db6a6c30" category="cell">3.9.44</block>
   <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="cell">27 de setembro de 2024</block>
-  <block id="918de91f5332dad6620331712ef5c21d" category="cell">15 de Maio de 2024 (versão 1,31)</block>
-  <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Gerenciamento de Cloud Volumes ONTAP</block>
   <block id="c842acaca9e3ea9ec2dc61f28e69ea15" category="cell">9 de setembro de 2024</block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="cell">30 de julho de 2023</block>
-  <block id="900dd8f50d2294930a102034524e26b7" category="cell">Gerenciamento de clusters do ONTAP no local</block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="cell">22 de abril de 2024</block>
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="cell">18 de setembro de 2022</block>
-  <block id="48f2931f061b9d56d7805eddf6969cea" category="paragraph">Para o conetor, o lançamento do modo privado 3.9.44 inclui as atualizações introduzidas nas versões de agosto de 2024 e setembro de 2024. Mais notavelmente, o suporte para Red Hat Enterprise Linux 9,4.</block>
-  <block id="288ce8ff800de0648500c62f0658b96c" category="paragraph">Para saber mais sobre o que está incluído nas versões desses componentes e serviços do BlueXP , consulte as notas de versão de cada serviço do BlueXP :</block>
-  <block id="65439cdb7546ae11a93a141421129d1a" category="inline-link">Novidades na versão de setembro de 2024 do conetor</block>
-  <block id="46c02b08a8d12f7b5b9a43c01b252fe0" category="list-text"><block ref="46c02b08a8d12f7b5b9a43c01b252fe0" category="inline-link-rx"></block></block>
-  <block id="c531086859410bbf7d79b1d007644e8c" category="inline-link">Novidades na versão de agosto de 2024 do conetor</block>
-  <block id="3447cde4c00b98b6428bff77da46fd8c" category="list-text"><block ref="3447cde4c00b98b6428bff77da46fd8c" category="inline-link-rx"></block></block>
-  <block id="116a2755907d33cc76c6cdc442c467b0" category="inline-link">Novidades com backup e recuperação do BlueXP </block>
-  <block id="4e02af58c02d9f0704b79eb4e000eb20" category="list-text"><block ref="4e02af58c02d9f0704b79eb4e000eb20" category="inline-link-rx"></block></block>
-  <block id="cdcec1bb4c8f6524979a702b1691d4f7" category="inline-link">Novidades com a classificação BlueXP </block>
-  <block id="9212eddb7e41302606e7873d754ab3aa" category="list-text"><block ref="9212eddb7e41302606e7873d754ab3aa" category="inline-link-rx"></block></block>
-  <block id="00dc7f0b165829f9f81bfaf12a8db2e4" category="inline-link">O que há de novo com o gerenciamento de Cloud Volumes ONTAP no BlueXP </block>
-  <block id="941cdb6d27c83c929d4abe28f2321665" category="list-text"><block ref="941cdb6d27c83c929d4abe28f2321665" category="inline-link-rx"></block></block>
-  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">Para obter mais detalhes sobre o modo privado, incluindo como atualizar, consulte o seguinte:</block>
-  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">Saiba mais sobre o modo privado</block>
-  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
-  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">Saiba como começar a usar o BlueXP  no modo privado</block>
-  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
-  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">Saiba como atualizar o conetor ao usar o modo privado</block>
-  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">Saiba mais sobre os alertas do BlueXP</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>.</block>
   <block id="942e802a236d6542c0c6f797428d8abb" category="section-title">02 de julho de 2023</block>
@@ -372,10 +343,6 @@
   <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">Agora você pode <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block>acessar o sistema de arquivos do Amazon FSX for NetApp ONTAP usando o BlueXP .</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">A guia **Minhas oportunidades** agora é **minha propriedade**. A documentação é atualizada para refletir o novo nome.</block>
   <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">04 de junho de 2023</block>
-  <block id="b11363dc7ad08609dacf71adabc1e3d7" category="inline-link-macro">criando um ambiente de trabalho</block>
-  <block id="c21d5cf174dc36531d6990b13fe89573" category="list-text">Quando <block ref="ad9408e39808bf9ea4b07fa95cac5798" category="inline-link-macro-rx"></block>, pode especificar a hora de início da janela de manutenção semanal de 30 minutos para garantir que a manutenção não entra em conflito com as atividades empresariais críticas.</block>
-  <block id="e2ba73f0e5661996e4350de09efee512" category="inline-link-macro">criando um volume</block>
-  <block id="fabdf5de30f7e7084ae6656930904d1d" category="list-text">Quando <block ref="1bfb452ce23fdd4301ee99a62317a7a6" category="inline-link-macro-rx"></block>o , você pode habilitar a otimização de dados criando um FlexGroup para distribuir dados entre volumes.</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">5 de março de 2023</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">Capacidade de adicionar novos buckets do BlueXP </block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">Veja como adicionar novos buckets do Amazon S3</block>
@@ -647,8 +614,6 @@
   <block id="479422755a82da93d381b0baab5f8fe7" category="section-title">Suporte para três regiões adicionais</block>
   <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">Adicione uma VM de storage</block>
   <block id="c63d5220743c53eaddaae4ea5f0511e7" category="section-title">**A aba Minhas oportunidades** agora é **minha propriedade**</block>
-  <block id="c0fde7a894f20194ba5123471f8cf7e7" category="section-title">Hora de início da janela de manutenção</block>
-  <block id="12ad4af5f024e558448bad702ec7ef28" category="section-title">Distribuir dados de volume usando FlexGroups</block>
   <block id="2bb8a9ed1433f0f845b92c7da5440dea" category="section-title">25 de outubro de 2024</block>
   <block id="dc1815932afdea52f1a4c12d73f2eed0" category="section-title">Máquinas da série N1 indisponíveis para seleção no BlueXP</block>
   <block id="1bb0d11a534c8ee967cd62e4d75e3da3" category="paragraph">As máquinas da série n1 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Google Cloud. As máquinas da série n1 serão mantidas e suportadas apenas em sistemas existentes mais antigos. Novas implantações do Cloud Volumes ONTAP são suportadas no Google Cloud apenas a partir da versão 9,8. Recomendamos que mude para os tipos de máquinas da série n2 compatíveis com o Cloud Volumes ONTAP 9,8 e posterior. As máquinas da série n1, no entanto, estarão disponíveis para novas implantações realizadas através da API.</block>
@@ -738,4 +703,36 @@
   <block id="9d163bfc4f18cfe82e5ab58246fe3e03" category="list-text">*Avaliação gratuita agora 30 dias*: Com este lançamento, novas implantações de proteção contra ransomware BlueXP  agora têm 30 dias para uma avaliação gratuita. Anteriormente, a proteção contra ransomware da BlueXP  forneceu 90 dias como uma avaliação gratuita. Se você já está no teste gratuito de 90 dias, essa oferta continua por 90 dias.</block>
   <block id="2f5cba8ef7e3d3ce9ca484acfa021d1e" category="list-text">* Restaurar carga de trabalho de aplicação no nível de ficheiro para Podman*: Antes de restaurar uma carga de trabalho de aplicação no nível de ficheiro, pode agora visualizar uma lista de ficheiros que podem ter sido afetados por um ataque e identificar os que pretende restaurar. Anteriormente, se os conetores BlueXP  em uma organização (anteriormente uma conta) estavam usando o Podman, esse recurso foi desativado. Agora está habilitado para Podman. Você pode permitir que a proteção contra ransomware do BlueXP  escolha os arquivos a serem restaurados, você pode carregar um arquivo CSV que lista todos os arquivos afetados por um alerta ou você pode identificar manualmente quais arquivos deseja restaurar.</block>
   <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">Saiba mais <block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block>sobre o .</block>
+  <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">Fábrica de carga de trabalho</block>
+  <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
+  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">11 de novembro de 2024</block>
+  <block id="54eca49362b96a7e1899f1d9f7fbdeef" category="section-title">Conetor 3.9.46</block>
+  <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">Esta versão do conetor BlueXP  inclui pequenas melhorias de segurança e correções de bugs.</block>
+  <block id="5b7c2a7de0cce99684e946ddad5735bd" category="paragraph">Neste momento, a versão 3.9.46 está disponível para o modo padrão e modo restrito.</block>
+  <block id="37e5831d4c68f17f87dd40b6ea95f2bc" category="section-title">ID para projetos IAM</block>
+  <block id="102aeb225438210afe20dc2776fb6870" category="paragraph">Agora você pode exibir o ID de um projeto a partir do gerenciamento de identidade e acesso do BlueXP . Talvez seja necessário usar o ID ao fazer uma chamada à API.</block>
+  <block id="5c8ebe245f66e84eaef1ca801f274ee3" category="inline-link">Saiba como obter o ID de um projeto</block>
+  <block id="db31ae4dc32d9d514625710dfb24ee0a" category="paragraph"><block ref="52c305e9fd97fc371c1991c1470ed96b" category="inline-link-rx"></block>.</block>
+  <block id="844ae8089b7faaed0a2b7abc588969d9" category="section-title">O FSX para ONTAP se integra à fábrica de carga de trabalho do BlueXP</block>
+  <block id="dc13de95ece93019b115a46e9259730f" category="paragraph">As tarefas de gerenciamento do sistema de arquivos do FSX for ONTAP, como adicionar volumes, expandir a capacidade do sistema de arquivos e gerenciar VMs de armazenamento, agora são gerenciadas na fábrica de cargas de trabalho do BlueXP , um novo serviço oferecido pelo NetApp e pelo Amazon FSX for NetApp ONTAP. Você pode usar suas credenciais e permissões existentes como antes. A diferença é que agora você pode fazer mais da fábrica de workloads do BlueXP  para gerenciar seus sistemas de arquivos. Quando você abre um ambiente de trabalho do FSX for ONTAP a partir do BlueXP  Canvas, você vai diretamente para a fábrica de cargas de trabalho do BlueXP .</block>
+  <block id="67c7aeb67508aad4a1a5b35bdab67864" category="inline-link-macro">Saiba mais sobre os recursos do FSX for ONTAP na fábrica de cargas de trabalho do BlueXP</block>
+  <block id="9043e597fd1a3537f95cd09a004d83dc" category="paragraph"><block ref="9043e597fd1a3537f95cd09a004d83dc" category="inline-link-macro-rx"></block></block>
+  <block id="07c8845dbdef949b860ebfc99bd558ac" category="section-title">6 de novembro de 2024</block>
+  <block id="a5fd9c132798873e9eb6aafb58e50034" category="section-title">Modos de proteção SnapLock Compliance e SnapLock Enterprise</block>
+  <block id="139da935670a9f985194d3241917c359" category="paragraph">Agora, o backup e a recuperação do BlueXP  podem fazer backup de volumes no local do FlexVol e do FlexGroup configurados com os modos de proteção SnapLock Compliance ou SnapLock Enterprise. Os clusters precisam estar executando o ONTAP 9.14 ou superior para esse suporte. O backup de volumes do FlexVol usando o modo SnapLock Enterprise tem sido suportado desde a versão 9.11.1 do ONTAP. As versões anteriores do ONTAP não oferecem suporte para fazer backup de volumes de proteção SnapLock.</block>
+  <block id="ba48140a3394818b661e6fd497e203a7" category="inline-link">Saiba mais sobre o backup e a recuperação do BlueXP</block>
+  <block id="9ddb3e6714694f5c7f619d474fec8169" category="paragraph">Consulte a lista completa de volumes suportados no<block ref="9e68a582cc487ad29425f5a4796c9e45" category="inline-link-rx"></block>.</block>
+  <block id="fec92c3dfb6a0b3db498488c7f4d2f29" category="section-title">Indexação para processo de pesquisa e restauração na página volumes</block>
+  <block id="20d3b0b7cfe7a9f3dcfdb0faa9398efd" category="paragraph">Antes de poder utilizar a Pesquisa e Restauro, tem de ativar a "Indexação" em cada ambiente de trabalho de origem a partir do qual pretende restaurar os dados de volume. Isso permite que o Catálogo indexado acompanhe os arquivos de backup para cada volume. A página volumes agora mostra o status da indexação:</block>
+  <block id="cd9b31737e78e0a0a755acc12151f766" category="list-text">Indexado: Os volumes foram indexados.</block>
+  <block id="02e4eb80c967f3b9add2ba16a690eef2" category="list-text">Em curso</block>
+  <block id="838534d879f74e7af515a7de57e72b71" category="list-text">Não indexado</block>
+  <block id="73d4d0de3c5f56849f3c1a290a6681f2" category="list-text">Indexação em pausa</block>
+  <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="list-text">Erro</block>
+  <block id="cb48cbf342305a9ae53e02e21fcb644c" category="list-text">Não ativado</block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="section-title">Integração de fábrica do workload no console BlueXP</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Consola BlueXP</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Agora você pode usar a fábrica de carga de trabalho do <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. A experiência do console do BlueXP  fornece a mesma funcionalidade que o console de fábrica da carga de trabalho.</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Saiba como acessar a fábrica da carga de trabalho a partir do console BlueXP</block>
+  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
 </blocks>
