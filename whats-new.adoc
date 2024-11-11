@@ -24,6 +24,29 @@ Esta seção descreve novos recursos relacionados aos recursos de administraçã
 
 
 
+=== 9 de dezembro de 2024
+
+
+
+==== Conetor 3.9.47
+
+Esta versão do conetor BlueXP  inclui correções de erros e uma alteração nos pontos finais contactados durante a instalação do conetor.
+
+Neste momento, a versão 3.9.47 está disponível para o modo padrão e modo restrito.
+
+.Endpoint para entrar em Contato com o suporte do NetApp durante a instalação
+Quando instala manualmente o conetor, o instalador deixa de entrar em contacto com a https://support.NetApp.com.
+
+O instalador ainda entra em Contato com https://mysupport.NetApp.com.
+
+
+
+==== Gerenciamento de identidade e acesso do BlueXP
+
+A página conetores lista apenas os conetores atualmente disponíveis. Ele não exibe mais conetores que você removeu.
+
+
+
 === 26 de novembro de 2024
 
 
@@ -59,7 +82,7 @@ Para obter mais detalhes sobre o modo privado, incluindo como atualizar, consult
 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Saiba mais sobre o modo privado"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["Saiba como começar a usar o BlueXP  no modo privado"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["Saiba como atualizar o conetor ao usar o modo privado"]s
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["Saiba como atualizar o conetor ao usar o modo privado"]
 
 
 
@@ -81,16 +104,6 @@ Neste momento, a versão 3.9.46 está disponível para o modo padrão e modo res
 Agora você pode exibir o ID de um projeto a partir do gerenciamento de identidade e acesso do BlueXP . Talvez seja necessário usar o ID ao fazer uma chamada à API.
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-folders-projects.html#project-id["Saiba como obter o ID de um projeto"].
-
-
-
-=== 10 de outubro de 2024
-
-
-
-==== Conetor 3.9.45 patch
-
-Este patch inclui correções de bugs.
 
 
 
@@ -401,6 +414,18 @@ Para obter detalhes, link:task-scanning-storagegrid.html["Digitalizar dados Stor
 
 
 
+=== 9 de dezembro de 2024
+
+
+
+==== Lista de VMs com suporte atualizadas para o Azure para se alinhar às práticas recomendadas
+
+As famílias de máquinas DS_v2 e ES_v3 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Azure. Essas famílias serão mantidas e apoiadas apenas em sistemas antigos e existentes. Novas implantações do Cloud Volumes ONTAP são suportadas no Azure somente a partir da versão 9.12.1. Recomendamos que mude para ES_v4 ou qualquer outra série compatível com Cloud Volumes ONTAP 9.12.1 e posterior. No entanto, as máquinas das séries DS_v2 e ES_v3 estarão disponíveis para novas implantações feitas através da API.
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Configurações compatíveis no Azure"^]
+
+
+
 === 11 de novembro de 2024
 
 
@@ -459,7 +484,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabl
 
 
 
-==== Máquinas da série N1 indisponíveis para seleção no BlueXP
+==== Lista de VMs com suporte atualizada para o Google Cloud para se alinhar às práticas recomendadas
 
 As máquinas da série n1 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Google Cloud. As máquinas da série n1 serão mantidas e suportadas apenas em sistemas existentes mais antigos. Novas implantações do Cloud Volumes ONTAP são suportadas no Google Cloud apenas a partir da versão 9,8. Recomendamos que mude para os tipos de máquinas da série n2 compatíveis com o Cloud Volumes ONTAP 9,8 e posterior. As máquinas da série n1, no entanto, estarão disponíveis para novas implantações realizadas através da API.
 
@@ -475,18 +500,6 @@ O BlueXP  agora oferece suporte a zonas locais da AWS para implantações de al
 NOTE: As zonas locais da AWS não são suportadas ao usar o BlueXP  no modo restrito.
 
 Para obter mais informações sobre zonas locais da AWS com implantações de HA, link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha.html#aws-local-zones["Zonas locais da AWS"^]consulte .
-
-
-
-=== 7 de outubro de 2024
-
-
-
-==== Experiência de usuário aprimorada na seleção de versão para atualização
-
-A partir desta versão, quando você tentar atualizar o Cloud Volumes ONTAP usando a notificação BlueXP , você receberá orientações sobre as versões padrão, mais recentes e compatíveis a serem usadas. Além disso, agora você pode selecionar o patch mais recente ou a versão principal compatível com sua instância do Cloud Volumes ONTAP, ou inserir manualmente uma versão para atualização.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-from-bluexp-notifications["Atualize o software Cloud Volumes ONTAP"]
 
 
 
@@ -968,23 +981,13 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 Com essa versão, você pode habilitar a classificação do BlueXP , um componente essencial da família BlueXP , para verificar e classificar dados em seus workloads de compartilhamento de arquivos. A classificação de dados ajuda a identificar se os seus dados incluem informações pessoais ou privadas, o que pode aumentar os riscos de segurança. Esse processo também afeta a importância da carga de trabalho e ajuda a garantir que você esteja protegendo as cargas de trabalho com o nível certo de proteção.
 
-A verificação de dados PII na proteção contra ransomware BlueXP  geralmente está disponível para clientes que implantaram a classificação BlueX. A classificação do BlueXP  está disponível como parte da plataforma BlueXP  sem custo adicional e pode ser implantada no local ou na nuvem do cliente.
-
-A classificação BlueXP  também pode ser implantada como um modelo SaaS como parte de uma prévia de tecnologia. Para ativar os recursos de visualização, use a opção *Configurações* de proteção contra ransomware do BlueXP . Se você habilitar Visualizar, um rótulo "Visualizar" aparecerá ao lado da coluna *exposição à privacidade* na página proteção, juntamente com outros locais.
+A verificação de dados PII na proteção contra ransomware do BlueXP  geralmente está disponível para clientes que implantaram a classificação BlueXP . A classificação do BlueXP  está disponível como parte da plataforma BlueXP  sem custo adicional e pode ser implantada no local ou na nuvem do cliente.
 
 Consulte a https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["Configurar as configurações de proteção contra ransomware do BlueXP"].
 
 Para iniciar a digitalização, na página proteção, clique em *Identify exposure* (identificar exposição à privacidade) na coluna Privacy exposure (exposição à privacidade).
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["Procure dados confidenciais pessoalmente identificáveis com a classificação BlueXP"].
-
-
-
-==== Experimente as próximas funcionalidades de pré-visualização antes de serem lançadas
-
-Agora você pode experimentar alguns recursos rotulados "Preview" antes de serem lançados. Para fazer isso, use a opção *Configurações* para mostrar esses recursos, que são marcados com um rótulo "Visualizar".
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["Saiba mais sobre como configurar as configurações de proteção contra ransomware do BlueXP "].
 
 
 

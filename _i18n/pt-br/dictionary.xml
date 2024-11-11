@@ -279,8 +279,6 @@
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">Recursos administrativos</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">Esta seção descreve novos recursos relacionados aos recursos de administração do BlueXP : Contas, conetores, credenciais de provedor de nuvem e muito mais.</block>
   <block id="a1fe52ea216874a5214f41ae7e5bbd63" category="section-title">10 de outubro de 2024</block>
-  <block id="9071c576479353103106b574601bd920" category="section-title">Conetor 3.9.45 patch</block>
-  <block id="d8497d3046f15c93d3e5c40856129331" category="paragraph">Este patch inclui correções de bugs.</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">7 de outubro de 2024</block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">30 de setembro de 2024</block>
   <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="cell">27 de setembro de 2024</block>
@@ -352,9 +350,6 @@
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">Digitalizar dados StorageGRID</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">A classificação BlueXP  pode agora digitalizar dados no StorageGRID.</block>
   <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">Para obter detalhes, <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>consulte .</block>
-  <block id="1b658f77da3dfa84be0559359889c6d1" category="section-title">Experiência de usuário aprimorada na seleção de versão para atualização</block>
-  <block id="76723ae6fdfacae29242fdb7085394b0" category="paragraph">A partir desta versão, quando você tentar atualizar o Cloud Volumes ONTAP usando a notificação BlueXP , você receberá orientações sobre as versões padrão, mais recentes e compatíveis a serem usadas. Além disso, agora você pode selecionar o patch mais recente ou a versão principal compatível com sua instância do Cloud Volumes ONTAP, ou inserir manualmente uma versão para atualização.</block>
-  <block id="2182ff9388484137699eb937c0df0141" category="inline-link">Atualize o software Cloud Volumes ONTAP</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 de setembro de 2020</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Suporte ao Cloud Volumes Service para Google Cloud</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">Agora você pode gerenciar o Cloud Volumes Service para Google Cloud diretamente do BlueXP :</block>
@@ -534,7 +529,6 @@
   <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">Adicione uma VM de storage</block>
   <block id="c63d5220743c53eaddaae4ea5f0511e7" category="section-title">**A aba Minhas oportunidades** agora é **minha propriedade**</block>
   <block id="2bb8a9ed1433f0f845b92c7da5440dea" category="section-title">25 de outubro de 2024</block>
-  <block id="dc1815932afdea52f1a4c12d73f2eed0" category="section-title">Máquinas da série N1 indisponíveis para seleção no BlueXP</block>
   <block id="1bb0d11a534c8ee967cd62e4d75e3da3" category="paragraph">As máquinas da série n1 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Google Cloud. As máquinas da série n1 serão mantidas e suportadas apenas em sistemas existentes mais antigos. Novas implantações do Cloud Volumes ONTAP são suportadas no Google Cloud apenas a partir da versão 9,8. Recomendamos que mude para os tipos de máquinas da série n2 compatíveis com o Cloud Volumes ONTAP 9,8 e posterior. As máquinas da série n1, no entanto, estarão disponíveis para novas implantações realizadas através da API.</block>
   <block id="9e931b1cee40a7346d1f06dd6a75ba8e" category="inline-link">Configurações compatíveis no Google Cloud</block>
   <block id="e55067e1e9c0716bdbc0866b4393aa68" category="paragraph"><block ref="55218e2079fe45aad8bd65bcb61a1a9f" category="inline-link-rx"></block>.</block>
@@ -571,7 +565,6 @@
   <block id="f1a9c2f106d86fe27271e4f8f0c0bd59" category="paragraph">Esta versão fornece suporte para NFS v4,1, além de versões com suporte anterior.</block>
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">Versão 1,36</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">Versão 1,35</block>
-  <block id="448c087351c52cb72f971666e2159491" category="paragraph"><block ref="448c087351c52cb72f971666e2159491" category="inline-link-rx"></block></block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">Correções de bugs</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">Ofertas de suporte</block>
   <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">Os indicadores ambientais que fornecem insights sobre a saúde ambiental de seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>consulte .</block>
@@ -607,8 +600,6 @@
   <block id="4d1dd60706cede8204b5a6edb14f8ff5" category="paragraph">Você já teve a capacidade de visualizar os buckets do Google Cloud Storage no BlueXP  Canvas por algum tempo. Agora você pode adicionar novos buckets e alterar propriedades para buckets existentes diretamente do BlueXP .<block ref="a727375f2b80e544cee46379a3fbce4b" category="inline-link-rx"></block>.</block>
   <block id="ee97d7a6f8cd51410930ad6fd6c7d715" category="section-title">Serviço de resiliência operacional do BlueXP</block>
   <block id="21e938043b4ef6be41f16e95f7f5aaaa" category="section-title">7 de novembro de 2024</block>
-  <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">A verificação de dados PII na proteção contra ransomware BlueXP  geralmente está disponível para clientes que implantaram a classificação BlueX. A classificação do BlueXP  está disponível como parte da plataforma BlueXP  sem custo adicional e pode ser implantada no local ou na nuvem do cliente.</block>
-  <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">A classificação BlueXP  também pode ser implantada como um modelo SaaS como parte de uma prévia de tecnologia. Para ativar os recursos de visualização, use a opção *Configurações* de proteção contra ransomware do BlueXP . Se você habilitar Visualizar, um rótulo "Visualizar" aparecerá ao lado da coluna *exposição à privacidade* na página proteção, juntamente com outros locais.</block>
   <block id="006f40c12cb6b543cd40a6cd5a750b98" category="inline-link">Configurar as configurações de proteção contra ransomware do BlueXP</block>
   <block id="14712989ac072dc4b44e9acf1def5f1f" category="paragraph">Consulte a<block ref="a5026777e609bf5c1f12922a89f75f5b" category="inline-link-rx"></block>.</block>
   <block id="dc2ee5afb67051a37353df40cc16729a" category="paragraph">Para iniciar a digitalização, na página proteção, clique em *Identify exposure* (identificar exposição à privacidade) na coluna Privacy exposure (exposição à privacidade).</block>
@@ -666,8 +657,6 @@
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de dados para corrigir alguns bugs. A nova versão do Data Broker é 1,0.56.</block>
   <block id="86510b95a05ce4c22c6d48d2fd9228a9" category="section-title">Ativar a classificação de dados e procurar informações de identificação pessoal (PII)</block>
   <block id="d599e3d1b6a5137e404ea89f314a22e4" category="paragraph">Com essa versão, você pode habilitar a classificação do BlueXP , um componente essencial da família BlueXP , para verificar e classificar dados em seus workloads de compartilhamento de arquivos. A classificação de dados ajuda a identificar se os seus dados incluem informações pessoais ou privadas, o que pode aumentar os riscos de segurança. Esse processo também afeta a importância da carga de trabalho e ajuda a garantir que você esteja protegendo as cargas de trabalho com o nível certo de proteção.</block>
-  <block id="4d4b17a43409a8c299995a21ddaef39b" category="section-title">Experimente as próximas funcionalidades de pré-visualização antes de serem lançadas</block>
-  <block id="c86f9a52cdb00d7109bfa8ee10b48074" category="paragraph">Agora você pode experimentar alguns recursos rotulados "Preview" antes de serem lançados. Para fazer isso, use a opção *Configurações* para mostrar esses recursos, que são marcados com um rótulo "Visualizar".</block>
   <block id="a2c442ceb4053f2fbfe23023529b9acb" category="section-title">Integração SIEM com o Microsoft Sentinel</block>
   <block id="5148a0988dead45b54188f22121bb178" category="paragraph">Agora você pode enviar dados para o seu sistema de gerenciamento de eventos e segurança (SIEM) para análise e deteção de ameaças usando o Microsoft Sentinel. Anteriormente, você poderia selecionar o AWS Security Hub ou o Splunk Cloud como seu SIEM.</block>
   <block id="178324624f63d3f322bedd1a0cf9e6fc" category="section-title">Teste gratuito agora 30 dias</block>
@@ -715,7 +704,6 @@
   <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">Saiba como começar a usar o BlueXP  no modo privado</block>
   <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">Saiba como atualizar o conetor ao usar o modo privado</block>
-  <block id="cd33b497651f0d35a9b546fed113bac9" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block>s</block>
   <block id="3c97d3b45dd14b2958c1e0e304230aa0" category="paragraph">Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.</block>
   <block id="517624d736bd2a385ee8cda71584112f" category="section-title">Modos de proteção SnapLock Compliance e SnapLock Enterprise</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">Agora, o backup e a recuperação do BlueXP  podem fazer backup de volumes no local do FlexVol e do FlexGroup configurados com os modos de proteção SnapLock Compliance ou SnapLock Enterprise. Os clusters precisam estar executando o ONTAP 9.14 ou superior para esse suporte. O backup de volumes do FlexVol usando o modo SnapLock Enterprise tem sido suportado desde a versão 9.11.1 do ONTAP. As versões anteriores do ONTAP não oferecem suporte para fazer backup de volumes de proteção SnapLock.</block>
@@ -733,4 +721,20 @@
   <block id="6ecba12db0576e8891316b6674fda716" category="paragraph">Agora, você pode ativar o storage WORM (uma gravação, muitas leituras) em um sistema Cloud Volumes ONTAP existente usando o BlueXP . Esse recurso oferece a flexibilidade de habilitar o WORM em um ambiente de trabalho, mesmo que o WORM não tenha sido ativado durante sua criação. Uma vez ativado, você não pode desativar WORM.</block>
   <block id="613fbbb3f2dbf238c8527a537252e8ed" category="section-title">Suporte para sistemas ASA R2 com modo privado</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">Agora você pode descobrir os sistemas NetApp ASA R2 ao usar o BlueXP  no modo privado. Este suporte está disponível a partir da versão 3.9.46 do modo privado do BlueXP .</block>
+  <block id="1f86b1e4048d088ce153a6f451fb30d6" category="section-title">9 de dezembro de 2024</block>
+  <block id="7e0cee63c771cb3be42ccae3ca1f4360" category="section-title">Conetor 3.9.47</block>
+  <block id="ea3677612bfa26ac44a6df6f71a061c7" category="paragraph">Esta versão do conetor BlueXP  inclui correções de erros e uma alteração nos pontos finais contactados durante a instalação do conetor.</block>
+  <block id="ab5ae75402aef055e2d366aca1b4d6b9" category="paragraph">Neste momento, a versão 3.9.47 está disponível para o modo padrão e modo restrito.</block>
+  <block id="e075de7d507df6ab190b10bc690c9148" category="paragraph-title">Endpoint para entrar em Contato com o suporte do NetApp durante a instalação</block>
+  <block id="1aba7245086f9fd7cc09aa3efc3bf6c3" category="paragraph">Quando instala manualmente o conetor, o instalador deixa de entrar em contacto com a https://support.NetApp.com.</block>
+  <block id="2b595e935d43f3d843783e855ec947b7" category="paragraph">O instalador ainda entra em Contato com https://mysupport.NetApp.com.</block>
+  <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="section-title">Gerenciamento de identidade e acesso do BlueXP</block>
+  <block id="624278dc2f533755332cf0c1ebe752d5" category="paragraph">A página conetores lista apenas os conetores atualmente disponíveis. Ele não exibe mais conetores que você removeu.</block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="497e698cad27d6346959de7394ab5df8" category="section-title">Lista de VMs com suporte atualizadas para o Azure para se alinhar às práticas recomendadas</block>
+  <block id="a295598082ec4c1c06fb5a3e2ad3e1d1" category="paragraph">As famílias de máquinas DS_v2 e ES_v3 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Azure. Essas famílias serão mantidas e apoiadas apenas em sistemas antigos e existentes. Novas implantações do Cloud Volumes ONTAP são suportadas no Azure somente a partir da versão 9.12.1. Recomendamos que mude para ES_v4 ou qualquer outra série compatível com Cloud Volumes ONTAP 9.12.1 e posterior. No entanto, as máquinas das séries DS_v2 e ES_v3 estarão disponíveis para novas implantações feitas através da API.</block>
+  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Configurações compatíveis no Azure</block>
+  <block id="ef57b1c89cee8819c5de2b079e4b0640" category="paragraph"><block ref="ef57b1c89cee8819c5de2b079e4b0640" category="inline-link-rx"></block></block>
+  <block id="fa055d94084c7095d6c7ec354ec44857" category="section-title">Lista de VMs com suporte atualizada para o Google Cloud para se alinhar às práticas recomendadas</block>
+  <block id="3406306d1e826f71d49547332136491d" category="paragraph">A verificação de dados PII na proteção contra ransomware do BlueXP  geralmente está disponível para clientes que implantaram a classificação BlueXP . A classificação do BlueXP  está disponível como parte da plataforma BlueXP  sem custo adicional e pode ser implantada no local ou na nuvem do cliente.</block>
 </blocks>
