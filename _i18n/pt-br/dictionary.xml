@@ -347,9 +347,6 @@
   <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">Saiba mais<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block> sobre o .</block>
   <block id="7062dd46798946172bc9078744756dfc" category="section-title">Desempenho de digitalização melhorado</block>
   <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">Esta versão proporciona um melhor desempenho de digitalização.</block>
-  <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">Digitalizar dados StorageGRID</block>
-  <block id="83bceb987dd495cde1a148944580e473" category="paragraph">A classificação BlueXP  pode agora digitalizar dados no StorageGRID.</block>
-  <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">Para obter detalhes, <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 de setembro de 2020</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Suporte ao Cloud Volumes Service para Google Cloud</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">Agora você pode gerenciar o Cloud Volumes Service para Google Cloud diretamente do BlueXP :</block>
@@ -381,9 +378,6 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Suporte à versão de software</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Atualização dos sistemas de storage Data ONTAP que operam no modo 7D.</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">O relatório *planos de Upgrade Advisor de 7 modos* não está mais disponível, uma vez que os sistemas de 7 modos chegaram ao fim do suporte limitado. Para obter mais informações, <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>consulte . Saiba mais <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>sobre o .</block>
-  <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">04 de julho de 2024</block>
-  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">Painel de sustentabilidade</block>
-  <block id="8934fed115a0b826a4b438906a11bfa9" category="inline-link-macro">Visão geral do painel de sustentabilidade</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">15 de maio de 2024</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">5 de março de 2024</block>
   <block id="c08885153d0680dab7349b930f5310c4" category="section-title">Recuperação de desastres da BlueXP</block>
@@ -564,10 +558,8 @@
   <block id="a7e418c0221e06b9bb3fa8ebc082ece2" category="paragraph-title">Suporte para NFS v4,1</block>
   <block id="f1a9c2f106d86fe27271e4f8f0c0bd59" category="paragraph">Esta versão fornece suporte para NFS v4,1, além de versões com suporte anterior.</block>
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">Versão 1,36</block>
-  <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">Versão 1,35</block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">Correções de bugs</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">Ofertas de suporte</block>
-  <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">Os indicadores ambientais que fornecem insights sobre a saúde ambiental de seus sistemas de armazenamento agora fornecem valores mais precisos para uso de energia projetado, uso direto de carbono e emissão de calor com base em um modelo preditivo avançado. Para saber mais, <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="c5562ce2e22a86c247849904ecef3dc8" category="section-title">Relatórios</block>
   <block id="5139de9c5a9b2b36569213d7e9b32f21" category="paragraph">Agora você pode gerar e baixar relatórios para ajudá-lo a analisar seu cenário. Os relatórios pré-projetados resumem failovers e failbacks, mostram detalhes de replicação em todos os locais e mostram os detalhes da tarefa nos últimos sete dias.</block>
   <block id="5ef05167488611c5bd4ff0f410595ce4" category="section-title">teste gratuito de 30 dias</block>
@@ -609,13 +601,6 @@
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">Fábrica de carga de trabalho</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">11 de novembro de 2024</block>
-  <block id="54eca49362b96a7e1899f1d9f7fbdeef" category="section-title">Conetor 3.9.46</block>
-  <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">Esta versão do conetor BlueXP  inclui pequenas melhorias de segurança e correções de bugs.</block>
-  <block id="5b7c2a7de0cce99684e946ddad5735bd" category="paragraph">Neste momento, a versão 3.9.46 está disponível para o modo padrão e modo restrito.</block>
-  <block id="37e5831d4c68f17f87dd40b6ea95f2bc" category="section-title">ID para projetos IAM</block>
-  <block id="102aeb225438210afe20dc2776fb6870" category="paragraph">Agora você pode exibir o ID de um projeto a partir do gerenciamento de identidade e acesso do BlueXP . Talvez seja necessário usar o ID ao fazer uma chamada à API.</block>
-  <block id="5c8ebe245f66e84eaef1ca801f274ee3" category="inline-link">Saiba como obter o ID de um projeto</block>
-  <block id="db31ae4dc32d9d514625710dfb24ee0a" category="paragraph"><block ref="52c305e9fd97fc371c1991c1470ed96b" category="inline-link-rx"></block>.</block>
   <block id="844ae8089b7faaed0a2b7abc588969d9" category="section-title">O FSX para ONTAP se integra à fábrica de carga de trabalho do BlueXP</block>
   <block id="dc13de95ece93019b115a46e9259730f" category="paragraph">As tarefas de gerenciamento do sistema de arquivos do FSX for ONTAP, como adicionar volumes, expandir a capacidade do sistema de arquivos e gerenciar VMs de armazenamento, agora são gerenciadas na fábrica de cargas de trabalho do BlueXP , um novo serviço oferecido pelo NetApp e pelo Amazon FSX for NetApp ONTAP. Você pode usar suas credenciais e permissões existentes como antes. A diferença é que agora você pode fazer mais da fábrica de workloads do BlueXP  para gerenciar seus sistemas de arquivos. Quando você abre um ambiente de trabalho do FSX for ONTAP a partir do BlueXP  Canvas, você vai diretamente para a fábrica de cargas de trabalho do BlueXP .</block>
   <block id="67c7aeb67508aad4a1a5b35bdab67864" category="inline-link-macro">Saiba mais sobre os recursos do FSX for ONTAP na fábrica de cargas de trabalho do BlueXP</block>
@@ -737,4 +722,27 @@
   <block id="ef57b1c89cee8819c5de2b079e4b0640" category="paragraph"><block ref="ef57b1c89cee8819c5de2b079e4b0640" category="inline-link-rx"></block></block>
   <block id="fa055d94084c7095d6c7ec354ec44857" category="section-title">Lista de VMs com suporte atualizada para o Google Cloud para se alinhar às práticas recomendadas</block>
   <block id="3406306d1e826f71d49547332136491d" category="paragraph">A verificação de dados PII na proteção contra ransomware do BlueXP  geralmente está disponível para clientes que implantaram a classificação BlueXP . A classificação do BlueXP  está disponível como parte da plataforma BlueXP  sem custo adicional e pode ser implantada no local ou na nuvem do cliente.</block>
+  <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">16 de dezembro de 2024</block>
+  <block id="ab83866f9abfe93d14a14fa21b156b05" category="section-title">Novos terminais seguros para obter imagens de conetores</block>
+  <block id="78efdac7339a3a2a767f54e63e415b79" category="paragraph">Quando instala o conetor ou quando ocorre uma atualização automática, o conetor contacta os repositórios para transferir imagens para a instalação ou atualização. Por padrão, o conetor sempre contatou os seguintes pontos finais:</block>
+  <block id="f55e31da35f47937201bdbf54e964315" category="list-text">\https://*.blob.core.windows.net</block>
+  <block id="9dcb0a1d3281e001a6085626a264be49" category="list-text">\https://cloudmanagerinfraprod.azurecr.io</block>
+  <block id="e5eb8016a9764345b2f3dd5672e2f245" category="paragraph">O primeiro endpoint inclui um Wild card porque não podemos fornecer um local definitivo. O balanceamento de carga do repositório é gerenciado pelo provedor de serviços, o que significa que os downloads podem acontecer de diferentes pontos de extremidade.</block>
+  <block id="5a04f5940b391aa471ffcf2f682f6390" category="paragraph">Para uma maior segurança, o conetor pode agora transferir a instalação e atualizar imagens de endpoints dedicados:</block>
+  <block id="534d469c55031860cef85b868a9332d8" category="list-text">\https://bluexpinfraprod.eastus2.data.azurecr.io</block>
+  <block id="a86a33f4f6d9c203eb747987b6d104ca" category="list-text">\https://bluexpinfraprod.azurecr.io</block>
+  <block id="6265c6aedeb8e4c15d99cb681317d569" category="paragraph">Recomendamos que você comece a usar esses novos endpoints removendo os endpoints existentes de suas regras de firewall e permitindo os novos endpoints.</block>
+  <block id="0569478319ea7c217c7aeaef42de04a2" category="paragraph">Esses novos terminais são suportados a partir da versão 3.9.47 do conetor. Não há compatibilidade retroativa com versões anteriores do conetor.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Observe o seguinte:</block>
+  <block id="b7045cdc7261ab3a7b9e78efb0461bfa" category="list-text">Os endpoints existentes ainda são suportados. Se você não quiser usar os novos endpoints, nenhuma alteração será necessária.</block>
+  <block id="4cd508d6b82e76524216714f78d79d2c" category="list-text">O conetor entra em contacto primeiro com os terminais existentes. Se esses endpoints não estiverem acessíveis, o conetor entrará em Contato automaticamente com os novos endpoints.</block>
+  <block id="a5f507c0714656865b1f8986b83613de" category="list-text">Os novos endpoints não são suportados nos seguintes cenários:</block>
+  <block id="6b4d63c99144b38df035c167f8c99b23" category="list-text">Se o conetor estiver instalado numa região governamental.</block>
+  <block id="b90e6d21a82e89d9e93683b887fce78e" category="list-text">Se você usar o conetor com backup e recuperação do BlueXP  ou com proteção contra ransomware BlueXP .</block>
+  <block id="8ad91183ee4d83d215423d96651219b3" category="paragraph">Para ambos os cenários, pode continuar a utilizar os endpoints existentes.</block>
+  <block id="5ae300808387123005a76abbd5a99f46" category="section-title">Versão 1,38</block>
+  <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">Esta versão de classificação do BlueXP  inclui melhorias gerais e correções de bugs.</block>
+  <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">12 de dezembro de 2024</block>
+  <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">Saiba como visualizar as recomendações de atualização de firmware</block>
+  <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">Agora você pode visualizar o firmware de armazenamento, o firmware do SP/BMC e o Autonomous ransomware Package (ARP) recomendados para uma atualização. <block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>.</block>
 </blocks>
