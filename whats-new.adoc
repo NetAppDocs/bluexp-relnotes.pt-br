@@ -487,6 +487,21 @@ Para obter detalhes para ativá-lo manualmente, https://community.netapp.com/t5/
 
 
 
+=== 10 de março de 2025
+
+
+
+==== Versão 1,41
+
+Esta versão de classificação do BlueXP  inclui melhorias gerais e correções de bugs. Também inclui:
+
+.Estado do exame
+A classificação BlueXP  agora rastreia o progresso em tempo real do mapeamento _initial_ e verificações de classificação em um volume. Barras progressivas separadas rastreiam os exames de mapeamento e classificação, apresentando uma porcentagem do total de arquivos digitalizados. Você também pode passar o Mouse sobre uma barra de progresso para ver o número de arquivos digitalizados e o total de arquivos. O acompanhamento do estado das suas digitalizações cria informações mais profundas sobre o progresso da digitalização, permitindo-lhe planear melhor as suas digitalizações e compreender a alocação de recursos.
+
+Para ver o status das suas digitalizações, navegue até **Configuração** na classificação BlueXP  e selecione **Configuração do ambiente de trabalho**. O progresso é exibido na linha para cada volume.
+
+
+
 === 19 de fevereiro de 2025
 
 

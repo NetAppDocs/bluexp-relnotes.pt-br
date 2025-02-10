@@ -795,4 +795,10 @@
   <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
   <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">Agora você pode usar o BlueXP  para implantar e gerenciar a versão de disponibilidade geral do Cloud Volumes ONTAP 9.16.1 no Azure e no Google Cloud. No entanto, essa versão não está disponível para implantação e atualização na AWS.</block>
   <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">Suporte para a região Norte da Nova Zelândia no Azure</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">10 de março de 2025</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">Versão 1,41</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">Esta versão de classificação do BlueXP  inclui melhorias gerais e correções de bugs. Também inclui:</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">Estado do exame</block>
+  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">A classificação BlueXP  agora rastreia o progresso em tempo real do mapeamento _initial_ e verificações de classificação em um volume. Barras progressivas separadas rastreiam os exames de mapeamento e classificação, apresentando uma porcentagem do total de arquivos digitalizados. Você também pode passar o Mouse sobre uma barra de progresso para ver o número de arquivos digitalizados e o total de arquivos. O acompanhamento do estado das suas digitalizações cria informações mais profundas sobre o progresso da digitalização, permitindo-lhe planear melhor as suas digitalizações e compreender a alocação de recursos.</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">Para ver o status das suas digitalizações, navegue até **Configuração** na classificação BlueXP  e selecione **Configuração do ambiente de trabalho**. O progresso é exibido na linha para cada volume.</block>
 </blocks>
