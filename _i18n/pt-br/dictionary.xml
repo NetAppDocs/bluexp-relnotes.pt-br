@@ -786,4 +786,33 @@
   <block id="bbc4e3ff648912e4a892f88fcb03c65b" category="list-text">Operações de backup (grupo de consistência), incluindo automação de SnapMirror</block>
   <block id="7e13cc5491f076161e0aefc0728bf351" category="paragraph">O suporte ao ASA R2 na recuperação de desastres do BlueXP  usa o ONTAP 9.16.1.</block>
   <block id="60a0836359d058db16981cf45c24594f" category="paragraph">Embora os datastores possam ser montados em um volume ONTAP ou em uma unidade de armazenamento ASA R2, um grupo de recursos na recuperação de desastres do BlueXP  não pode incluir um datastore do ONTAP e um do ASA R2. Você pode selecionar um datastore do ONTAP ou um datastore do ASA R2 em um grupo de recursos.</block>
+  <block id="09d7c2dac047caa965175fead07159aa" category="section-title">21 de fevereiro de 2025</block>
+  <block id="9126fc20b93ed61d342990460cdaaa43" category="section-title">Indexação de alto desempenho</block>
+  <block id="c31a2ae5c0b165eb1cee78223b508907" category="paragraph">O backup e a recuperação do BlueXP  introduz um recurso de indexação atualizado que torna a indexação de dados no ambiente de trabalho de origem mais eficiente. O novo recurso de indexação inclui atualizações para a interface do usuário, melhor desempenho do método de pesquisa e restauração de dados, atualizações para recursos de pesquisa global e melhor escalabilidade.</block>
+  <block id="135dcb5e7fddaabc736ce2d72074e3bf" category="paragraph">Aqui está um detalhamento das melhorias:</block>
+  <block id="2fd910d863c39557d994a40fedd27b38" category="list-text">*Consolidação de pastas*: A versão atualizada agrupa as pastas usando nomes que incluem identificadores específicos, tornando o processo de indexação mais suave.</block>
+  <block id="415e39ccfe49c5161a2a27cbc19cbaac" category="list-text">*Compactação de arquivos Parquet*: A versão atualizada reduz o número de arquivos usados para indexar cada volume, simplificando o processo e eliminando a necessidade de um banco de dados extra.</block>
+  <block id="c53ca191fcf89c8c42d05fd203ce3d03" category="list-text">*Escale-out com mais sessões*: A nova versão adiciona mais sessões para lidar com tarefas de indexação, acelerando o processo.</block>
+  <block id="9ad2108ab54a2f84cdce51c70aedf218" category="list-text">*Suporte para vários contentores de índice*: A nova versão usa vários contentores para gerenciar e distribuir melhor as tarefas de indexação.</block>
+  <block id="4a3dba07ec28235aef40beaad924f29a" category="list-text">*Fluxo de trabalho de índice dividido*: A nova versão divide o processo de indexação em duas partes, aumentando a eficiência.</block>
+  <block id="4524da26c6e536d9203dad25cbe67e46" category="list-text">*Melhoria da simultaneidade*: A nova versão permite excluir ou mover diretórios ao mesmo tempo, acelerando o processo de indexação.</block>
+  <block id="4cd005b9bd7832f2f50d7bfa9ef8c5bd" category="paragraph-title">Quem se beneficia desta funcionalidade?</block>
+  <block id="c0b0a9d9f7b65ce3e277b13bce1241d3" category="paragraph">O novo recurso de indexação está disponível para todos os novos clientes.</block>
+  <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">Como você ativa a indexação?</block>
+  <block id="1928ef25d05266e1052541c930f2737c" category="paragraph">Antes de poder utilizar o método de pesquisa e restauro de restaurar dados, tem de ativar a "Indexação" em cada ambiente de trabalho de origem a partir do qual pretende restaurar volumes ou ficheiros. Isso permite que o Catálogo indexado acompanhe cada volume e cada arquivo de backup, tornando suas pesquisas rápidas e eficientes.</block>
+  <block id="d28994d1a9691ce26fcae71b9a05d1bc" category="paragraph">Ative a indexação no ambiente de trabalho de origem selecionando a opção "Ativar indexação" quando estiver a efetuar uma pesquisa e restauro.</block>
+  <block id="6b14c6e0d643870ea727335d7739df30" category="inline-link">Como restaurar dados do ONTAP usando pesquisar &amp;amp; Restaurar</block>
+  <block id="9031cfd1bcd3de043cd6391f098dc91b" category="paragraph">Para obter mais informações, consulte a documentação<block ref="7ae860a58fb7c028461eb3a0f3043711" category="inline-link-rx"></block>.</block>
+  <block id="2d31667baed414ccd330141663dac284" category="paragraph-title">Escala suportada</block>
+  <block id="b2ec30cb49afbacbac6cc89a95133887" category="paragraph">O novo recurso de indexação suporta o seguinte:</block>
+  <block id="3201cddda2c272104ed2ef30674f361a" category="list-text">Eficiência de pesquisa global em menos de 3 minutos</block>
+  <block id="5386e74ecf10139fea9af2308674b2f3" category="list-text">Até 5 bilhões de arquivos</block>
+  <block id="ed6f4100c4fab2301cff975ad76b4882" category="list-text">Até 5000 volumes por cluster</block>
+  <block id="1154c1f5439a3f20019e89d49f3ba075" category="list-text">Até 100K instantâneos por volume</block>
+  <block id="bca4b5a9086c6c17f64be092486e45ad" category="list-text">O tempo máximo para indexação da linha de base é inferior a 7 dias. O tempo real irá variar dependendo do seu ambiente.</block>
+  <block id="783d72b35e6b2ea46fd074f6f0960e45" category="section-title">Melhorias de desempenho de pesquisa global</block>
+  <block id="66fba34c17d26bb2c0e9b396915f9a4f" category="paragraph">Esta versão também inclui melhorias no desempenho de pesquisa global. Agora você verá indicadores de progresso e resultados de pesquisa mais detalhados, incluindo a contagem de arquivos e o tempo necessário para a pesquisa. Os contentores dedicados para pesquisa e indexação garantem que as pesquisas globais sejam concluídas em menos de cinco minutos.</block>
+  <block id="ba7df4741bd77385c236fcf981dd357a" category="paragraph">Observe estas considerações relacionadas à pesquisa global:</block>
+  <block id="03602fc4621dad9ee00f9e5d533ff5ea" category="list-text">O novo índice não é executado em instantâneos rotulados como por hora.</block>
+  <block id="2bacd7c8c96302172c5d0324d784cf03" category="list-text">O novo recurso de indexação funciona apenas em snapshots no FlexVols e não em snapshots no FlexGroups.</block>
 </blocks>

@@ -355,6 +355,60 @@ Você não pode mais criar um volume a partir de um modelo. Essa ação foi asso
 
 
 
+=== 21 de fevereiro de 2025
+
+Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
+
+
+
+==== Indexação de alto desempenho
+
+O backup e a recuperação do BlueXP  introduz um recurso de indexação atualizado que torna a indexação de dados no ambiente de trabalho de origem mais eficiente. O novo recurso de indexação inclui atualizações para a interface do usuário, melhor desempenho do método de pesquisa e restauração de dados, atualizações para recursos de pesquisa global e melhor escalabilidade.
+
+Aqui está um detalhamento das melhorias:
+
+* *Consolidação de pastas*: A versão atualizada agrupa as pastas usando nomes que incluem identificadores específicos, tornando o processo de indexação mais suave.
+* *Compactação de arquivos Parquet*: A versão atualizada reduz o número de arquivos usados para indexar cada volume, simplificando o processo e eliminando a necessidade de um banco de dados extra.
+* *Escale-out com mais sessões*: A nova versão adiciona mais sessões para lidar com tarefas de indexação, acelerando o processo.
+* *Suporte para vários contentores de índice*: A nova versão usa vários contentores para gerenciar e distribuir melhor as tarefas de indexação.
+* *Fluxo de trabalho de índice dividido*: A nova versão divide o processo de indexação em duas partes, aumentando a eficiência.
+* *Melhoria da simultaneidade*: A nova versão permite excluir ou mover diretórios ao mesmo tempo, acelerando o processo de indexação.
+
+
+.Quem se beneficia desta funcionalidade?
+O novo recurso de indexação está disponível para todos os novos clientes.
+
+.Como você ativa a indexação?
+Antes de poder utilizar o método de pesquisa e restauro de restaurar dados, tem de ativar a "Indexação" em cada ambiente de trabalho de origem a partir do qual pretende restaurar volumes ou ficheiros. Isso permite que o Catálogo indexado acompanhe cada volume e cada arquivo de backup, tornando suas pesquisas rápidas e eficientes.
+
+Ative a indexação no ambiente de trabalho de origem selecionando a opção "Ativar indexação" quando estiver a efetuar uma pesquisa e restauro.
+
+Para obter mais informações, consulte a documentação https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html#restore-ontap-data-using-search-restore["Como restaurar dados do ONTAP usando pesquisar  Restaurar"].
+
+.Escala suportada
+O novo recurso de indexação suporta o seguinte:
+
+* Eficiência de pesquisa global em menos de 3 minutos
+* Até 5 bilhões de arquivos
+* Até 5000 volumes por cluster
+* Até 100K instantâneos por volume
+* O tempo máximo para indexação da linha de base é inferior a 7 dias. O tempo real irá variar dependendo do seu ambiente.
+
+
+
+
+==== Melhorias de desempenho de pesquisa global
+
+Esta versão também inclui melhorias no desempenho de pesquisa global. Agora você verá indicadores de progresso e resultados de pesquisa mais detalhados, incluindo a contagem de arquivos e o tempo necessário para a pesquisa. Os contentores dedicados para pesquisa e indexação garantem que as pesquisas globais sejam concluídas em menos de cinco minutos.
+
+Observe estas considerações relacionadas à pesquisa global:
+
+* O novo índice não é executado em instantâneos rotulados como por hora.
+* O novo recurso de indexação funciona apenas em snapshots no FlexVols e não em snapshots no FlexGroups.
+
+
+
+
 === 22 de novembro de 2024
 
 Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
