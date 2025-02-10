@@ -733,6 +733,36 @@ A oferta de serviço do NetApp SupportEdge Basic agora inclui todos os recursos 
 
 
 
+=== 10 de fevereiro de 2025
+
+A carteira digital BlueXP  foi redesenhada para facilitar o uso e agora fornece gerenciamento adicional de assinaturas e licenças.
+
+
+
+==== Novo painel de visão geral
+
+A página inicial da carteira digital tem um painel atualizado das suas licenças do NetApp e subscrições do Marketplace, com a capacidade de detalhar serviços específicos, tipos de licença e ações necessárias.
+
+
+
+==== Configurando assinaturas para credenciais
+
+A carteira digital BlueXP  agora permite configurar suas assinaturas para credenciais de provedor. Normalmente, você faz isso quando você se inscreve pela primeira vez em uma assinatura do Marketplace ou em um contrato anual. A alteração das credenciais da assinatura anteriormente só poderia ser feita na página credenciais.
+
+
+
+==== Associar assinaturas às organizações
+
+Agora você pode atualizar a organização à qual uma assinatura está associada diretamente da carteira digital.
+
+
+
+==== Gerenciamento de licenças do Cloud volume ONTAP
+
+Agora você gerencia licenças do Cloud Volumes ONTAP através da página inicial ou da guia *licenças de serviço de dados*. Use a guia *assinaturas do Marketplace* para exibir suas informações de assinatura.
+
+
+
 === 5 de março de 2024
 
 
@@ -759,30 +789,6 @@ Várias melhorias nos relatórios de uso do Cloud Volumes ONTAP estão agora dis
 * Os nomes dos ambientes de trabalho agora estão incluídos nos relatórios de uso de volume e VMs de armazenamento.
 * O tipo de volume _file_ agora é rotulado como _Primary (Read/Write)_.
 * O tipo de volume _secondary_ agora é rotulado como _Secondary (DP)_.
-
-
-Para obter mais informações sobre os relatórios de uso, https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Transfira relatórios de utilização"] consulte .
-
-
-
-=== 7 de maio de 2023
-
-
-
-==== Ofertas privadas do Google Cloud
-
-A carteira digital da BlueXP  agora identifica as assinaturas do Google Cloud Marketplace associadas a uma oferta privada e mostra a data e o prazo de término da assinatura. Esta melhoria permite-lhe verificar se aceitou com sucesso a oferta privada e validar os seus termos.
-
-
-
-==== Avaria na utilização de carregamento
-
-Agora você pode descobrir o que você está sendo cobrado quando você está inscrito em licenças baseadas em capacidade. Os seguintes tipos de relatórios de utilização estão disponíveis para transferência a partir da carteira digital BlueXP . Os relatórios de uso fornecem detalhes de capacidade de suas assinaturas e informam como você está sendo cobrado pelos recursos em suas assinaturas do Cloud Volumes ONTAP. Os relatórios transferíveis podem ser facilmente partilhados com outras pessoas.
-
-* Uso do pacote Cloud Volumes ONTAP
-* Uso de alto nível
-* Utilização de VMs de storage
-* Utilização de volumes
 
 
 Para obter mais informações sobre os relatórios de uso, https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Transfira relatórios de utilização"] consulte .
