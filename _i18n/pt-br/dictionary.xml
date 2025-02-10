@@ -327,9 +327,6 @@
   <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">O suporte FC é para protocolos de front-end do cliente, não para replicação.</block>
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">A recuperação de desastres do BlueXP  oferece suporte a apenas um LUN por volume de ONTAP. O volume não deve ter vários LUNs.</block>
   <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">Para qualquer plano de replicação, o volume ONTAP de destino deve usar os mesmos protocolos que o volume ONTAP de origem que hospeda as VMs protegidas. Por exemplo, se a origem usar um protocolo FC, o destino também deve usar FC.</block>
-  <block id="710abd7c1d5a2a3be1aa4c7dbff890cf" category="admonition">A NetApp não cobra por nenhuma capacidade de workload visualizada.</block>
-  <block id="4639d0e2e2909a747265c2f704128bca" category="inline-link">Monitorizar trabalhos</block>
-  <block id="5ef55533619d84d0298304b37a76eeff" category="paragraph">Consulte a<block ref="786959fe8223b685d5c08f8e62246672" category="inline-link-rx"></block>.</block>
   <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">Veja como:</block>
   <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">No menu superior, selecione *planos de replicação*.</block>
   <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">Selecione um plano e selecione o ícone ações para exibir o menu suspenso.</block>
@@ -402,13 +399,6 @@
   <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">Para obter detalhes,<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block> consulte .</block>
   <block id="7e4353e591e7ee71b0cc70a66b02ee7a" category="paragraph">Você teve a capacidade de visualizar buckets do Amazon S3 no BlueXP  Canvas por um tempo. Agora você pode adicionar novos buckets e alterar propriedades para buckets existentes diretamente do BlueXP .<block ref="f5358cf9e8e537088a631ff4313d8401" category="inline-link-rx"></block>.</block>
   <block id="3e9d2d36df8c91d7e9151cc5775042a8" category="paragraph">Você já teve a capacidade de visualizar o armazenamento de Blobs do Azure no BlueXP  Canvas por algum tempo. Agora você pode adicionar novas contas de armazenamento e alterar propriedades para contas de armazenamento existentes diretamente do BlueXP .<block ref="432ae671c636de993f8b5290b51ad53f" category="inline-link-rx"></block>.</block>
-  <block id="415b27bc5d78b639dc8c74a6e8f93e19" category="paragraph-title">Suporte para RHEL 8,10</block>
-  <block id="52ff638e6cd24bd3aebc0578d753181c" category="paragraph">Esta versão fornece suporte para Red Hat Enterprise Linux v8,10, além de versões anteriormente suportadas. Isso é aplicável a qualquer instalação manual no local da classificação do BlueXP , incluindo implantações em locais escuros.</block>
-  <block id="d4f80552d7e61deedef657200662a6be" category="paragraph">Os seguintes sistemas operacionais requerem o uso do motor de contentor Podman, e eles exigem a classificação BlueXP  versão 1,30 ou superior: Red Hat Enterprise Linux versão 8,8, 8,10, 9,0, 9,1, 9,2, 9,3 e 9,4.</block>
-  <block id="4cc849f381058f76f6b72a1c4279393d" category="inline-link">Classificação BlueXP</block>
-  <block id="2b569c1a8e17ba534c2e1f57f9d1bbe9" category="paragraph">Saiba mais<block ref="491ed29a13fdb2b66f8e1bbeefef79a5" category="inline-link-rx"></block> sobre o .</block>
-  <block id="a7e418c0221e06b9bb3fa8ebc082ece2" category="paragraph-title">Suporte para NFS v4,1</block>
-  <block id="f1a9c2f106d86fe27271e4f8f0c0bd59" category="paragraph">Esta versão fornece suporte para NFS v4,1, além de versões com suporte anterior.</block>
   <block id="bff48bc8f1cd9f08f36e8d0c4fa810ff" category="paragraph">Saiba mais sobre o<block ref="a53ad2061326060987afe3d1fd22d00d" category="inline-link-rx"></block>.</block>
   <block id="006f40c12cb6b543cd40a6cd5a750b98" category="inline-link">Configurar as configurações de proteção contra ransomware do BlueXP</block>
   <block id="14712989ac072dc4b44e9acf1def5f1f" category="paragraph">Consulte a<block ref="a5026777e609bf5c1f12922a89f75f5b" category="inline-link-rx"></block>.</block>
@@ -423,23 +413,6 @@
   <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">Se você está procurando a opção _Advanced view_, que permite gerenciar um sistema de arquivos FSX for ONTAP usando o Gerenciador de sistema do ONTAP, agora você pode encontrar essa opção na tela do BlueXP  depois de selecionar o ambiente de trabalho.</block>
   <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">Uma captura de tela do painel direito no BlueXP  Canvas depois de selecionar um ambiente de trabalho que mostra a opção Gerenciador de sistema.</block>
   <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="73dfeef5d38f87e4c1d9e4b6417db109" category="paragraph">A NetApp planejou o fim da disponibilidade (EOA) e o fim do suporte (EOS) do licenciamento baseado em nós da Cloud Volumes ONTAP. A partir de 11 de novembro de 2024, a disponibilidade limitada de licenças baseadas em nós foi encerrada. O suporte para licenciamento baseado em nós termina em 31 de dezembro de 2024. Após a EOA de suas licenças baseadas em nós, você deve fazer a transição para o licenciamento baseado em capacidade usando a ferramenta de conversão de licença do BlueXP .</block>
-  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">Término da disponibilidade de licenças baseadas em nós</block>
-  <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link">Converta licenças baseadas em nós em capacidade</block>
-  <block id="2293617fe352e42e5a1e5d757463cb39" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block> <block ref="5987d844b1ad687ea551a96a31c7c0df" category="inline-link-rx"></block></block>
-  <block id="11c97a8e296f1428a1d4c9a2253b1bfb" category="paragraph">A NetApp reconhece os seguintes requisitos exclusivos de licenciamento em conformidade com as obrigações contratuais e as necessidades operacionais, e continuará a dar suporte a licenças baseadas em nós nessas situações:</block>
-  <block id="43b1a7bfd4243a44cf321f03e7878ffd" category="list-text">Implantações em modo privado</block>
-  <block id="bbef1435f544b56bbed0e1c536c2515e" category="list-text">Implementações da região da China do Cloud Volumes ONTAP na AWS</block>
-  <block id="e6eb4bcca3ad358d710ea99dd5c577d1" category="list-text">Se você tiver um nó de by-node válido e não expirado, traga sua própria licença (licença BYOL)</block>
-  <block id="677ce77d69762bd9f63d8a2760e6a0c4" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block></block>
-  <block id="b37931f01938eae6736d1bea8fd72fed" category="paragraph">O BlueXP  agora permite que você selecione uma categoria inativa para armazenar os dados da categoria de capacidade no storage Blob do Azure. Adicionar a camada fria às camadas quentes e frias existentes fornece uma opção de storage mais econômica e uma melhor economia.</block>
-  <block id="176cd61977ca55fd13eff7c7ba3659f5" category="inline-link">Categorização de dados no Azure</block>
-  <block id="2ede20fe3152113b3c27cd841c879ccf" category="paragraph"><block ref="2ede20fe3152113b3c27cd841c879ccf" category="inline-link-rx"></block></block>
-  <block id="390a3dfacd9551e05363b9eb09a0464c" category="inline-link">Regras do grupo de segurança</block>
-  <block id="69e89afe4b2013c34ff51df883ddc022" category="paragraph"><block ref="9064ea2dae3c9dc76b91a834ab88d8bf" category="inline-link-rx"></block>.</block>
-  <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">Habilitando WORM em um ambiente de trabalho do Cloud Volumes ONTAP</block>
-  <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
-  <block id="500984bae07aedc6c662b31a3039d462" category="list-text">Clientes do setor público dos EUA</block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de dados para corrigir alguns bugs. A nova versão do Data Broker é 1,0.56.</block>
   <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>.</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">Agora, o backup e a recuperação do BlueXP  podem fazer backup de volumes no local do FlexVol e do FlexGroup configurados com os modos de proteção SnapLock Compliance ou SnapLock Enterprise. Os clusters precisam estar executando o ONTAP 9.14 ou superior para esse suporte. O backup de volumes do FlexVol usando o modo SnapLock Enterprise tem sido suportado desde a versão 9.11.1 do ONTAP. As versões anteriores do ONTAP não oferecem suporte para fazer backup de volumes de proteção SnapLock.</block>
@@ -451,7 +424,6 @@
   <block id="73d4d0de3c5f56849f3c1a290a6681f2" category="list-text">Indexação em pausa</block>
   <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="list-text">Erro</block>
   <block id="cb48cbf342305a9ae53e02e21fcb644c" category="list-text">Não ativado</block>
-  <block id="6ecba12db0576e8891316b6674fda716" category="paragraph">Agora, você pode ativar o storage WORM (uma gravação, muitas leituras) em um sistema Cloud Volumes ONTAP existente usando o BlueXP . Esse recurso oferece a flexibilidade de habilitar o WORM em um ambiente de trabalho, mesmo que o WORM não tenha sido ativado durante sua criação. Uma vez ativado, você não pode desativar WORM.</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">Agora você pode descobrir os sistemas NetApp ASA R2 ao usar o BlueXP  no modo privado. Este suporte está disponível a partir da versão 3.9.46 do modo privado do BlueXP .</block>
   <block id="a295598082ec4c1c06fb5a3e2ad3e1d1" category="paragraph">As famílias de máquinas DS_v2 e ES_v3 não estão mais disponíveis para seleção no BlueXP  ao implantar novas instâncias do Cloud Volumes ONTAP no Azure. Essas famílias serão mantidas e apoiadas apenas em sistemas antigos e existentes. Novas implantações do Cloud Volumes ONTAP são suportadas no Azure somente a partir da versão 9.12.1. Recomendamos que mude para ES_v4 ou qualquer outra série compatível com Cloud Volumes ONTAP 9.12.1 e posterior. No entanto, as máquinas das séries DS_v2 e ES_v3 estarão disponíveis para novas implantações feitas através da API.</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Configurações compatíveis no Azure</block>
@@ -485,7 +457,6 @@
   <block id="704c39cac41bd3edb3c4d1fc1b619590" category="paragraph"><block ref="8380621c8f80b9213ea8e8be1675d5a4" category="inline-link-rx"></block>.</block>
   <block id="01d4e72c68c36e8905e55eeb7f8aff0c" category="inline-link-macro">Gerencie os sistemas de arquivos do Amazon FSX para NetApp ONTAP usando o CloudFormation</block>
   <block id="f883109f2802c104ac9ae2e21a56b762" category="paragraph"><block ref="f883109f2802c104ac9ae2e21a56b762" category="inline-link-macro-rx"></block></block>
-  <block id="c54232d574f50dfd33c3e6ddb7fab829" category="paragraph">Para compromissos anuais ou de longo prazo, a NetApp recomenda que você entre em Contato com seu representante da NetApp antes da data da EOA ou da data de expiração da licença para garantir que os pré-requisitos para a transição estejam em vigor. Se você não tiver um contrato de longo prazo para um nó Cloud Volumes ONTAP e executar seu sistema com uma assinatura paga conforme o uso (PAYGO) sob demanda, é importante Planejar sua conversão antes da data EOS. Para contratos de longo prazo e assinaturas PAYGO, você pode usar a ferramenta de conversão de licenças BlueXP  para uma conversão perfeita.</block>
   <block id="4b9b02f7da7210970cff1fcbe2d8369e" category="paragraph">Com esta versão, você pode usar a segurança de workload de storage do Data Infrastructure Insights para detectar um comportamento incomum dos usuários em seus workloads de storage. Esse recurso ajuda você a identificar possíveis ameaças à segurança e bloquear usuários potencialmente maliciosos para proteger seus dados.</block>
   <block id="839e0e7efb1b67f6416081c6e82a4aa9" category="inline-link">Responda a um alerta de ransomware detetado</block>
   <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">Para obter detalhes,<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block> consulte .</block>
@@ -590,7 +561,6 @@
   <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">É possível identificar rapidamente clusters do ONTAP com baixa capacidade ou baixa performance, avaliar a extensão da disponibilidade e identificar riscos de segurança. Você pode visualizar alertas relacionados a capacidade, performance, proteção, disponibilidade, segurança e configuração.</block>
   <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">Detalhes dos alertas</block>
   <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">Você pode detalhar os detalhes do alerta e encontrar recomendações.</block>
-  <block id="b361027502c50a2e2c7efbe96a5720bf" category="section-title">Exibir detalhes do cluster vinculados ao System Manager</block>
   <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">Com os alertas do BlueXP , você pode visualizar os alertas associados ao seu ambiente de storage do ONTAP e detalhar os detalhes vinculados ao Gerenciador de sistemas do ONTAP.</block>
   <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">02 de fevereiro de 2025</block>
   <block id="8f0b3ce2b96f337852fd1c252724a612" category="section-title">Associe o sistema de arquivos FSX for ONTAP com um espaço de trabalho no BlueXP</block>
@@ -637,8 +607,6 @@
   <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">Esta versão de classificação do BlueXP  atualiza o processo de exportação para o relatório de investigação de dados. Esta atualização de exportação é útil para realizar análises adicionais sobre seus dados, criar visualizações adicionais sobre os dados ou compartilhar os resultados de sua investigação de dados com outras pessoas.</block>
   <block id="5ae300808387123005a76abbd5a99f46" category="section-title">Versão 1,38</block>
   <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">Esta versão de classificação do BlueXP  inclui melhorias gerais e correções de bugs.</block>
-  <block id="8339f3b73dd5a0afa74d7cfbebd1b2c2" category="section-title">4 de novembro de 2024</block>
-  <block id="c1922490c576eff789b323f98c667589" category="section-title">Versão 1,37</block>
   <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">Esta versão de classificação do BlueXP  inclui as seguintes atualizações.</block>
   <block id="f196d25aadb7411a1f827c0ca0317cfb" category="section-title">Autenticação de usuário habilitada para acessar o Gerenciador de sistema a partir do BlueXP</block>
   <block id="7a44ab81762cf5f3e018d99190cfe8ac" category="paragraph">Como administrador do BlueXP , agora você pode ativar a autenticação para usuários do ONTAP acessando o Gerenciador de sistema do ONTAP a partir do BlueXP . Pode ativar esta opção editando as definições do conetor BlueXP . Esta opção está disponível para os modos padrão e privado.</block>
@@ -648,13 +616,6 @@
   <block id="5fbce01b2fa5bcad467f74186949bef5" category="paragraph">Agora, você pode experimentar o gerenciamento simplificado das licenças do Cloud Volumes ONTAP usando pontos de navegação aprimorados na carteira digital do BlueXP :</block>
   <block id="1f86b1e4048d088ce153a6f451fb30d6" category="section-title">9 de dezembro de 2024</block>
   <block id="497e698cad27d6346959de7394ab5df8" category="section-title">Lista de VMs com suporte atualizadas para o Azure para se alinhar às práticas recomendadas</block>
-  <block id="059b6fdd2ea839d9327c322a4c87e168" category="section-title">Fim da disponibilidade para licenças baseadas em nós</block>
-  <block id="a4b4a128b8ea43df8551a18d37b0bfcd" category="section-title">Remoção de implantações baseadas em nós do BlueXP</block>
-  <block id="04b144a0be31129b4ac9a0f2751271d9" category="paragraph">A opção de implantar sistemas Cloud Volumes ONTAP usando licenças baseadas em nós é obsoleta no BlueXP . Exceto em alguns casos especiais, você não pode usar licenças baseadas em nós para implantações do Cloud Volumes ONTAP para nenhum provedor de nuvem.</block>
-  <block id="02077474df02850d5f691ab4c25f3b7c" category="section-title">Adição de uma categoria inativa de dados do Cloud Volumes ONTAP no storage Azure Blob</block>
-  <block id="7a315b4592c0ed57964da376a6b04868" category="section-title">Opção para restringir o acesso público à conta de armazenamento do Azure</block>
-  <block id="c11ad5eeb4b3088d2c151593e9c1204e" category="paragraph">Agora você tem a opção de restringir o acesso público à sua conta de storage para sistemas Cloud Volumes ONTAP no Azure. Ao desativar o acesso, você pode proteger seu endereço IP privado da exposição mesmo dentro do mesmo VNet, caso haja necessidade de cumprir com as políticas de segurança da sua organização. Essa opção também desativa a disposição de dados em camadas dos sistemas Cloud Volumes ONTAP e se aplica a pares de nó único e alta disponibilidade.</block>
-  <block id="f87269f0bcffd4dd379148db58c41b11" category="section-title">Habilitação DE WORM após a implantação do Cloud Volumes ONTAP</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">9 de setembro de 2020</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">Suporte ao Cloud Volumes Service para Google Cloud</block>
   <block id="7ee45649520b61796809750e472a8000" category="section-title">7 de dezembro de 2020</block>
@@ -710,11 +671,6 @@
   <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">20 de setembro de 2024</block>
   <block id="5d95f17e7ddbf703465910039fd80c35" category="section-title">Suporte para datastores VMware VMFS on-premises para locais</block>
   <block id="089160f6b14935d2f39adf9a95c5da5a" category="paragraph">Esta versão inclui suporte para VMs montadas em armazenamentos de dados do sistema de arquivos de máquina virtual (VMFS) do VMware vSphere para iSCSI e FC protegidos para storage no local. Anteriormente, o serviço fornecia uma _visualização de tecnologia_ com suporte a armazenamentos de dados VMFS para iSCSI e FC.</block>
-  <block id="895b67d31a903fc743f186c56aeecff6" category="section-title">2 de agosto de 2024</block>
-  <block id="b4f4dc0bb14114cf289b66587d52c9a4" category="section-title">Suporte para armazenamentos de dados VMware VMFS on-premises para FC</block>
-  <block id="e0b7491fa7ed8915c350ab7831389ebf" category="paragraph">Esta versão inclui uma visualização de _tecnologia_ do suporte a VMs montadas nos armazenamentos de dados do sistema de arquivos de máquina virtual (VMFS) do VMware vSphere para FC protegido no storage local. Anteriormente, o serviço forneceu uma visualização de tecnologia com suporte aos datastores VMFS para iSCSI.</block>
-  <block id="8b0a520b04093a504975b99493c33a06" category="section-title">Cancelar trabalho</block>
-  <block id="e37d535f557154a6dd6ed413e0e7782c" category="paragraph">Com esta versão, agora você pode cancelar um trabalho na IU do Monitor de trabalhos.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de setembro de 2022</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">Suporte para e-Series</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">Agora você pode descobrir seus sistemas e-Series diretamente da BlueXP . Descobrir sistemas e-Series oferece uma visão completa dos dados em sua multicloud híbrida.</block>
@@ -794,4 +750,40 @@
   <block id="bd901b05034bb9be1d918012998e8f7b" category="section-title">5 de janeiro de 2025</block>
   <block id="5baf4417d867f07ce7f16e7810f044d7" category="section-title">Suporte para contas de serviço na fábrica de workloads do BlueXP</block>
   <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Agora, as contas de serviço são compatíveis na fábrica de workloads do BlueXP . Você pode criar contas de serviço para atuar como usuários de máquina que automatizam as operações de infraestrutura.</block>
+  <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">Exibir detalhes do cluster vinculados ao Gerenciador de sistema do ONTAP</block>
+  <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">19 de fevereiro de 2025</block>
+  <block id="6b9d9a04ff593ff427731819f0c3618f" category="section-title">Versão 1,40</block>
+  <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">Suporte para RHEL 9,5</block>
+  <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">Esta versão fornece suporte para Red Hat Enterprise Linux v9,5, além de versões anteriormente suportadas. Isso é aplicável a qualquer instalação manual no local da classificação do BlueXP , incluindo implantações em locais escuros.</block>
+  <block id="3461c6d70dff5780cf443e0892f0b5af" category="paragraph">Os sistemas operacionais a seguir requerem o uso do motor de contentor Podman, e eles exigem a classificação BlueXP  versão 1,30 ou superior: Red Hat Enterprise Linux versão 8,8, 8,10, 9,0, 9,1, 9,2, 9,3, 9,4 e 9,5.</block>
+  <block id="ce7ca903497eb6081e95129584ddf094" category="paragraph-title">Priorizar exames</block>
+  <block id="c05a4c0b45b0c78ba3771a3530738f78" category="paragraph">Ao realizar exames somente de mapeamento, você pode priorizar os exames mais importantes. Este recurso ajuda quando você tem muitos ambientes de trabalho e quer garantir que as verificações de alta prioridade sejam concluídas primeiro.</block>
+  <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">Por padrão, as digitalizações são enfileiradas com base na ordem em que são iniciadas. Com a capacidade de priorizar digitalizações, agora você pode mover digitalizações para a frente da fila. Várias digitalizações podem ser priorizadas. A prioridade é designada em uma ordem de primeira entrada e primeira saída, o que significa que a primeira digitalização que você prioriza se move para a frente da fila; a segunda digitalização que você prioriza se torna segunda na fila, e assim por diante.</block>
+  <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">A prioridade é concedida de uma só vez. As redigitalizações automáticas de dados de mapeamento ocorrem na ordem padrão.</block>
+  <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">digitalizações apenas de mapeamento</block>
+  <block id="92fbf5243922258219f1e304b1549560" category="paragraph">A priorização é limitada a <block ref="4fb1432e3e9b17c8a7a21683abcd7d6c" category="inline-link-macro-rx"></block>; ela não está disponível para mapear e classificar digitalizações.</block>
+  <block id="42968807986d9cd74ea7703d63bf3408" category="paragraph">Para alterar a prioridade:</block>
+  <block id="09d7e52dfc68f84cd7ef45e3c26a0389" category="list-text">No menu classificação BlueXP , selecione *Configuração*.</block>
+  <block id="9ad22d134d0b57050c5d4d4a8e861bf9" category="list-text">Selecione os recursos que deseja priorizar.</block>
+  <block id="dde93fd6ebd9f31996e0ca6a50869101" category="list-text">Na opção ações ..., selecione *priorizar a digitalização*.</block>
+  <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">Tente novamente todas as digitalizações</block>
+  <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">A classificação BlueXP  agora suporta a capacidade de tentar em lote novamente todas as digitalizações com falha.</block>
+  <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">Agora você pode tentar novamente digitalizações em uma operação em lote com a função **Repetir tudo**. Se as verificações de classificação estiverem falhando devido a um problema temporário, como uma interrupção da rede, você pode tentar novamente todas as verificações ao mesmo tempo com um botão em vez de tentar novamente individualmente. As digitalizações podem ser tentadas quantas vezes forem necessárias.</block>
+  <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">Para tentar novamente todas as digitalizações:</block>
+  <block id="8e66898002589c26f968e6fd94a57988" category="list-text">Para tentar novamente todas as digitalizações com falha, selecione *Repetir todas as digitalizações*.</block>
+  <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">18 de fevereiro de 2025</block>
+  <block id="880b804508da0afe757f8198fd3eb1c3" category="section-title">Apresentação da implantação direta do Azure Marketplace</block>
+  <block id="365aa2bac7413987a05e356d504aee0f" category="paragraph">Agora, você pode aproveitar a implantação direta do Azure Marketplace para implantar o Cloud Volumes ONTAP de forma fácil e rápida diretamente a partir do marketplace do Azure. Usando esse método simplificado, você pode explorar os principais recursos e recursos do Cloud Volumes ONTAP em seu ambiente sem a necessidade de configurar o BlueXP  Connector ou atender a outros critérios de integração necessários para implantar o Cloud Volumes ONTAP por meio do BlueXP .</block>
+  <block id="f56439b6bdbca147476a375ebacfef1d" category="inline-link">Saiba mais sobre as opções de implantação do Cloud Volumes ONTAP no Azure</block>
+  <block id="29a97b99a51928e5b93f84b989f0c2a0" category="list-text"><block ref="29a97b99a51928e5b93f84b989f0c2a0" category="inline-link-rx"></block></block>
+  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">Implante o Cloud Volumes ONTAP a partir do marketplace do Azure</block>
+  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="list-text"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
+  <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">Versão 4,2</block>
+  <block id="ca716ff875c64c5d237c8e862b62065c" category="section-title">Suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS</block>
+  <block id="1979efa5817be86acee4a8fbdf309a1a" category="paragraph">Essa versão da recuperação de desastres do BlueXP  oferece suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS. Em um sistema ASA R2, o software ONTAP oferece suporte à funcionalidade essencial de SAN e remove recursos não suportados em ambientes SAN.</block>
+  <block id="d154d7f159ffe4fedd65f7894a405e59" category="paragraph">Esta versão suporta os seguintes recursos para o ASA R2:</block>
+  <block id="38e9022b7f95524a99b3126af89eb640" category="list-text">Provisionamento de grupo de consistência para armazenamento primário (apenas grupo de consistência plana, ou seja, apenas um nível sem estrutura hierárquica)</block>
+  <block id="bbc4e3ff648912e4a892f88fcb03c65b" category="list-text">Operações de backup (grupo de consistência), incluindo automação de SnapMirror</block>
+  <block id="7e13cc5491f076161e0aefc0728bf351" category="paragraph">O suporte ao ASA R2 na recuperação de desastres do BlueXP  usa o ONTAP 9.16.1.</block>
+  <block id="60a0836359d058db16981cf45c24594f" category="paragraph">Embora os datastores possam ser montados em um volume ONTAP ou em uma unidade de armazenamento ASA R2, um grupo de recursos na recuperação de desastres do BlueXP  não pode incluir um datastore do ONTAP e um do ASA R2. Você pode selecionar um datastore do ONTAP ou um datastore do ASA R2 em um grupo de recursos.</block>
 </blocks>
