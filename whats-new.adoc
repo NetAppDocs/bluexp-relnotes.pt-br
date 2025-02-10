@@ -24,6 +24,41 @@ Esta seção descreve novos recursos relacionados aos recursos de administraçã
 
 
 
+=== 6 de março de 2025
+
+
+
+==== Atualização do conetor 3.9.49
+
+
+
+===== Acesso do Gerenciador do sistema ONTAP quando o BlueXP  usa um conetor
+
+Um administrador do BlueXP  (usuários com a função de administrador da organização) pode configurar o BlueXP  para solicitar aos usuários que inseram suas credenciais ONTAP para acessar o gerenciador de sistema do ONTAP. Quando essa configuração está ativada, os usuários precisam inserir suas credenciais ONTAP sempre que não estiverem armazenadas no BlueXP .
+
+Esta funcionalidade está disponível na versão 3.9.49 e superior do conetor. link:task-ontap-access-connector.html["Saiba como configurar as configurações de credenciais."^].
+
+
+
+==== Atualização do conetor 3.9.48
+
+
+
+===== Capacidade de desativar a definição de atualização automática para o conetor
+
+Pode desativar a funcionalidade de atualização automática do conetor.
+
+Quando você usa o BlueXP  no modo padrão ou no modo restrito, o BlueXP  atualiza automaticamente seu conetor para a versão mais recente, desde que o conetor tenha acesso de saída à Internet para obter a atualização de software. Se você precisar gerenciar manualmente quando o conetor é atualizado, agora você pode desativar as atualizações automáticas para o modo padrão ou modo restrito.
+
+
+NOTE: Esta alteração não afeta o modo privado do BlueXP , onde deve sempre atualizar o conetor sozinho.
+
+Esta funcionalidade está disponível na versão 3.9.48 e superior do conetor.
+
+link:task-upgrade-connector.html["Saiba como desativar a atualização automática para o conetor."^]
+
+
+
 === 10 de fevereiro de 2025
 
 
@@ -38,7 +73,8 @@ Neste momento, a versão 3.9.49 está disponível para o modo padrão e modo res
 
 ==== Gerenciamento de identidade e acesso do BlueXP  (IAM)
 
-* Suporte para atribuir mais de uma função a um usuário.
+* Suporte para atribuir várias funções a um usuário do BlueXP .
+* Suporte para atribuir uma função em vários recursos da organização BlueXP  (Org/pasta/projeto)
 * As funções agora estão associadas a uma de duas categorias: Plataforma e serviço de dados.
 
 
@@ -132,47 +168,6 @@ A partir desta versão, agora você pode criar um caso de suporte e associá-lo 
 
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["Saiba mais sobre como criar um caso de suporte"].
-
-
-
-=== 16 de dezembro de 2024
-
-
-
-==== Novos terminais seguros para obter imagens de conetores
-
-Quando instala o conetor ou quando ocorre uma atualização automática, o conetor contacta os repositórios para transferir imagens para a instalação ou atualização. Por padrão, o conetor sempre contatou os seguintes pontos finais:
-
-* \https://*.blob.core.windows.net
-* \https://cloudmanagerinfraprod.azurecr.io
-
-
-O primeiro endpoint inclui um Wild card porque não podemos fornecer um local definitivo. O balanceamento de carga do repositório é gerenciado pelo provedor de serviços, o que significa que os downloads podem acontecer de diferentes pontos de extremidade.
-
-Para uma maior segurança, o conetor pode agora transferir a instalação e atualizar imagens de endpoints dedicados:
-
-* \https://bluexpinfraprod.eastus2.data.azurecr.io
-* \https://bluexpinfraprod.azurecr.io
-
-
-Recomendamos que você comece a usar esses novos endpoints removendo os endpoints existentes de suas regras de firewall e permitindo os novos endpoints.
-
-Esses novos terminais são suportados a partir da versão 3.9.47 do conetor. Não há compatibilidade retroativa com versões anteriores do conetor.
-
-Observe o seguinte:
-
-* Os endpoints existentes ainda são suportados. Se você não quiser usar os novos endpoints, nenhuma alteração será necessária.
-* O conetor entra em contacto primeiro com os terminais existentes. Se esses endpoints não estiverem acessíveis, o conetor entrará em Contato automaticamente com os novos endpoints.
-* Os novos endpoints não são suportados nos seguintes cenários:
-+
-** Se o conetor estiver instalado numa região governamental.
-** Se você usar o conetor com backup e recuperação do BlueXP  ou com proteção contra ransomware BlueXP .
-
-
-+
-Para ambos os cenários, pode continuar a utilizar os endpoints existentes.
-
-
 
 
 
@@ -581,11 +576,23 @@ Esta versão de classificação do BlueXP  inclui melhorias gerais e correçõe
 
 
 
+=== 6 de março de 2025
+
+
+
+==== Cloud Volumes ONTAP 9.16.1 GA
+
+Agora você pode usar o BlueXP  para implantar e gerenciar a versão de disponibilidade geral do Cloud Volumes ONTAP 9.16.1 no Azure e no Google Cloud. No entanto, essa versão não está disponível para implantação e atualização na AWS.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["Saiba mais sobre os novos recursos incluídos nesta versão do Cloud Volumes ONTAP"^].
+
+
+
 === 03 de março de 2025
 
 
 
-==== A região Norte da Nova Zelândia agora é compatível com o Azure
+==== Suporte para a região Norte da Nova Zelândia no Azure
 
 A região Norte da Nova Zelândia agora é compatível com o Azure para configurações de nó único e alta disponibilidade (HA) do Cloud Volumes ONTAP 9.12.1 GA e posteriores. Observe que o tipo de instância Lsv3 não é suportado nessa região.
 
@@ -604,39 +611,6 @@ Agora, você pode aproveitar a implantação direta do Azure Marketplace para im
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-azure-mktplace-direct.html["Saiba mais sobre as opções de implantação do Cloud Volumes ONTAP no Azure"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Implante o Cloud Volumes ONTAP a partir do marketplace do Azure"^]
 
-
-
-
-=== 10 de fevereiro de 2025
-
-
-
-==== Autenticação de usuário habilitada para acessar o Gerenciador de sistema a partir do BlueXP
-
-Como administrador do BlueXP , agora você pode ativar a autenticação para usuários do ONTAP acessando o Gerenciador de sistema do ONTAP a partir do BlueXP . Pode ativar esta opção editando as definições do conetor BlueXP . Esta opção está disponível para os modos padrão e privado.
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["Administrar o Cloud Volumes ONTAP usando o Gerenciador de sistemas"^].
-
-
-
-==== Vista avançada do BlueXP  renomeada para Gestor do sistema
-
-A opção de gerenciamento avançado do Cloud Volumes ONTAP do BlueXP  através do Gerenciador de sistema do ONTAP foi renomeada de *Visão Avançada* para *Gerenciador de sistema*.
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["Administrar o Cloud Volumes ONTAP usando o Gerenciador de sistemas"^].
-
-
-
-==== Apresentamos uma forma mais simples de gerir licenças com a carteira digital BlueXP
-
-Agora, você pode experimentar o gerenciamento simplificado das licenças do Cloud Volumes ONTAP usando pontos de navegação aprimorados na carteira digital do BlueXP :
-
-* Aceda facilmente às suas informações de licença Cloud Volumes ONTAP através dos separadores *Governança > carteira digital > Visão geral/licenças de serviço de dados*.
-* Clique em *Exibir* no painel Cloud volume ONTAP na guia *Visão geral* para obter uma compreensão abrangente de suas licenças baseadas em capacidade. Esta visualização avançada oferece informações detalhadas sobre as suas licenças e subscrições.
-* Se preferir a interface anterior, clique no botão *mudar para a vista legada* para ver os detalhes da licença por tipo e modificar os métodos de carregamento para as suas licenças.
-
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["Gerenciar licenças baseadas em capacidade"^].
 
 
 
