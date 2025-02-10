@@ -474,8 +474,6 @@
   <block id="f5c64d3f640238b8d1e1ed7062c5561f" category="paragraph">Neste momento, a versão 3.9.49 está disponível para o modo padrão e modo restrito.</block>
   <block id="99acbaa3cb87e4fe6650072fa6b0a905" category="section-title">Gerenciamento de identidade e acesso do BlueXP  (IAM)</block>
   <block id="36cef198e9fac4b4a194f5e01017b8d1" category="list-text">Suporte para atribuir mais de uma função a um usuário.</block>
-  <block id="6708a31732ccaf29d9ba72b524255e3e" category="list-text">As funções agora estão associadas a uma das três categorias: Plataforma, aplicativo e serviços de dados.</block>
-  <block id="035261365b324f2942fd56c2f10f6ed5" category="inline-link">Leia sobre as funções do IAM</block>
   <block id="4fafa85612a8b2fff96d593213d6a0ec" category="paragraph">O gerenciamento de identidade e acesso do BlueXP  (IAM) agora é usado no modo restrito.</block>
   <block id="2f73a8cbcbf617bd5a78738929bbe5b3" category="paragraph">O BlueXP  Identity and Access Management (IAM) é um modelo de gerenciamento de recursos e acessos que substitui e aprimora a funcionalidade anterior fornecida pelas contas do BlueXP  ao usar o BlueXP  no modo padrão e restrito.</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="list-title">Informações relacionadas</block>
@@ -547,9 +545,6 @@
   <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">A carteira digital BlueXP  foi redesenhada para facilitar o uso e agora fornece gerenciamento adicional de assinaturas e licenças.</block>
   <block id="5a1f7548d3f8b383dfe658d26f915cce" category="list-text">As funções agora estão associadas a uma de duas categorias: Plataforma e serviço de dados.</block>
   <block id="2a3e7caa563b2592e27f3890e8d21765" category="section-title">O modo restrito agora usa o BlueXP  IAM</block>
-  <block id="3a85c700de68ae35770a964c115eb7cb" category="list-title">Melhorias adicionais do IAM</block>
-  <block id="afa69926e5d0001214117331ecb2e622" category="list-text">Duas novas funções estão associadas à categoria de aplicação: Visualizador de armazenamento e administrador de armazenamento.</block>
-  <block id="df90fe85a844ffa5c11d99e37754376f" category="paragraph"><block ref="df90fe85a844ffa5c11d99e37754376f" category="inline-link-rx"></block></block>
   <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">13 de janeiro de 2025</block>
   <block id="19cb29a89a6fbf6d87da92950ea8482c" category="section-title">Conetor 3.9.48</block>
   <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="section-title">Gerenciamento de identidade e acesso do BlueXP</block>
@@ -815,4 +810,7 @@
   <block id="ba7df4741bd77385c236fcf981dd357a" category="paragraph">Observe estas considerações relacionadas à pesquisa global:</block>
   <block id="03602fc4621dad9ee00f9e5d533ff5ea" category="list-text">O novo índice não é executado em instantâneos rotulados como por hora.</block>
   <block id="2bacd7c8c96302172c5d0324d784cf03" category="list-text">O novo recurso de indexação funciona apenas em snapshots no FlexVols e não em snapshots no FlexGroups.</block>
+  <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">Precisão melhorada do modelo de categorização</block>
+  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">categorias predefinidas</block>
+  <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">A precisão do modelo de aprendizado de máquina para <block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>melhorou em 11%.</block>
 </blocks>
