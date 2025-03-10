@@ -24,6 +24,38 @@ Esta seção descreve novos recursos relacionados aos recursos de administraçã
 
 
 
+=== 28 de março de 2025
+
+
+
+==== Lançamento do modo privado (3,9.50)
+
+Uma nova versão do modo privado está agora disponível para transferência a partir do https://mysupport.netapp.com/site/downloads["Site de suporte da NetApp"^]
+
+A versão 3.9.50 inclui atualizações para os seguintes componentes e serviços do BlueXP .
+
+[cols="3*"]
+|===
+| Componente ou serviço | Versão incluída nesta versão | Alterações desde a versão anterior do modo privado 
+
+
+| Conetor | 3,9.50, 3.9.49 | GTO para o https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["Novidades na página do conetor BlueXP"] e consulte as alterações incluídas para as versões 3.9.50 e 3,9.49. 
+
+
+| Backup e recuperação | 17 de março de 2025 | Aceda ao https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["Novidades na página de backup e recuperação do BlueXP"^] e consulte as alterações incluídas na versão de Março de 2024. 
+
+
+| Classificação | 10 Março 2025 (versão 1,41) | Aceda ao https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["Novidades na página de classificação do BlueXP"^] e consulte as alterações incluídas nas versões 1,38 a 1.371.41. 
+|===
+Para obter mais detalhes sobre o modo privado, incluindo como atualizar, consulte o seguinte:
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Saiba mais sobre o modo privado"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["Saiba como começar a usar o BlueXP  no modo privado"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["Saiba como atualizar o conetor ao usar o modo privado"]
+
+
+
+
 === 10 de março de 2025
 
 
@@ -506,7 +538,7 @@ Por padrão, as digitalizações são enfileiradas com base na ordem em que são
 
 A prioridade é concedida de uma só vez. As redigitalizações automáticas de dados de mapeamento ocorrem na ordem padrão.
 
-A priorização é limitada a link:concept-cloud-compliance.md#whats-the-difference-between-mapping-and-classification-scans["digitalizações apenas de mapeamento"]; ela não está disponível para mapear e classificar digitalizações.
+A priorização é limitada a link:concept-cloud-compliance.html["digitalizações apenas de mapeamento"]; ela não está disponível para mapear e classificar digitalizações.
 
 Para alterar a prioridade:
 
@@ -575,6 +607,18 @@ Esta versão de classificação do BlueXP  inclui melhorias gerais e correçõe
 
 
 
+=== 28 de março de 2025
+
+
+
+==== Implantações de modo privado ativadas para o Cloud Volumes ONTAP 9.14.1
+
+Agora você pode implantar o Cloud Volumes ONTAP 9.14.1 no modo privado na AWS, Azure e Google Cloud. O modo privado está ativado para implantações de nó único e alta disponibilidade (HA) do Cloud Volumes ONTAP 9.14.1.
+
+Para obter mais informações sobre implantações de modo privado, https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["Saiba mais sobre os modos de implantação do BlueXP "^]consulte .
+
+
+
 === 12 de março de 2025
 
 
@@ -599,19 +643,7 @@ Para obter uma lista de todas as regiões, consulte https://bluexp.netapp.com/cl
 
 Agora você pode usar as APIs do BlueXP  para criar, renomear e excluir VMs de armazenamento adicionais de fornecimento de dados para o Cloud Volumes ONTAP no Azure. O uso das APIs automatiza o processo de criação de VM de storage, incluindo a configuração das interfaces de rede necessárias, LIFs e um LIF de gerenciamento, se você precisar usar uma VM de storage para fins de gerenciamento.
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["Crie VMs de storage de fornecimento de dados para o Cloud Volumes ONTAP no Azure"^]
-
-
-
-=== 6 de março de 2025
-
-
-
-==== Cloud Volumes ONTAP 9.16.1 GA
-
-Agora você pode usar o BlueXP  para implantar e gerenciar a versão de disponibilidade geral do Cloud Volumes ONTAP 9.16.1 no Azure e no Google Cloud. No entanto, essa versão não está disponível para implantação e atualização na AWS.
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["Saiba mais sobre os novos recursos incluídos nesta versão do Cloud Volumes ONTAP"^].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["Gerencie VMs de storage de fornecimento de dados para Cloud Volumes ONTAP no Azure"^]
 
 
 
@@ -637,31 +669,7 @@ Agora você pode gerenciar o Cloud Volumes Service para Google Cloud diretamente
 
 == Operações da nuvem
 
-
-
-=== 7 de dezembro de 2020
-
-
-
-==== Navegação entre o Cloud Manager e o Spot
-
-Agora é mais fácil navegar entre o Cloud Manager e o Spot.
-
-Uma nova seção *Storage Operations* no Spot permite que você navegue diretamente para o Cloud Manager. Depois de terminar, você pode voltar ao Spot na guia *Compute* no Cloud Manager.
-
-
-
-=== 18 de outubro de 2020
-
-
-
-==== Apresentando o serviço Compute
-
-Ao aproveitar https://spot.io/products/cloud-analyzer/["Spot's Cloud Analyzer"^]o , o Cloud Manager agora pode fornecer uma análise de custos de alto nível dos seus gastos com computação em nuvem e identificar possíveis economias. Essas informações estão disponíveis no serviço *Compute* no Cloud Manager.
-
-https://docs.netapp.com/us-en/bluexp-cloud-ops/concept-compute.html["Saiba mais sobre o serviço Compute"].
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/screenshot_compute_dashboard.gif["Uma captura de tela que mostra a página análise de custos no Cloud Manager"]
+Diretiva não resolvida no <stdin> - incluir::https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
 
 
 
@@ -705,6 +713,18 @@ Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de d
 
 
 
+=== 05 de março de 2025
+
+
+
+==== Consultor de atualização
+
+* Usando o Pacote de Qualificação de disco (DQP), agora você pode atualizar automaticamente os controladores de disco e o firmware do dispositivo de armazenamento de acordo com critérios predefinidos de integridade e desempenho. Isso reduz possíveis falhas e aumenta a confiabilidade geral do sistema.
+* O banco de dados de fuso horário (DB) foi introduzido para manter automaticamente o alinhamento do sistema com as definições de fuso horário mais recentes. Isso garante que as operações dependentes do tempo continuem sem problemas, mesmo quando as regras de fuso horário mudam.
+
+
+
+
 === 12 de dezembro de 2024
 
 
@@ -722,16 +742,6 @@ Agora você pode visualizar o firmware de armazenamento, o firmware do SP/BMC e 
 ==== Widget AutoSupport
 
 O widget AutoSupport foi adicionado à tela principal do painel para alertar os clientes sobre os problemas relacionados ao status do AutoSupport.
-
-
-
-=== 23 de setembro de 2024
-
-
-
-==== Ofertas de suporte
-
-A oferta de serviço do NetApp SupportEdge Basic agora inclui todos os recursos do consultor digital disponíveis no SupportEdge Advisor e no SupportEdge Expert, exceto a topologia de pilha completa (VMware), que não fornece visibilidade sobre o monitoramento de pilha completa do VMware, mesmo se ativado.
 
 
 
@@ -1131,7 +1141,7 @@ Esta versão inclui melhorias nos processos seletivos de descoberta e redescober
 * Você pode executar esses processos de descoberta durante o processo de descoberta inicialmente ou dentro da opção Configurações.
 
 
-Para obter mais informações, https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["Descubra cargas de trabalho recém-criadas para ambientes de trabalho selecionados anteriormente"] consulte e https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["Configure fetos com a opção Configurações"].
+Para obter mais informações, https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["Descubra cargas de trabalho recém-criadas para ambientes de trabalho selecionados anteriormente"] consulte e https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["Configure recursos com a opção Configurações"].
 
 
 
@@ -1388,6 +1398,26 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 
 
+=== 30 de março de 2025
+
+
+
+==== O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP
+
+Ao usar o CloudShell, cada vez que você emite um comando ONTAP CLI e um erro ocorre, você pode obter respostas de erro geradas por IA que incluem uma descrição da falha, a causa da falha e uma resolução detalhada.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use o CloudShell"]
+
+
+
+==== IAM:Atualização de permissão SimulatePermissionPolicy
+
+Agora você pode gerenciar a `iam:SimulatePrincipalPolicy` permissão no console de fábrica de workload ao adicionar credenciais adicionais de conta da AWS ou adicionar uma nova funcionalidade de workload, como o workload do GenAI.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
+
+
+
 === 02 de fevereiro de 2025
 
 
@@ -1417,15 +1447,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 Agora você pode visualizar as permissões que a fábrica de workloads do BlueXP  usa para executar várias operações, desde a descoberta de seus ambientes de storage até a implantação de recursos da AWS, como sistemas de arquivos em armazenamento ou bases de conhecimento para workloads do GenAI. Você pode visualizar as políticas e permissões do IAM para workloads de storage, bancos de dados, VMware e GenAI.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Permissões de fábrica do workload do BlueXP"]
-
-
-
-=== 5 de janeiro de 2025
-
-
-
-==== Suporte para contas de serviço na fábrica de workloads do BlueXP
-
-Agora, as contas de serviço são compatíveis na fábrica de workloads do BlueXP . Você pode criar contas de serviço para atuar como usuários de máquina que automatizam as operações de infraestrutura.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Criar e gerenciar contas de serviço"]
