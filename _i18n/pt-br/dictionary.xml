@@ -289,22 +289,6 @@
   <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">Saiba como configurar um aplicativo Microsoft Entra e exibir as permissões de função personalizadas</block>
   <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>.</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Você não pode mais criar um volume a partir de um modelo. Essa ação foi associada ao serviço de correção do BlueXP , que não está mais disponível.</block>
-  <block id="5462103113dfca7582cf43f266db09a2" category="inline-link">requisitos de host</block>
-  <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">O BlueXP  Connector versão 3.9.40 suporta determinadas versões do Red Hat Enterprise Linux versões 8 e 9 para qualquer instalação manual do software Connector em um host RHEL 8 ou 9, independentemente do local, além dos sistemas operacionais mencionados no<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block> . Essas novas versões RHEL requerem o mecanismo Podman em vez do mecanismo Docker. Anteriormente, o backup e a recuperação do BlueXP  tinham duas limitações ao usar o motor Podman. Estas limitações foram removidas.</block>
-  <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">Saiba mais sobre como restaurar dados do ONTAP a partir de arquivos de backup</block>
-  <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>.</block>
-  <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">Com esta versão, agora você pode restaurar volumes criados no ONTAP com menos de 1 GB. O tamanho mínimo de volume que você pode criar usando o ONTAP é de 20 MB.</block>
-  <block id="f959c5a51fb8f2a9e9c0063bbb8adb63" category="paragraph">O recurso DataLock protege seus arquivos de backup de serem modificados ou excluídos por um período de tempo especificado. Isso é útil para proteger seus arquivos contra ataques de ransomware.</block>
-  <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">Configurações de política de backup para objeto</block>
-  <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">Para obter detalhes sobre o DataLock e dicas sobre como mitigar os custos associados,<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block> consulte .</block>
-  <block id="bebfb016f9defe9a78fff65f418f213b" category="paragraph">O serviço Amazon Web Services (AWS) Identity and Access Management (IAM) Role Anywhere permite que você use funções do IAM e credenciais de curto prazo para suas cargas de trabalho _fora_ da AWS para acessar APIs da AWS com segurança, da mesma forma que você usa funções do IAM para cargas de trabalho _on_ AWS. Quando você usa funções do IAM em qualquer infraestrutura de chave privada e tokens da AWS, não precisa de chaves de acesso e chaves secretas de longo prazo da AWS. Isso permite que você gire as credenciais com mais frequência, melhorando a segurança.</block>
-  <block id="24c6cf6b2747b390a5d9eb672e1d54d4" category="paragraph">Com esta versão, o suporte para o serviço AWS IAM Roles Anywhere é uma prévia da tecnologia.</block>
-  <block id="ddc7fe4301c8a4aa6a14e1843c25f30b" category="inline-link">Blog de lançamento de backup e recuperação do BlueXP  em julho de 2024</block>
-  <block id="f1db3a8ee789ee9607754f5f8a9871b1" category="paragraph">Consulte a<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>.</block>
-  <block id="cd4619af82dfe7627dc934e29e85a6e9" category="paragraph">Com esta versão, o suporte para a restauração de pastas FlexGroup é uma prévia da tecnologia.</block>
-  <block id="abbf2484b45da9fd7be677fe96c511eb" category="inline-link">Restaure pastas e ficheiros utilizando Procurar &amp;amp; Restaurar</block>
-  <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">Para obter detalhes,<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block> consulte .</block>
-  <block id="707304f314bfa71975e8ffb352535092" category="paragraph">Para obter detalhes para ativá-lo manualmente,<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block> consulte .</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">Agora você pode gerenciar o Cloud Volumes Service para Google Cloud diretamente do BlueXP :</block>
   <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">Configure e crie um ambiente de trabalho</block>
   <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">Crie e gerencie volumes NFSv3 e NFSv4,1 para clientes Linux e UNIX</block>
@@ -549,17 +533,6 @@
   <block id="517624d736bd2a385ee8cda71584112f" category="section-title">Modos de proteção SnapLock Compliance e SnapLock Enterprise</block>
   <block id="fec92c3dfb6a0b3db498488c7f4d2f29" category="section-title">Indexação para processo de pesquisa e restauração na página volumes</block>
   <block id="20d3b0b7cfe7a9f3dcfdb0faa9398efd" category="paragraph">Antes de poder utilizar a Pesquisa e Restauro, tem de ativar a "Indexação" em cada ambiente de trabalho de origem a partir do qual pretende restaurar os dados de volume. Isso permite que o Catálogo indexado acompanhe os arquivos de backup para cada volume. A página volumes agora mostra o status da indexação:</block>
-  <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="section-title">27 de setembro de 2024</block>
-  <block id="aa6a53998d98bae73a6913ff1c2eecbc" category="section-title">Suporte a Podman no RHEL 8 ou 9 com Browse and Restore</block>
-  <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">O backup e a recuperação do BlueXP  agora suportam restaurações de arquivos e pastas no Red Hat Enterprise Linux (RHEL) versões 8 e 9 usando o mecanismo Podman. Isso se aplica ao método de pesquisa e restauração de backup e recuperação do BlueXP .</block>
-  <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">A indexação mais rápida do catálogo melhora a Pesquisa e a Restauração</block>
-  <block id="9353e94049314c6236b51712848f2572" category="paragraph">Esta versão inclui um índice de catálogo melhorado que completa a indexação da linha de base muito mais rápido. A indexação mais rápida permite que você use o recurso Pesquisa e Restauração mais rapidamente.</block>
-  <block id="ba874eb3ffbdba518b95ce26bc81a861" category="section-title">22 de julho de 2024</block>
-  <block id="9d5f0e2f1682000ac365243e21301823" category="section-title">Restaure volumes com menos de 1 GB</block>
-  <block id="ccbf8c45039ba817be81bbf5fa2a7521" category="section-title">Dicas sobre como mitigar os custos do DataLock</block>
-  <block id="79cfacda817c1e599649823ffa32c8d7" category="section-title">Integração com o AWS IAM em qualquer lugar</block>
-  <block id="5ab4d79a28b46b39467c24096b99316f" category="section-title">Pasta FlexGroup ou restauração de diretório agora disponível</block>
-  <block id="a821e6c079044462f6ffc9a01ed28fc9" category="paragraph">Anteriormente, os volumes do FlexVol podiam ser restaurados, mas não era possível restaurar pastas ou diretórios do FlexGroup. Com o ONTAP 9.15,1 P2, você pode restaurar pastas do FlexGroup usando a opção Procurar e restaurar.</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">22 de janeiro de 2025</block>
   <block id="0a401367ec8a2cd84bb197e6d12c99af" category="section-title">Versão 1,39</block>
   <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">Esta versão de classificação do BlueXP  atualiza o processo de exportação para o relatório de investigação de dados. Esta atualização de exportação é útil para realizar análises adicionais sobre seus dados, criar visualizações adicionais sobre os dados ou compartilhar os resultados de sua investigação de dados com outras pessoas.</block>
@@ -800,7 +773,6 @@
   <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">Esta versão inclui melhorias nos processos seletivos de descoberta e redescoberta:</block>
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">Com esta versão, você pode descobrir cargas de trabalho recém-criadas que foram adicionadas aos ambientes de trabalho selecionados anteriormente.</block>
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">Você também pode selecionar _new_ ambientes de trabalho nesta versão. Esse recurso ajuda a proteger novos workloads adicionados ao seu ambiente.</block>
-  <block id="3b7810e8427f006590b006af43d016ef" category="list-text">Se você quiser escolher todas as cargas de trabalho descobertas, você pode fazê-lo usando a opção *Selecionar tudo*.</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">Você pode executar esses processos de descoberta durante o processo de descoberta inicialmente ou dentro da opção Configurações.</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">Descubra cargas de trabalho recém-criadas para ambientes de trabalho selecionados anteriormente</block>
   <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">Configure fetos com a opção Configurações</block>
@@ -814,4 +786,17 @@
   <block id="2e168141b8f719cbd37e6beec663b599" category="list-text">Central US</block>
   <block id="7a6df46ff8e25ac610f60f312512afa4" category="list-text">EUA Gov Virginia (região do Governo dos EUA - Virgínia)</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Para obter uma lista de todas as regiões, consulte<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>a .</block>
+  <block id="499d067ffbbd553e23809aa38aa67bfa" category="section-title">17 de março de 2025</block>
+  <block id="30ba4ee29fda0b7285b4297943459cf9" category="section-title">Navegação de instantâneos SMB</block>
+  <block id="024bc4989e66777454fa98cbaf9a7d3e" category="paragraph">Esta atualização de backup e recuperação do BlueXP  resolveu um problema que impedia os clientes de navegar em snapshots locais em um ambiente SMB.</block>
+  <block id="151a83fcfdad3b420d256dbc19095068" category="section-title">Atualização de ambiente do AWS GovCloud</block>
+  <block id="c4ff0af994997811a9867969c1b26bf3" category="paragraph">Essa atualização de backup e recuperação do BlueXP  corrigiu um problema que impedia a interface do usuário de se conetar a um ambiente AWS GovCloud devido a erros de certificado TLS. O problema foi resolvido usando o nome do host do conetor BlueXP  em vez do endereço IP.</block>
+  <block id="a758068ed72f0a6858316a7ff791b4ba" category="section-title">Limites de retenção da política de backup</block>
+  <block id="7937af8bb9aecdab11a666bfc7946c61" category="paragraph">Anteriormente, a IU de backup e recuperação do BlueXP  limitava os backups a 999 cópias, enquanto a CLI permitia mais. Agora, você pode anexar até 4.000 volumes a uma política de backup e incluir volumes 1.018 não anexados a uma política de backup. Esta atualização inclui validações adicionais que impedem a superação desses limites.</block>
+  <block id="d5479e738a91b3a64956ed9f9e81bc5a" category="section-title">Ressincronizar a nuvem da SnapMirror</block>
+  <block id="06476618a5631fabf79c4d5ebe8b60b0" category="paragraph">Essa atualização garante que o ressync do SnapMirror Cloud não possa ser iniciado a partir do backup e recuperação do BlueXP  para versões ONTAP não suportadas depois que uma relação do SnapMirror for excluída.</block>
+  <block id="322a339b221056f32120ffd18077d44d" category="section-title">Criação de VM de storage automatizada por meio das APIs no Azure</block>
+  <block id="aa1c2167957b1092da7e43e77867748c" category="paragraph">Agora você pode usar as APIs do BlueXP  para criar, renomear e excluir VMs de armazenamento adicionais de fornecimento de dados para o Cloud Volumes ONTAP no Azure. O uso das APIs automatiza o processo de criação de VM de storage, incluindo a configuração das interfaces de rede necessárias, LIFs e um LIF de gerenciamento, se você precisar usar uma VM de storage para fins de gerenciamento.</block>
+  <block id="65cc3fef2113d2e1d1f636ab8cb02386" category="inline-link">Crie VMs de storage de fornecimento de dados para o Cloud Volumes ONTAP no Azure</block>
+  <block id="5fc68a139fdd05790792b12eb853e84d" category="paragraph"><block ref="5fc68a139fdd05790792b12eb853e84d" category="inline-link-rx"></block></block>
 </blocks>
