@@ -355,7 +355,6 @@
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">A resiliência operacional é um serviço que ajuda você a analisar alertas e eventos para manter a integridade, o tempo de atividade e a performance de serviços e soluções.</block>
   <block id="070849913b65c4cb130cf632f0ac2008" category="inline-link-macro">Saiba mais sobre a resiliência operacional do BlueXP </block>
   <block id="6bea546ba36c0c8c8bed5d22ed6af63d" category="paragraph"><block ref="d51dda3e944cc19bf96c07e1874304d0" category="inline-link-macro-rx"></block>.</block>
-  <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">Saiba mais sobre como agrupar cargas de trabalho de compartilhamento de arquivos em estratégias de proteção contra ransomware</block>
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">Saiba mais sobre como configurar as configurações de proteção contra ransomware do BlueXP </block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>.</block>
   <block id="f013b90a0fd96db59795b7cb0b9d2d1b" category="inline-link">Saiba mais sobre como recuperar de um ataque de ransomware</block>
@@ -409,7 +408,6 @@
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">Fábrica de carga de trabalho</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de dados para corrigir alguns bugs. A nova versão do Data Broker é 1,0.56.</block>
-  <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>.</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">Agora, o backup e a recuperação do BlueXP  podem fazer backup de volumes no local do FlexVol e do FlexGroup configurados com os modos de proteção SnapLock Compliance ou SnapLock Enterprise. Os clusters precisam estar executando o ONTAP 9.14 ou superior para esse suporte. O backup de volumes do FlexVol usando o modo SnapLock Enterprise tem sido suportado desde a versão 9.11.1 do ONTAP. As versões anteriores do ONTAP não oferecem suporte para fazer backup de volumes de proteção SnapLock.</block>
   <block id="ba48140a3394818b661e6fd497e203a7" category="inline-link">Saiba mais sobre o backup e a recuperação do BlueXP</block>
   <block id="9ddb3e6714694f5c7f619d474fec8169" category="paragraph">Consulte a lista completa de volumes suportados no<block ref="9e68a582cc487ad29425f5a4796c9e45" category="inline-link-rx"></block>.</block>
@@ -657,9 +655,6 @@
   <block id="31e5266d7eefb6e39e445571b556a4b6" category="paragraph">Com esse lançamento, novas implantações de proteção contra ransomware do BlueXP  agora têm 30 dias para uma avaliação gratuita. Anteriormente, a proteção contra ransomware da BlueXP  forneceu 90 dias como uma avaliação gratuita. Se você já está no teste gratuito de 90 dias, essa oferta continua por 90 dias.</block>
   <block id="131dcf966228f0c4a90e6e64618c8def" category="section-title">Restaure a carga de trabalho do aplicativo no nível do arquivo para o Podman</block>
   <block id="b4a1818e2de3da83b0e71c710c96525c" category="paragraph">Antes de restaurar uma carga de trabalho de aplicação no nível do ficheiro, agora pode ver uma lista de ficheiros que podem ter sido afetados por um ataque e identificar os que pretende restaurar. Anteriormente, se os conetores BlueXP  em uma organização (anteriormente uma conta) estavam usando o Podman, esse recurso foi desativado. Agora está habilitado para Podman. Você pode permitir que a proteção contra ransomware do BlueXP  escolha os arquivos a serem restaurados, você pode carregar um arquivo CSV que lista todos os arquivos afetados por um alerta ou você pode identificar manualmente quais arquivos deseja restaurar.</block>
-  <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">30 de setembro de 2024</block>
-  <block id="4d330e714e6183f0c61932d7c00a8ff3" category="section-title">Agrupamento personalizado de workloads de compartilhamento de arquivos</block>
-  <block id="52a2bb712de6112a9a5d29a047f3a073" category="paragraph">Com essa versão, agora você pode agrupar compartilhamentos de arquivos em grupos para facilitar a proteção do data Estate. O serviço pode proteger todos os volumes de um grupo ao mesmo tempo. Anteriormente, você precisava proteger cada volume separadamente.</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">Remediação</block>
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">18 de setembro de 2022</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX para ONTAP para Cloud Volumes ONTAP</block>
@@ -723,13 +718,6 @@
   <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">Agora você pode tentar novamente digitalizações em uma operação em lote com a função **Repetir tudo**. Se as verificações de classificação estiverem falhando devido a um problema temporário, como uma interrupção da rede, você pode tentar novamente todas as verificações ao mesmo tempo com um botão em vez de tentar novamente individualmente. As digitalizações podem ser tentadas quantas vezes forem necessárias.</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">Para tentar novamente todas as digitalizações:</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">Para tentar novamente todas as digitalizações com falha, selecione *Repetir todas as digitalizações*.</block>
-  <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">18 de fevereiro de 2025</block>
-  <block id="880b804508da0afe757f8198fd3eb1c3" category="section-title">Apresentação da implantação direta do Azure Marketplace</block>
-  <block id="365aa2bac7413987a05e356d504aee0f" category="paragraph">Agora, você pode aproveitar a implantação direta do Azure Marketplace para implantar o Cloud Volumes ONTAP de forma fácil e rápida diretamente a partir do marketplace do Azure. Usando esse método simplificado, você pode explorar os principais recursos e recursos do Cloud Volumes ONTAP em seu ambiente sem a necessidade de configurar o BlueXP  Connector ou atender a outros critérios de integração necessários para implantar o Cloud Volumes ONTAP por meio do BlueXP .</block>
-  <block id="f56439b6bdbca147476a375ebacfef1d" category="inline-link">Saiba mais sobre as opções de implantação do Cloud Volumes ONTAP no Azure</block>
-  <block id="29a97b99a51928e5b93f84b989f0c2a0" category="list-text"><block ref="29a97b99a51928e5b93f84b989f0c2a0" category="inline-link-rx"></block></block>
-  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">Implante o Cloud Volumes ONTAP a partir do marketplace do Azure</block>
-  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="list-text"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
   <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">Versão 4,2</block>
   <block id="ca716ff875c64c5d237c8e862b62065c" category="section-title">Suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS</block>
   <block id="1979efa5817be86acee4a8fbdf309a1a" category="paragraph">Essa versão da recuperação de desastres do BlueXP  oferece suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS. Em um sistema ASA R2, o software ONTAP oferece suporte à funcionalidade essencial de SAN e remove recursos não suportados em ambientes SAN.</block>
@@ -773,9 +761,6 @@
   <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">02 de março de 2025</block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventos CloudShell no Tracker</block>
   <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">Sempre que você usar o CloudShell para executar operações do FSX for ONTAP a partir de cargas de trabalho do BlueXP , os eventos aparecem no Rastreador.</block>
-  <block id="4fbdcdf3c2d8694d5e358b3175b867da" category="section-title">03 de março de 2025</block>
-  <block id="81ae8423a213b8c9bbcb79aee6ae0af8" category="paragraph">A região Norte da Nova Zelândia agora é compatível com o Azure para configurações de nó único e alta disponibilidade (HA) do Cloud Volumes ONTAP 9.12.1 GA e posteriores. Observe que o tipo de instância Lsv3 não é suportado nessa região.</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">Para obter uma lista de todas as regiões suportadas, consulte o<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
   <block id="278edfabbac204688aa13f79c6f52497" category="section-title">6 de março de 2025</block>
   <block id="66a5f69d070814deb69bf917dd07a6af" category="section-title">Atualização do conetor 3.9.49</block>
   <block id="00d64ff7da906ec5530c4e990fb334cb" category="section-title">Acesso do Gerenciador do sistema ONTAP quando o BlueXP  usa um conetor</block>
@@ -794,11 +779,17 @@
   <block id="0608305ed5721ad4a69c3643b176e371" category="list-text">Suporte para atribuir uma função em vários recursos da organização BlueXP  (Org/pasta/projeto)</block>
   <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
   <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">Agora você pode usar o BlueXP  para implantar e gerenciar a versão de disponibilidade geral do Cloud Volumes ONTAP 9.16.1 no Azure e no Google Cloud. No entanto, essa versão não está disponível para implantação e atualização na AWS.</block>
-  <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">Suporte para a região Norte da Nova Zelândia no Azure</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">10 de março de 2025</block>
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">Versão 1,41</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">Esta versão de classificação do BlueXP  inclui melhorias gerais e correções de bugs. Também inclui:</block>
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">Estado do exame</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">A classificação BlueXP  agora rastreia o progresso em tempo real do mapeamento _initial_ e verificações de classificação em um volume. Barras progressivas separadas rastreiam os exames de mapeamento e classificação, apresentando uma porcentagem do total de arquivos digitalizados. Você também pode passar o Mouse sobre uma barra de progresso para ver o número de arquivos digitalizados e o total de arquivos. O acompanhamento do estado das suas digitalizações cria informações mais profundas sobre o progresso da digitalização, permitindo-lhe planear melhor as suas digitalizações e compreender a alocação de recursos.</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">Para ver o status das suas digitalizações, navegue até **Configuração** na classificação BlueXP  e selecione **Configuração do ambiente de trabalho**. O progresso é exibido na linha para cada volume.</block>
+  <block id="256d8753a695f4395908c9903ae723b2" category="paragraph">Neste momento, a versão 3.9.50 está disponível para o modo padrão e modo restrito.</block>
+  <block id="3f45680fc0523f726aa3afe05af65c63" category="section-title">NetApp Keystone beta disponível no BlueXP</block>
+  <block id="6bcb702faf24747c517b58ba5f3b8a99" category="paragraph">O NetApp Keystone estará disponível em breve no BlueXP  e agora está em beta. Você pode acessar a página de inscrição para o NetApp Keystone beta na barra de navegação à esquerda do BlueXP .</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">Capacidade de remover assinaturas</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">Agora você pode remover assinaturas da carteira digital se você tiver cancelado a assinatura delas.</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">Exibir a capacidade consumida para assinaturas do Marketplace</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">Ao visualizar as assinaturas PAYGO, agora você pode visualizar a capacidade consumida da assinatura.</block>
 </blocks>
