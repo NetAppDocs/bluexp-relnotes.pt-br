@@ -28,7 +28,7 @@ Esta seção descreve novos recursos relacionados aos recursos de administraçã
 
 
 
-==== 23b3b711859803a815b81aca1cc4811c
+==== Conetor 3.9.50
 
 Esta versão do conetor BlueXP  inclui pequenas melhorias de segurança e correções de bugs.
 
@@ -609,19 +609,19 @@ Esta versão de classificação do BlueXP  inclui melhorias gerais e correçõe
 
 
 
-=== 0de5f5ade75808b90faefd69873b4b3c
+=== 12 de março de 2025
 
 
 
-==== a2fefc65df2136938b995f8abbe643c2
+==== Novas regiões com suporte para implantações de várias zonas de disponibilidade no Azure
 
-0cc914ed23f0f7d6bc902ae731843213
+As seguintes regiões agora oferecem suporte a implantações de várias zonas de disponibilidade no Azure para Cloud Volumes ONTAP 9.12.1 GA e versões posteriores:
 
-* 2e168141b8f719cbd37e6beec663b599
-* 7a6df46ff8e25ac610f60f312512afa4
+* Central US
+* EUA Gov Virginia (região do Governo dos EUA - Virgínia)
 
 
-91aba3afcaafb3ecbed8f358c30b8a7a
+Para obter uma lista de todas as regiões, consulte https://bluexp.netapp.com/cloud-volumes-global-regions["Mapa das Regiões globais no Azure"^]a .
 
 
 
