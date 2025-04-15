@@ -136,6 +136,46 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Saiba mais sobr
 
 
 
+=== 04 de maio de 2025
+
+
+
+==== Suporte de resposta do Rastreador
+
+O Tracker agora fornece respostas à API para que você possa ver a saída da API REST relacionada à tarefa.
+
+
+
+==== Suporte de autenticação de link para o AWS Secrets Manager
+
+Agora você tem a opção de usar segredos do AWS Secrets Manager para autenticar links para que você não precise usar credenciais armazenadas em cargas de trabalho do BlueXP .
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conete-se a um sistema de arquivos FSX for ONTAP com um link do Lambda"]
+
+
+
+==== Implemente as melhores práticas para um sistema de arquivos FSX for ONTAP
+
+O BlueXP  workloads fornece um painel onde você pode verificar o status bem arquitetado das configurações do sistema de arquivos. Você pode aproveitar essa análise para implementar as práticas recomendadas para seus sistemas de arquivos FSX for ONTAP. A análise de configuração do sistema de arquivos inclui as seguintes configurações: Limite de capacidade SSD, snapshots locais programados, backups programados do FSX para ONTAP, disposição de dados em categorias e replicação de dados remota.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Saiba mais sobre a análise bem arquitetada para configurações do sistema de arquivos"]
+* link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_well-architected/improve-configurations.html["Implemente as práticas recomendadas para seus sistemas de arquivos"]
+
+
+
+
+==== Notificação bem arquitetada para problemas do sistema de arquivos
+
+No console do BlueXP , os sistemas de arquivos FSX for ONTAP com problemas bem arquitetados agora exibem uma notificação no Canvas indicando quando os sistemas de arquivos têm problemas para corrigir.
+
+
+
+==== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.
+
+
+
 === 30 de março de 2025
 
 
@@ -157,42 +197,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 Sempre que você usar o CloudShell para executar operações do FSX for ONTAP a partir de cargas de trabalho do BlueXP , os eventos aparecem no Rastreador.
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["Saiba como monitorar e acompanhar as operações do FSX for ONTAP no BlueXP"^]
-
-
-
-=== 02 de fevereiro de 2025
-
-
-
-==== Associe o sistema de arquivos FSX for ONTAP com um espaço de trabalho no BlueXP
-
-Após a integração do BlueXP  em novembro de 2024, os sistemas de arquivos FSX para ONTAP recém-criados não foram associados a um workspace no BlueXP . Agora, quando você cria ou descobre os sistemas de arquivos FSX for ONTAP, eles estão associados a um espaço de trabalho em uma conta do BlueXP .
-
-Se você já possui sistemas de arquivos FSX for ONTAP que não estão associados a um espaço de trabalho, ajudaremos você a associá-los a um espaço de trabalho no BlueXP . Você pode link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["Crie um caso com o suporte da NetApp"^]de dentro do console do BlueXP . Selecione *Workload Factory* como serviço.
-
-
-
-==== Remoção do sistema de arquivos da tela BlueXP
-
-Agora você pode remover um sistema de arquivos FSX for ONTAP de uma área de trabalho na tela do BlueXP . Esta operação dissocia o sistema de arquivos de um workspace para que você possa associá-lo a outro workspace dentro da mesma conta do BlueXP .
-
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-remove-filesystem.html["Saiba como remover um sistema de arquivos FSX for ONTAP de uma área de trabalho no BlueXP"^]
-
-
-
-==== Tracker disponível para operações de monitoramento e rastreamento
-
-O Rastreador, uma nova funcionalidade de monitoramento, está disponível no BlueXP  Amazon FSX for NetApp ONTAP. Você pode usar o Rastreador para monitorar e rastrear o andamento e o status das credenciais, armazenamento e operações de link, analisar detalhes de tarefas e subtarefas de operação, diagnosticar problemas ou falhas, editar parâmetros para operações com falha e repetir operações com falha.
-
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["Saiba como monitorar e acompanhar as operações do FSX for ONTAP no BlueXP"^]
-
-
-
-==== CloudShell disponível nas cargas de trabalho do BlueXP
-
-O CloudShell está disponível quando você está em cargas de trabalho do BlueXP  no console do BlueXP . O CloudShell permite que você use as credenciais da AWS e do ONTAP fornecidas em sua conta do BlueXP  e execute os comandos da CLI da AWS ou da CLI do ONTAP em um ambiente semelhante a um shell.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use o CloudShell"^]
 
 
 
@@ -434,6 +438,48 @@ Observe estas considerações relacionadas à pesquisa global:
 
 
 
+=== 12 de maio de 2025
+
+
+
+==== Versão 1,43
+
+Esta versão de classificação BlueXP  inclui:
+
+.Priorizar exames de classificação
+A classificação BlueXP  agora suporta a capacidade de priorizar exames de mapa e classificação, além de exames somente de mapeamento, permitindo selecionar quais exames são concluídos primeiro. A priorização dos exames de mapa e classificação é suportada durante e antes do início dos exames. Se optar por priorizar um exame enquanto este está em andamento, os exames de mapeamento e classificação são priorizados.
+
+Para obter mais informações, link:task-managing-repo-scanning.html#prioritize-scans["Priorizar exames"]consulte .
+
+.Suporte para categorias de dados de informações pessoais (PII) canadenses
+As análises de classificação do BlueXP  agora identificam categorias de dados de PII canadenses para informações bancárias, número de passaporte, número de seguro social e número de carteira de motorista e número de cartão de saúde para todas as províncias e territórios.
+
+Para obter mais informações detalhadas, xref:reference-private-data-categories.adoc#types-of-personal-data[Categorias de dados pessoais]consulte .
+
+.Classificação personalizada (pré-visualização)
+A classificação BlueXP  agora suporta classificações personalizadas para exames de mapa e classificação. Com classificações personalizadas, você pode personalizar as digitalizações BlueXP  para capturar dados específicos da sua organização para garantir a conformidade com expressões regulares. Esta funcionalidade está atualmente em pré-visualização.
+
+Para obter mais informações, xref:task-custom-classification.adoc[Adicione classificações personalizadas]consulte .
+
+.Separador Pesquisas guardadas
+A guia **políticas** foi renomeada xref:task-using-policies.html[**Pesquisas salvas**]. A funcionalidade é a mesma.
+
+.Enviar eventos de digitalização para o registo de auditoria
+Os eventos de digitalização do BlueXP  podem agora ser enviados para o xref:task-audit-data-sense-actions.html[log de auditoria]. A classificação BlueXP  também suporta o envio de eventos de classificação (quando um exame é iniciado e quando termina) para o link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["Linha do tempo de BlueXP"^]. O envio de eventos de digitalização de classificação para a linha do tempo do BlueXP  é suportado apenas para ambientes de trabalho.
+
+.Atualizações de segurança
+* O pacote keras foi atualizado, atenuando vulnerabilidades (BDSA-2025-0107 e BDSA-2025-1984).
+* A configuração de contentores do Docker foi atualizada. O contentor não tem mais acesso às interfaces de rede do host para criar pacotes de rede brutos. Ao reduzir o acesso desnecessário, a atualização atenua potenciais riscos de segurança.
+
+
+.Melhorias de performance
+Melhorias de código foram implementadas para reduzir o uso de RAM e melhorar o desempenho geral da classificação BlueXP .
+
+.Correções de bugs
+Os bugs que fizeram com que as verificações do StorageGRID falhassem, as opções de filtro da página de investigação não carregassem e a avaliação de descoberta de dados não baixassem para avaliações de alto volume foram corrigidos.
+
+
+
 === 14 de abril de 2025
 
 
@@ -551,6 +597,26 @@ Esta versão de classificação do BlueXP  inclui melhorias gerais e correçõe
 
 
 
+=== 12 de maio de 2025
+
+
+
+==== Descoberta de implantações feitas pelo marketplace do Azure no BlueXP
+
+O BlueXP  agora tem a capacidade de descobrir os sistemas Cloud Volumes ONTAP implantados diretamente no marketplace do Azure. Isso significa que agora você pode adicionar e gerenciar esses sistemas como ambientes de trabalho no BlueXP , assim como qualquer outro sistema Cloud Volumes ONTAP.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Implante o Cloud Volumes ONTAP a partir do marketplace do Azure"^]
+
+
+
+==== Capacidade de categorizar dados para locatários do Azure
+
+Agora você pode habilitar a disposição em camadas para um locatário do Azure em um cenário em que o ambiente de trabalho do Cloud Volumes ONTAP é criado por um locatário e o BlueXP  Connector é criado por outro. Usando essa funcionalidade, você pode usar o mesmo conetor para categorizar dados para vários locatários do Azure.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html#requirements-to-tier-data-for-an-azure-tenant["Requisitos para categorizar dados para um locatário do Azure"^]
+
+
+
 === 16 de abril de 2025
 
 
@@ -576,18 +642,6 @@ Para obter uma lista de todas as regiões, consulte https://bluexp.netapp.com/cl
 Agora você pode usar as APIs do BlueXP  para automatizar a criação de VM de storage no Google Cloud. Você usa esse recurso nas configurações de alta disponibilidade (HA) do Cloud Volumes ONTAP e agora também pode usá-lo em implantações de nó único. Usando as APIs do BlueXP , você pode facilmente criar, renomear e excluir VMs de storage adicionais de fornecimento de dados no ambiente do Google Cloud, sem a necessidade de configurar manualmente as interfaces de rede, LIFs e LIFs de gerenciamento necessárias. Essa automação simplifica o processo de gerenciamento de VMs de storage.
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-gcp.html["Gerencie VMs de storage de fornecimento de dados para Cloud Volumes ONTAP no Google Cloud"^]
-
-
-
-=== 3 de abril de 2025
-
-
-
-==== Suporte para regiões da China para Cloud Volumes ONTAP 9.13.1 na AWS
-
-Agora você pode implantar o Cloud Volumes ONTAP 9.13.1 na AWS nas regiões da China. Isso inclui suporte para implantações de nó único e alta disponibilidade (HA). Depois de implantar o Cloud Volumes ONTAP 9.13.1, você pode atualizá-lo para versões posteriores. Apenas licenças adquiridas diretamente da NetApp são suportadas.
-
-Para obter informações sobre a disponibilidade regional, consulte o https://bluexp.netapp.com/cloud-volumes-global-regions["Mapas de regiões globais para Cloud Volumes ONTAP"^].
 
 
 
@@ -771,7 +825,7 @@ Para obter mais informações sobre os relatórios de uso, https://docs.netapp.c
 
 === 16 de abril de 2025
 
-Versão 4,3
+Versão 4.2.2
 
 
 
@@ -808,6 +862,34 @@ Esta versão fornece notificações de que o teste gratuito expirará em 60 dias
 ==== Notificação de atualizações de serviço
 
 Com esta versão, um banner aparece na parte superior para indicar que os serviços estão sendo atualizados e que o serviço é colocado no modo de manutenção. O banner aparece quando o serviço está sendo atualizado e desaparece quando a atualização é concluída. Embora possa continuar a trabalhar na IU enquanto a atualização estiver em curso, não é possível enviar novos trabalhos. Os trabalhos agendados serão executados após a conclusão da atualização e o serviço retornará ao modo de produção.
+
+
+
+=== 10 de março de 2025
+
+Versão 4.2.1
+
+
+
+==== Suporte a proxy inteligente
+
+O conetor BlueXP  suporta proxy inteligente. O proxy inteligente é uma maneira leve, segura e eficiente de conectar seu ambiente local ao serviço BlueXP . Ele fornece uma conexão segura entre o seu ambiente e o serviço BlueXP  sem exigir uma VPN ou acesso direto à Internet. Essa implementação de proxy otimizada descarrega o tráfego da API dentro da rede local.
+
+Quando um proxy é configurado, a recuperação de desastres do BlueXP  tenta se comunicar diretamente com o VMware ou o ONTAP e usa o proxy configurado se a comunicação direta falhar.
+
+A implementação do proxy de recuperação de desastres do BlueXP  requer comunicação da porta 443 entre o conetor e quaisquer vCenter Servers e arrays ONTAP usando um protocolo HTTPS. O agente de recuperação de desastres do BlueXP  no conetor se comunica diretamente com o VMware vSphere, o VC ou o ONTAP ao executar qualquer ação.
+
+Para obter mais informações sobre o proxy inteligente para recuperação de desastres do BlueXP , https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-setup.html["Configure sua infraestrutura para recuperação de desastres no BlueXP"] consulte .
+
+Para obter mais informações sobre a configuração geral do proxy no BlueXP , https://docs.netapp.com/us-en/bluexp-setup-admin/task-configuring-proxy.html["Configure um conetor para usar um servidor proxy"^] consulte .
+
+
+
+==== Termine o teste gratuito a qualquer momento
+
+Você pode parar o teste gratuito em qualquer dente ou você pode esperar até que ele expire.
+
+ https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html#end-the-free-trial["Termine a avaliação gratuita"]Consulte .
 
 
 
@@ -1390,6 +1472,22 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 
 
+=== 04 de maio de 2025
+
+
+
+==== Suporte autocompleto do CloudShell
+
+Ao usar o CloudShell de fábrica de carga de trabalho do BlueXP , você pode começar a digitar um comando e pressionar a tecla Tab para exibir as opções disponíveis. Se houver várias possibilidades, a CLI exibirá uma lista de sugestões. Esse recurso aumenta a produtividade minimizando erros e acelerando a execução de comandos.
+
+
+
+==== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.
+
+
+
 === 30 de março de 2025
 
 
@@ -1427,15 +1525,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use
 A seguinte permissão está agora disponível no modo _read_ para bancos de dados: `iam:SimulatePrincipalPolicy`.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
-
-
-
-=== 22 de janeiro de 2025
-
-
-
-==== Permissões de fábrica do workload do BlueXP
-
-Agora você pode visualizar as permissões que a fábrica de workloads do BlueXP  usa para executar várias operações, desde a descoberta de seus ambientes de storage até a implantação de recursos da AWS, como sistemas de arquivos em armazenamento ou bases de conhecimento para workloads do GenAI. Você pode visualizar as políticas e permissões do IAM para workloads de storage, bancos de dados, VMware e GenAI.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Permissões de fábrica do workload do BlueXP"]
