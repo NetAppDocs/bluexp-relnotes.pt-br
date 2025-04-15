@@ -264,6 +264,59 @@ Você não pode mais criar um volume a partir de um modelo. Essa ação foi asso
 
 
 
+=== 16 de abril de 2025
+
+Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
+
+
+
+==== Painel de controlo de volume melhorado (pré-visualização)
+
+O Painel de volume agora é carregado em menos de 10 segundos, fornecendo uma interface muito mais rápida e eficiente. Esta versão de pré-visualização está disponível para clientes selecionados, oferecendo-lhes uma visão antecipada dessas melhorias.
+
+
+
+==== Melhorias na IU
+
+Esta versão melhora sua experiência simplificando a interface:
+
+* A remoção da coluna agregada das tabelas volumes, juntamente com as colunas Política de snapshot, Política de backup e Política de replicação da tabela volume no Painel V2, resulta em um layout mais simplificado.
+* A exclusão de ambientes de trabalho não ativados da lista suspensa torna a interface menos organizada, a navegação mais eficiente e o carregamento mais rápido.
+* Enquanto a classificação na coluna Tags está desativada, você ainda pode visualizar as tags, garantindo que informações importantes permaneçam facilmente acessíveis.
+* A remoção de etiquetas nos ícones de proteção contribui para uma aparência mais limpa e diminui o tempo de carregamento.
+* Durante o processo de ativação do ambiente de trabalho, uma caixa de diálogo exibe um ícone de carregamento para fornecer feedback até que o processo de descoberta esteja concluído, aumentando a transparência e a confiança nas operações do sistema.
+
+
+
+
+==== Suporte para armazenamento de objetos Wasabi de terceiros (Preview)
+
+O backup e a recuperação do BlueXP  agora estendem seu suporte a armazenamentos de objetos de terceiros com foco principal no Wasabi. Este novo recurso de visualização permite que você aproveite qualquer armazenamento de objetos compatível com S3 para suas necessidades de backup e recuperação.
+
+
+
+===== Introdução ao Wasabi
+
+Para começar a usar esse recurso, você deve habilitar um sinalizador na IU do BlueXP . Em seguida, você pode inserir os detalhes de conexão do seu armazenamento de objetos de terceiros e integrá-los aos fluxos de trabalho de backup e recuperação.
+
+
+
+===== Limitações do modo de visualização
+
+Embora esse recurso esteja na visualização, considere as seguintes limitações:
+
+* Bring Your own Bucket (BYOB) não é suportado.
+* A ativação do DataLock em uma política não é suportada.
+* A ativação do modo de arquivamento em uma política não é suportada.
+* Somente ambientes ONTAP locais são compatíveis.
+* O MetroCluster não é suportado.
+* As opções para habilitar a criptografia no nível do bucket não são suportadas.
+
+
+Durante essa visualização, recomendamos que você explore esse novo recurso e forneça feedback sobre a integração com armazenamentos de objetos de terceiros antes que a funcionalidade completa seja implementada.
+
+
+
 === 17 de março de 2025
 
 Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
@@ -344,34 +397,6 @@ Observe estas considerações relacionadas à pesquisa global:
 
 * O novo índice não é executado em instantâneos rotulados como por hora.
 * O novo recurso de indexação funciona apenas em snapshots no FlexVols e não em snapshots no FlexGroups.
-
-
-
-
-=== 22 de novembro de 2024
-
-Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
-
-
-
-==== Modos de proteção SnapLock Compliance e SnapLock Enterprise
-
-Agora, o backup e a recuperação do BlueXP  podem fazer backup de volumes no local do FlexVol e do FlexGroup configurados com os modos de proteção SnapLock Compliance ou SnapLock Enterprise. Os clusters precisam estar executando o ONTAP 9.14 ou superior para esse suporte. O backup de volumes do FlexVol usando o modo SnapLock Enterprise tem sido suportado desde a versão 9.11.1 do ONTAP. As versões anteriores do ONTAP não oferecem suporte para fazer backup de volumes de proteção SnapLock.
-
-Consulte a lista completa de volumes suportados no https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Saiba mais sobre o backup e a recuperação do BlueXP"].
-
-
-
-==== Indexação para processo de pesquisa e restauração na página volumes
-
-Antes de poder utilizar a Pesquisa e Restauro, tem de ativar a "Indexação" em cada ambiente de trabalho de origem a partir do qual pretende restaurar os dados de volume. Isso permite que o Catálogo indexado acompanhe os arquivos de backup para cada volume. A página volumes agora mostra o status da indexação:
-
-* Indexado: Os volumes foram indexados.
-* Em curso
-* Não indexado
-* Indexação em pausa
-* Erro
-* Não ativado
 
 
 
