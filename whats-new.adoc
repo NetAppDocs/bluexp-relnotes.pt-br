@@ -464,8 +464,8 @@ Para obter mais informações, xref:task-custom-classification.adoc[Adicione cla
 .Separador Pesquisas guardadas
 A guia **políticas** foi renomeada xref:task-using-policies.html[**Pesquisas salvas**]. A funcionalidade é a mesma.
 
-.Enviar eventos de digitalização para o registo de auditoria
-Os eventos de digitalização do BlueXP  podem agora ser enviados para o xref:task-audit-data-sense-actions.html[log de auditoria]. A classificação BlueXP  também suporta o envio de eventos de classificação (quando um exame é iniciado e quando termina) para o link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["Linha do tempo de BlueXP"^]. O envio de eventos de digitalização de classificação para a linha do tempo do BlueXP  é suportado apenas para ambientes de trabalho.
+.Enviar eventos de digitalização para a linha do tempo do BlueXP 
+A classificação BlueXP  agora suporta o envio de eventos de classificação (quando um exame é iniciado e quando termina) para o link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["Linha do tempo de BlueXP"^].
 
 .Atualizações de segurança
 * O pacote keras foi atualizado, atenuando vulnerabilidades (BDSA-2025-0107 e BDSA-2025-1984).
