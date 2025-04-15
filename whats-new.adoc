@@ -1274,20 +1274,11 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 ==== Geração de relatórios de ambientes de trabalho não compatíveis com a proteção contra ransomware do BlueXP
 
-Durante o fluxo de trabalho de descoberta, a proteção contra ransomware do BlueXP  relata mais detalhes quando você passa o Mouse sobre cargas de trabalho compatíveis ou não compatíveis. Isso ajudará você a entender por que alguns de seus workloads ou ambientes de trabalho não fazem parte do painel ou gerenciados pelo serviço de proteção contra ransomware. No momento, os seguintes ambientes de trabalho não são compatíveis com o serviço de proteção contra ransomware da BlueXP .
+Durante o fluxo de trabalho de descoberta, a proteção contra ransomware do BlueXP  relata mais detalhes quando você passa o Mouse sobre cargas de trabalho compatíveis ou não compatíveis. Isso ajudará você a entender por que alguns de seus workloads não são descobertos pelo serviço de proteção contra ransomware da BlueXP .
 
-* Azure NetApp Files
-* Cloud Volumes Service
-* Série E.
-* Google Cloud Platform (GCP)
-* ONTAP 9.11.1 e versões anteriores
-* ONTAP Direct clusters locais que não são gerenciados por um BlueXP  Connector
-* StorageGRID
+Há muitas razões pelas quais o serviço não suporta um ambiente de trabalho, por exemplo, a versão do ONTAP no seu ambiente de trabalho pode estar abaixo da versão necessária. Quando você passa o Mouse sobre um ambiente de trabalho não suportado, uma dica de ferramenta exibe o motivo.
 
-
-Você pode exibir os ambientes de trabalho não suportados durante a descoberta inicial e posterior na opção *descoberta de carga de trabalho* na página Configurações. Há muitas razões pelas quais o serviço não suporta um ambiente de trabalho, por exemplo, a versão do ONTAP no seu ambiente de trabalho pode estar abaixo da versão necessária. Quando você passa o Mouse sobre um ambiente de trabalho não suportado, uma dica de ferramenta exibe o motivo.
-
-Você pode baixar os resultados do processo de descoberta após a descoberta.
+Pode visualizar os ambientes de trabalho não suportados durante a descoberta inicial, onde também pode transferir os resultados. Você também pode exibir os resultados da descoberta na opção *descoberta de carga de trabalho* na página Configurações.
 
 Para obter detalhes, https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["Descubra workloads na proteção de ransomware BlueXP"] consulte .
 
