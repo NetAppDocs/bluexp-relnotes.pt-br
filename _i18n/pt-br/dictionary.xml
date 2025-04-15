@@ -299,10 +299,6 @@
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">A carteira digital BlueXP  agora permite gerenciar licenças para recuperação de desastres do BlueXP . Você pode adicionar licenças, atualizar licenças e exibir detalhes sobre a capacidade licenciada.</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">Saiba como gerenciar licenças para serviços de dados do BlueXP </block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
-  <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">Aqui estão algumas considerações adicionais sobre os protocolos iSCSI e FC:</block>
-  <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">O suporte FC é para protocolos de front-end do cliente, não para replicação.</block>
-  <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">A recuperação de desastres do BlueXP  oferece suporte a apenas um LUN por volume de ONTAP. O volume não deve ter vários LUNs.</block>
-  <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">Para qualquer plano de replicação, o volume ONTAP de destino deve usar os mesmos protocolos que o volume ONTAP de origem que hospeda as VMs protegidas. Por exemplo, se a origem usar um protocolo FC, o destino também deve usar FC.</block>
   <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">Veja como:</block>
   <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">No menu superior, selecione *planos de replicação*.</block>
   <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">Selecione um plano e selecione o ícone ações para exibir o menu suspenso.</block>
@@ -509,9 +505,6 @@
   <block id="61a7f53a93554e648fe2eb9ad8dd6468" category="paragraph">Você pode excluir todos os snapshots que não forem mais necessários além da contagem de retenção especificada. Os snapshots podem se acumular ao longo do tempo quando você diminui a contagem de retenção de snapshots, e agora você pode removê-los para liberar espaço. Você pode fazer isso a qualquer momento sob demanda ou quando você excluir um plano de replicação.</block>
   <block id="8cd43e146a4fc163d690bdc8bdc47fc6" category="section-title">Reconciliar instantâneos</block>
   <block id="4472d2b5ab8a2ba1ff5429790d72930f" category="paragraph">Agora você pode reconciliar snapshots que estão fora de sincronia entre a origem e o destino. Isso pode ocorrer se os snapshots forem excluídos em um destino fora da recuperação de desastres do BlueXP . O serviço exclui o instantâneo na origem automaticamente a cada 24 horas. No entanto, você pode executar isso sob demanda. Esse recurso permite que você garanta que os snapshots sejam consistentes em todos os sites.</block>
-  <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">20 de setembro de 2024</block>
-  <block id="5d95f17e7ddbf703465910039fd80c35" category="section-title">Suporte para datastores VMware VMFS on-premises para locais</block>
-  <block id="089160f6b14935d2f39adf9a95c5da5a" category="paragraph">Esta versão inclui suporte para VMs montadas em armazenamentos de dados do sistema de arquivos de máquina virtual (VMFS) do VMware vSphere para iSCSI e FC protegidos para storage no local. Anteriormente, o serviço fornecia uma _visualização de tecnologia_ com suporte a armazenamentos de dados VMFS para iSCSI e FC.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de setembro de 2022</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">Suporte para e-Series</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">Agora você pode descobrir seus sistemas e-Series diretamente da BlueXP . Descobrir sistemas e-Series oferece uma visão completa dos dados em sua multicloud híbrida.</block>
@@ -717,7 +710,6 @@
   <block id="1fa6d342759ba5c5a8f23c210cac048c" category="section-title">Conetor 3.9.51</block>
   <block id="44cd288eedf76c78c5b3b26935538537" category="paragraph">Neste momento, a versão 3.9.51 está disponível para o modo padrão e modo restrito.</block>
   <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">Gerenciamento de identidade e acesso do BlueXP  (IAM)</block>
-  <block id="38469cab8f7065ff2b3a663e28381c62" category="list-text">Os usuários sem o administrador Org ou pasta ou administrador de projeto devem receber uma função de proteção contra ransomware para ter acesso à proteção contra ransomware. Você pode atribuir a um usuário uma de duas funções: Administrador de proteção contra ransomware ou visualizador de proteção contra ransomware.</block>
   <block id="a9632ee5411be0309684063f13ba77a8" category="list-text">Os usuários sem o administrador da organização ou pasta ou administrador do projeto devem ter uma função do Keystone para ter acesso ao Keystone. Você pode atribuir a um usuário uma de duas funções: Administrador do Keystone ou visualizador do Keystone.</block>
   <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">Saiba mais sobre as funções de acesso.</block>
   <block id="5a4d408bd57f7cf7efbd6cf878c737a7" category="paragraph"><block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
@@ -756,4 +748,21 @@
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">02 de abril de 2025</block>
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">Riscos atenuados</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">Na seção de resumo das atualizações de software do BlueXP , agora você pode ver o número total de riscos que podem ser mitigados pela atualização do sistema operacional. Isso permite que os usuários avaliem as melhorias de segurança e estabilidade em sua base de instalação.</block>
+  <block id="198726f3c4a7290d3254fd163158a5d0" category="list-text">Os usuários sem o administrador Org ou pasta ou administrador de projeto devem ter uma função de proteção contra ransomware para ter acesso à proteção contra ransomware. Você pode atribuir a um usuário uma de duas funções: Administrador de proteção contra ransomware ou visualizador de proteção contra ransomware.</block>
+  <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">16 de abril de 2025</block>
+  <block id="e1b61136672bccd13e6828fe7987e4f6" category="paragraph">Versão 4,3</block>
+  <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">Detecção programada para VMs</block>
+  <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">A recuperação de desastres do BlueXP  realiza a descoberta a cada 24 horas. Com esta versão, agora você pode personalizar o cronograma de descoberta para atender às suas necessidades e reduzir o impactos no desempenho quando necessário. Por exemplo, se você tiver um grande número de VMs, poderá definir a programação de descoberta para ser executada a cada 48 horas. Se você tiver um pequeno número de VMs, poderá definir o agendamento de descoberta para ser executado a cada 12 horas.</block>
+  <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">Se você não deseja agendar a descoberta, você pode desativar a opção de descoberta agendada e atualizar a descoberta manualmente a qualquer momento.</block>
+  <block id="d04fa3ae362a3ea46fde26bdba81b204" category="inline-link">Adicione sites do vCenter Server</block>
+  <block id="0002b275859484d6cdca867fbab8e165" category="paragraph">Para obter detalhes,<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block> consulte .</block>
+  <block id="84307a139104b06aba6c6de9c728b2ff" category="section-title">Suporte ao datastore do grupo de recursos</block>
+  <block id="ed0d134f0d7b751b80633ad848722c7a" category="paragraph">Anteriormente, você poderia criar grupos de recursos apenas por VMs. Com essa versão, você pode criar um grupo de recursos por datastores. Quando você estiver criando um plano de replicação e criando um grupo de recursos para esse plano, todas as VMs em um datastore serão listadas. Isso é útil se você tiver um grande número de VMs e quiser agrupá-las por datastore.</block>
+  <block id="84ae8aaf40a4b59fed9a4fa741ccf225" category="paragraph">Você pode criar um grupo de recursos com um datastore das seguintes maneiras:</block>
+  <block id="ee64b17e5379b689c5eb4ab50027f625" category="list-text">Ao adicionar um grupo de recursos usando datastores, você pode ver uma lista de datastores. Você pode selecionar um ou mais datastores para criar um grupo de recursos.</block>
+  <block id="3043e1ee38988e4248b9d1966e6dd1a4" category="list-text">Ao criar um plano de replicação e criar um grupo de recursos dentro do plano, você pode ver as VMs nos datastores.</block>
+  <block id="f7a1d657a7b8993c917f63602c0774a1" category="section-title">Notificações de avaliação gratuita ou expiração de licença</block>
+  <block id="38a9b45e86982c8330edcb875da55284" category="paragraph">Esta versão fornece notificações de que o teste gratuito expirará em 60 dias para garantir que você tenha tempo para obter uma licença. Esta versão também fornece notificações no dia em que a licença expira.</block>
+  <block id="5d940e67e8d433508306c751ff0ea678" category="section-title">Notificação de atualizações de serviço</block>
+  <block id="9bdd52eb995b6f47a02ffa6aa4318399" category="paragraph">Com esta versão, um banner aparece na parte superior para indicar que os serviços estão sendo atualizados e que o serviço é colocado no modo de manutenção. O banner aparece quando o serviço está sendo atualizado e desaparece quando a atualização é concluída. Embora possa continuar a trabalhar na IU enquanto a atualização estiver em curso, não é possível enviar novos trabalhos. Os trabalhos agendados serão executados após a conclusão da atualização e o serviço retornará ao modo de produção.</block>
 </blocks>
