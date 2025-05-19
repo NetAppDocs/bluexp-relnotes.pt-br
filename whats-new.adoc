@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features,cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features,cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery' 
 summary: Saiba mais sobre as mudanças mais recentes nos serviços de nuvem que fazem parte da plataforma BlueXP . 
 ---
 = Mudanças recentes em BlueXP 
@@ -57,6 +57,12 @@ A versão beta para NetApp Keystone no BlueXP  adicionou acesso à administraç
 Esta versão do conetor BlueXP  inclui pequenas melhorias de segurança e correções de bugs.
 
 Neste momento, a versão 3.9.51 está disponível para o modo padrão e modo restrito.
+
+
+
+===== Pontos de extremidade seguros para downloads de conetores agora compatíveis com backup e recuperação e proteção contra ransomware
+
+Se você estiver usando a proteção de backup e recuperação ou ransomware, agora você pode usar endpoints seguros para downloads de conetores. link:https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#new-secure-endpoints-to-obtain-connector-images["Saiba mais sobre endpoints seguros para downloads de conetores."^]
 
 
 
@@ -494,17 +500,17 @@ Observe estas considerações relacionadas à pesquisa global:
 Esta versão de classificação BlueXP  inclui:
 
 .Priorizar exames de classificação
-A classificação BlueXP  agora suporta a capacidade de priorizar exames de mapa e classificação, além de exames somente de mapeamento, permitindo selecionar quais exames são concluídos primeiro. A priorização dos exames de mapa e classificação é suportada durante e antes do início dos exames. Se optar por priorizar um exame enquanto este está em andamento, os exames de mapeamento e classificação são priorizados.
+A classificação BlueXP  suporta a capacidade de priorizar exames de mapa e classificação, além de exames somente de mapeamento, permitindo selecionar quais exames são concluídos primeiro. A priorização dos exames de mapa e classificação é suportada durante e antes do início dos exames. Se optar por priorizar um exame enquanto este está em andamento, os exames de mapeamento e classificação são priorizados.
 
 Para obter mais informações, link:task-managing-repo-scanning.html#prioritize-scans["Priorizar exames"]consulte .
 
 .Suporte para categorias de dados de informações pessoais (PII) canadenses
-As análises de classificação do BlueXP  agora identificam categorias de dados de PII canadenses para informações bancárias, número de passaporte, número de seguro social e número de carteira de motorista e número de cartão de saúde para todas as províncias e territórios.
+Os exames de classificação BlueXP  identificam categorias de dados de PII canadenses. Essas categorias incluem informações bancárias, números de passaporte, números de seguro social, números de carteira de motorista e números de cartão de saúde para todas as províncias e territórios canadenses.
 
-Para obter mais informações detalhadas, xref:reference-private-data-categories.adoc#types-of-personal-data[Categorias de dados pessoais]consulte .
+Para obter mais informações, xref:reference-private-data-categories.adoc#types-of-personal-data[Categorias de dados pessoais]consulte .
 
 .Classificação personalizada (pré-visualização)
-A classificação BlueXP  agora suporta classificações personalizadas para exames de mapa e classificação. Com classificações personalizadas, você pode personalizar as digitalizações BlueXP  para capturar dados específicos da sua organização para garantir a conformidade com expressões regulares. Esta funcionalidade está atualmente em pré-visualização.
+A classificação BlueXP  suporta classificações personalizadas para exames de mapa e classificação. Com classificações personalizadas, você pode personalizar as digitalizações BlueXP  para capturar dados específicos da sua organização usando expressões regulares. Esta funcionalidade está atualmente em pré-visualização.
 
 Para obter mais informações, xref:task-custom-classification.adoc[Adicione classificações personalizadas]consulte .
 
@@ -512,7 +518,7 @@ Para obter mais informações, xref:task-custom-classification.adoc[Adicione cla
 A guia **políticas** foi renomeada xref:task-using-policies.html[**Pesquisas salvas**]. A funcionalidade é a mesma.
 
 .Enviar eventos de digitalização para a linha do tempo do BlueXP 
-A classificação BlueXP  agora suporta o envio de eventos de classificação (quando um exame é iniciado e quando termina) para o link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["Linha do tempo de BlueXP"^].
+A classificação BlueXP  suporta o envio de eventos de classificação (quando um exame é iniciado e quando termina) para o link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["Linha do tempo de BlueXP"^].
 
 .Atualizações de segurança
 * O pacote keras foi atualizado, atenuando vulnerabilidades (BDSA-2025-0107 e BDSA-2025-1984).
@@ -536,10 +542,10 @@ Os bugs que fizeram com que as verificações do StorageGRID falhassem, as opç�
 Esta versão de classificação BlueXP  inclui:
 
 .Digitalização em massa para ambientes de trabalho
-A classificação BlueXP  agora suporta operações em massa para ambientes de trabalho. Pode optar por ativar Mapeamento de digitalizações, ativar mapa e classificar digitalizações, desativar digitalizações ou criar uma configuração personalizada entre volumes no ambiente de trabalho. Se você fizer uma seleção para um volume individual, ele substituirá a seleção em massa. Para executar uma operação em massa, navegue até a página **Configuração** e faça a sua seleção.
+A classificação BlueXP  suporta operações em massa para ambientes de trabalho. Pode optar por ativar Mapeamento de digitalizações, ativar mapa e classificar digitalizações, desativar digitalizações ou criar uma configuração personalizada entre volumes no ambiente de trabalho. Se você fizer uma seleção para um volume individual, ele substituirá a seleção em massa. Para executar uma operação em massa, navegue até a página **Configuração** e faça a sua seleção.
 
 .Baixe o relatório de investigação localmente
-A classificação BlueXP  agora suporta a capacidade de baixar relatórios de investigação de dados localmente para visualizar no navegador. Se você escolher a opção local, a investigação de dados estará disponível apenas no formato CSV e exibirá apenas as primeiras 10.000 linhas de dados.
+A classificação BlueXP  suporta a capacidade de transferir relatórios de investigação de dados localmente para visualização no navegador. Se você escolher a opção local, a investigação de dados estará disponível apenas no formato CSV e exibirá apenas as primeiras 10.000 linhas de dados.
 
 Para obter mais informações, link:task-investigate-data.html#create-the-data-investigation-report["Investigue os dados armazenados na sua organização com a classificação BlueXP"]consulte .
 
@@ -554,7 +560,7 @@ Para obter mais informações, link:task-investigate-data.html#create-the-data-i
 Esta versão de classificação do BlueXP  inclui melhorias gerais e correções de bugs. Também inclui:
 
 .Estado do exame
-A classificação BlueXP  agora rastreia o progresso em tempo real do mapeamento _initial_ e verificações de classificação em um volume. Barras progressivas separadas rastreiam os exames de mapeamento e classificação, apresentando uma porcentagem do total de arquivos digitalizados. Você também pode passar o Mouse sobre uma barra de progresso para ver o número de arquivos digitalizados e o total de arquivos. O acompanhamento do estado das suas digitalizações cria informações mais profundas sobre o progresso da digitalização, permitindo-lhe planear melhor as suas digitalizações e compreender a alocação de recursos.
+A classificação BlueXP  rastreia o progresso em tempo real do mapeamento _initial_ e verificações de classificação em um volume. Barras progressivas separadas rastreiam os exames de mapeamento e classificação, apresentando uma porcentagem do total de arquivos digitalizados. Você também pode passar o Mouse sobre uma barra de progresso para ver o número de arquivos digitalizados e o total de arquivos. O acompanhamento do estado das suas digitalizações cria informações mais profundas sobre o progresso da digitalização, permitindo-lhe planear melhor as suas digitalizações e compreender a alocação de recursos.
 
 Para ver o status das suas digitalizações, navegue até **Configuração** na classificação BlueXP  e selecione **Configuração do ambiente de trabalho**. O progresso é exibido na linha para cada volume.
 
@@ -576,7 +582,7 @@ Os sistemas operacionais a seguir requerem o uso do motor de contentor Podman, e
 .Priorizar digitalizações somente de mapeamento
 Ao realizar exames somente de mapeamento, você pode priorizar os exames mais importantes. Este recurso ajuda quando você tem muitos ambientes de trabalho e quer garantir que as verificações de alta prioridade sejam concluídas primeiro.
 
-Por padrão, as digitalizações são enfileiradas com base na ordem em que são iniciadas. Com a capacidade de priorizar digitalizações, agora você pode mover digitalizações para a frente da fila. Várias digitalizações podem ser priorizadas. A prioridade é designada em uma ordem de primeira entrada e primeira saída, o que significa que a primeira digitalização que você prioriza se move para a frente da fila; a segunda digitalização que você prioriza se torna segunda na fila, e assim por diante.
+Por padrão, as digitalizações são enfileiradas com base na ordem em que são iniciadas. Com a capacidade de priorizar digitalizações, você pode mover digitalizações para a frente da fila. Várias digitalizações podem ser priorizadas. A prioridade é designada em uma ordem de primeira entrada e primeira saída, o que significa que a primeira digitalização que você prioriza se move para a frente da fila; a segunda digitalização que você prioriza se torna segunda na fila, e assim por diante.
 
 A prioridade é concedida de uma só vez. As redigitalizações automáticas de dados de mapeamento ocorrem na ordem padrão.
 
@@ -585,9 +591,9 @@ A priorização é limitada a link:concept-cloud-compliance.html["digitalizaçõ
 Para obter mais informações, link:task-managing-repo-scanning.html#prioritize-scans["Priorizar exames"]consulte .
 
 .Tente novamente todas as digitalizações
-A classificação BlueXP  agora suporta a capacidade de tentar em lote novamente todas as digitalizações com falha.
+A classificação BlueXP  suporta a capacidade de tentar em lote todas as digitalizações com falha.
 
-Agora você pode tentar novamente digitalizações em uma operação em lote com a função **Repetir tudo**. Se as verificações de classificação estiverem falhando devido a um problema temporário, como uma interrupção da rede, você pode tentar novamente todas as verificações ao mesmo tempo com um botão em vez de tentar novamente individualmente. As digitalizações podem ser tentadas quantas vezes forem necessárias.
+Você pode tentar novamente digitalizações em uma operação em lote com a função **Repetir tudo**. Se as verificações de classificação estiverem falhando devido a um problema temporário, como uma interrupção da rede, você pode tentar novamente todas as verificações ao mesmo tempo com um botão em vez de tentar novamente individualmente. As digitalizações podem ser tentadas quantas vezes forem necessárias.
 
 Para tentar novamente todas as digitalizações:
 
@@ -752,6 +758,28 @@ Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de d
 
 
 
+=== 08 de maio de 2025
+
+
+
+==== Widget AutoSupport
+
+O widget AutoSupport foi aprimorado para incluir um pop-up para fornecer detalhes sobre sistemas que pararam de enviar dados AutoSupport. A ativação do AutoSupport reduz o risco de inatividade e dá suporte ao gerenciamento proativo da integridade do sistema.
+
+
+
+==== Relatório de contratos de suporte
+
+O relatório de contratos de suporte foi melhorado para incluir o novo campo de sinalização ASP/LSG. Esse campo permite filtrar e identificar sistemas cobertos por um parceiro de suporte autorizado, também conhecido como Certificação em Serviços de ciclo de vida.
+
+
+
+==== Painel de sustentabilidade
+
+Agora você pode lançar o painel Sustentabilidade usando o link incluído na apresentação de sustentabilidade.
+
+
+
 === 05 de março de 2025
 
 
@@ -771,16 +799,6 @@ Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de d
 ==== Consultor de atualização
 
 Agora você pode visualizar o firmware de armazenamento, o firmware do SP/BMC e o Autonomous ransomware Package (ARP) recomendados para uma atualização. link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["Saiba como visualizar as recomendações de atualização de firmware"].
-
-
-
-=== 04 de dezembro de 2024
-
-
-
-==== Widget AutoSupport
-
-O widget AutoSupport foi adicionado à tela principal do painel para alertar os clientes sobre os problemas relacionados ao status do AutoSupport.
 
 
 
