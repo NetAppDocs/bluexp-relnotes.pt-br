@@ -41,6 +41,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["Configuração 
 
 
 
+== Armazenamento como serviço
+
+* https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
+
+
+
+
 == Serviços de dados
 
 * https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["Alertas"^]
