@@ -299,14 +299,6 @@
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">A carteira digital BlueXP  agora permite gerenciar licenças para recuperação de desastres do BlueXP . Você pode adicionar licenças, atualizar licenças e exibir detalhes sobre a capacidade licenciada.</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">Saiba como gerenciar licenças para serviços de dados do BlueXP </block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
-  <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">Veja como:</block>
-  <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">No menu superior, selecione *planos de replicação*.</block>
-  <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">Selecione um plano e selecione o ícone ações para exibir o menu suspenso.</block>
-  <block id="dbf8ea65a71d9e2042b03a97a0da4095" category="list-text">Selecione *Desativar*.</block>
-  <block id="9ffe587f372d96c9b0db66cfe333c0cf" category="list-text">Após alguns minutos, selecione *Enable* (Ativar).</block>
-  <block id="b1fb5b4805d079fc23dedcbe4848437e" category="inline-link">Failover de aplicativos para um local remoto</block>
-  <block id="ab132121a366abdd7667443cc98f3a69" category="paragraph">Consulte a<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>.</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">Configure o licenciamento</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">Atualização de tecnologia</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">Adicionar capacidade</block>
   <block id="10fa032662780ff6f01bd6647d92c626" category="paragraph">Você também pode adicionar um workload e excluir cargas de trabalho existentes da simulação.</block>
@@ -356,14 +348,7 @@
   <block id="d7a02621d52c29a3c5f7895e817cba5b" category="inline-link">Catálogo de automação</block>
   <block id="4201d45b889a30d645c44cd087e150b0" category="list-text"><block ref="4201d45b889a30d645c44cd087e150b0" category="inline-link-rx"></block></block>
   <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
-  <block id="054b753af44fc4eeee43c9ba6037caaa" category="inline-link">Criar relatórios de recuperação de desastres</block>
-  <block id="023cf8170104660fc796a64fdad98afa" category="paragraph">Consulte a<block ref="cca93cc3cfc082fe882eefc731706487" category="inline-link-rx"></block>.</block>
-  <block id="1cb57fbf1f1452e87f62dd668ea03759" category="paragraph">Consulte a<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>.</block>
   <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">Para obter detalhes,<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block> consulte .</block>
-  <block id="3eddfb488d257605e7713c24d210beee" category="inline-link">Gerencie sites, grupos de recursos, planos de replicação, armazenamentos de dados e informações de máquinas virtuais</block>
-  <block id="310c40c0ef022c90f1370d1fe91ca720" category="paragraph">Para obter detalhes,<block ref="db7c318fcbcad8cfb9a44ac897b870b2" category="inline-link-rx"></block> consulte .</block>
-  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link">Gerenciar planos de replicação</block>
-  <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">Para obter detalhes,<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block> consulte .</block>
   <block id="7e4353e591e7ee71b0cc70a66b02ee7a" category="paragraph">Você teve a capacidade de visualizar buckets do Amazon S3 no BlueXP  Canvas por um tempo. Agora você pode adicionar novos buckets e alterar propriedades para buckets existentes diretamente do BlueXP .<block ref="f5358cf9e8e537088a631ff4313d8401" category="inline-link-rx"></block>.</block>
   <block id="3e9d2d36df8c91d7e9151cc5775042a8" category="paragraph">Você já teve a capacidade de visualizar o armazenamento de Blobs do Azure no BlueXP  Canvas por algum tempo. Agora você pode adicionar novas contas de armazenamento e alterar propriedades para contas de armazenamento existentes diretamente do BlueXP .<block ref="432ae671c636de993f8b5290b51ad53f" category="inline-link-rx"></block>.</block>
   <block id="bff48bc8f1cd9f08f36e8d0c4fa810ff" category="paragraph">Saiba mais sobre o<block ref="a53ad2061326060987afe3d1fd22d00d" category="inline-link-rx"></block>.</block>
@@ -450,27 +435,6 @@
   <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">Gerenciamento de licenças do Cloud volume ONTAP</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">5 de março de 2024</block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">30 de julho de 2023</block>
-  <block id="1992f2f9fa5c0cbd3b61255b9dd507bd" category="section-title">30 de outubro de 2024</block>
-  <block id="c5562ce2e22a86c247849904ecef3dc8" category="section-title">Relatórios</block>
-  <block id="5139de9c5a9b2b36569213d7e9b32f21" category="paragraph">Agora você pode gerar e baixar relatórios para ajudá-lo a analisar seu cenário. Os relatórios pré-projetados resumem failovers e failbacks, mostram detalhes de replicação em todos os locais e mostram os detalhes da tarefa nos últimos sete dias.</block>
-  <block id="5ef05167488611c5bd4ff0f410595ce4" category="section-title">teste gratuito de 30 dias</block>
-  <block id="7a9cfed0d96577c6b811d11dfc152202" category="paragraph">Agora você pode se inscrever para uma avaliação gratuita de 30 dias da recuperação de desastres do BlueXP . Anteriormente, as avaliações gratuitas duravam 90 dias.</block>
-  <block id="3d1d28bb2a74cb6e16888dd71e05374a" category="section-title">Desativar e ativar planos de replicação</block>
-  <block id="6f963c01bb5a207fe21d3d9137892d53" category="paragraph">Uma versão anterior incluiu atualizações da estrutura de agendamento de teste de failover, que era necessária para dar suporte a programações diárias e semanais. Esta atualização exigiu que você desabilite e reative todos os planos de replicação existentes para que você possa usar as novas programações de teste de failover diárias e semanais. Este é um requisito único.</block>
-  <block id="2c4b676c68e03ba0114109310daeb0bb" category="section-title">Mapeamento de pastas</block>
-  <block id="3bdb4d4a16c6f952e581bc706b1882f1" category="paragraph">Quando você cria um plano de replicação e mapeia recursos de computação, agora é possível mapear pastas para que as VMs sejam recuperadas em uma pasta especificada para datacenter, cluster e host.</block>
-  <block id="ddf914c371b7feb4383b7444a99b5fd7" category="section-title">Detalhes da VM disponíveis para failover, failback e failover de teste</block>
-  <block id="363712ac31c5614bfddfdcfad95b6a12" category="paragraph">Quando uma falha ocorre e você está iniciando um failover, executando um failback ou testando o failover, agora você pode ver detalhes das VMs e identificar quais VMs não reiniciaram.</block>
-  <block id="5f20b8908706e397cd745a0bb1264de2" category="section-title">Atraso de inicialização da VM com sequência de inicialização ordenada</block>
-  <block id="7e15dbae84fa8dee12ba906ffe20a1d1" category="paragraph">Quando você cria um plano de replicação, agora você pode definir um atraso de inicialização para cada VM no plano. Isso permite que você defina uma sequência para que as VMs comecem a garantir que todas as VMs prioritárias One estejam sendo executadas antes que as VMs prioritárias subsequentes sejam iniciadas.</block>
-  <block id="bb121112267374f0e2c29742b8091ab6" category="section-title">Informações do sistema operacional da VM</block>
-  <block id="1df70ff252045f8a47784f3a1371818c" category="paragraph">Quando você cria um plano de replicação, agora você pode ver o sistema operacional de cada VM no plano. Isso é útil para decidir como agrupar VMs em um grupo de recursos.</block>
-  <block id="09a63cfb0d6c3a3392c3872099b3fba5" category="section-title">Alias de nome da VM</block>
-  <block id="dcdfd42c566ed1c481f3c772573f39e0" category="paragraph">Quando você cria um plano de replicação, agora é possível adicionar um prefixo e sufixo aos nomes da VM no SIT de recuperação de desastres. Isso permite que você use um nome mais descritivo para as VMs no plano.</block>
-  <block id="126e7b7b7fdb43e70f3e1542c1f0b51a" category="section-title">Limpe os instantâneos antigos</block>
-  <block id="61a7f53a93554e648fe2eb9ad8dd6468" category="paragraph">Você pode excluir todos os snapshots que não forem mais necessários além da contagem de retenção especificada. Os snapshots podem se acumular ao longo do tempo quando você diminui a contagem de retenção de snapshots, e agora você pode removê-los para liberar espaço. Você pode fazer isso a qualquer momento sob demanda ou quando você excluir um plano de replicação.</block>
-  <block id="8cd43e146a4fc163d690bdc8bdc47fc6" category="section-title">Reconciliar instantâneos</block>
-  <block id="4472d2b5ab8a2ba1ff5429790d72930f" category="paragraph">Agora você pode reconciliar snapshots que estão fora de sincronia entre a origem e o destino. Isso pode ocorrer se os snapshots forem excluídos em um destino fora da recuperação de desastres do BlueXP . O serviço exclui o instantâneo na origem automaticamente a cada 24 horas. No entanto, você pode executar isso sob demanda. Esse recurso permite que você garanta que os snapshots sejam consistentes em todos os sites.</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de setembro de 2022</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">Suporte para e-Series</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">Agora você pode descobrir seus sistemas e-Series diretamente da BlueXP . Descobrir sistemas e-Series oferece uma visão completa dos dados em sua multicloud híbrida.</block>
@@ -547,14 +511,6 @@
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">Tente novamente todas as digitalizações</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">Para tentar novamente todas as digitalizações:</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">Para tentar novamente todas as digitalizações com falha, selecione *Repetir todas as digitalizações*.</block>
-  <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">Versão 4,2</block>
-  <block id="ca716ff875c64c5d237c8e862b62065c" category="section-title">Suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS</block>
-  <block id="1979efa5817be86acee4a8fbdf309a1a" category="paragraph">Essa versão da recuperação de desastres do BlueXP  oferece suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS. Em um sistema ASA R2, o software ONTAP oferece suporte à funcionalidade essencial de SAN e remove recursos não suportados em ambientes SAN.</block>
-  <block id="d154d7f159ffe4fedd65f7894a405e59" category="paragraph">Esta versão suporta os seguintes recursos para o ASA R2:</block>
-  <block id="38e9022b7f95524a99b3126af89eb640" category="list-text">Provisionamento de grupo de consistência para armazenamento primário (apenas grupo de consistência plana, ou seja, apenas um nível sem estrutura hierárquica)</block>
-  <block id="bbc4e3ff648912e4a892f88fcb03c65b" category="list-text">Operações de backup (grupo de consistência), incluindo automação de SnapMirror</block>
-  <block id="7e13cc5491f076161e0aefc0728bf351" category="paragraph">O suporte ao ASA R2 na recuperação de desastres do BlueXP  usa o ONTAP 9.16.1.</block>
-  <block id="60a0836359d058db16981cf45c24594f" category="paragraph">Embora os datastores possam ser montados em um volume ONTAP ou em uma unidade de armazenamento ASA R2, um grupo de recursos na recuperação de desastres do BlueXP  não pode incluir um datastore do ONTAP e um do ASA R2. Você pode selecionar um datastore do ONTAP ou um datastore do ASA R2 em um grupo de recursos.</block>
   <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">Como você ativa a indexação?</block>
   <block id="6b14c6e0d643870ea727335d7739df30" category="inline-link">Como restaurar dados do ONTAP usando pesquisar &amp;amp; Restaurar</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">Precisão melhorada do modelo de categorização</block>
@@ -640,20 +596,6 @@
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">Riscos atenuados</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">Na seção de resumo das atualizações de software do BlueXP , agora você pode ver o número total de riscos que podem ser mitigados pela atualização do sistema operacional. Isso permite que os usuários avaliem as melhorias de segurança e estabilidade em sua base de instalação.</block>
   <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">16 de abril de 2025</block>
-  <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">Detecção programada para VMs</block>
-  <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">A recuperação de desastres do BlueXP  realiza a descoberta a cada 24 horas. Com esta versão, agora você pode personalizar o cronograma de descoberta para atender às suas necessidades e reduzir o impactos no desempenho quando necessário. Por exemplo, se você tiver um grande número de VMs, poderá definir a programação de descoberta para ser executada a cada 48 horas. Se você tiver um pequeno número de VMs, poderá definir o agendamento de descoberta para ser executado a cada 12 horas.</block>
-  <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">Se você não deseja agendar a descoberta, você pode desativar a opção de descoberta agendada e atualizar a descoberta manualmente a qualquer momento.</block>
-  <block id="d04fa3ae362a3ea46fde26bdba81b204" category="inline-link">Adicione sites do vCenter Server</block>
-  <block id="0002b275859484d6cdca867fbab8e165" category="paragraph">Para obter detalhes,<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block> consulte .</block>
-  <block id="84307a139104b06aba6c6de9c728b2ff" category="section-title">Suporte ao datastore do grupo de recursos</block>
-  <block id="ed0d134f0d7b751b80633ad848722c7a" category="paragraph">Anteriormente, você poderia criar grupos de recursos apenas por VMs. Com essa versão, você pode criar um grupo de recursos por datastores. Quando você estiver criando um plano de replicação e criando um grupo de recursos para esse plano, todas as VMs em um datastore serão listadas. Isso é útil se você tiver um grande número de VMs e quiser agrupá-las por datastore.</block>
-  <block id="84ae8aaf40a4b59fed9a4fa741ccf225" category="paragraph">Você pode criar um grupo de recursos com um datastore das seguintes maneiras:</block>
-  <block id="ee64b17e5379b689c5eb4ab50027f625" category="list-text">Ao adicionar um grupo de recursos usando datastores, você pode ver uma lista de datastores. Você pode selecionar um ou mais datastores para criar um grupo de recursos.</block>
-  <block id="3043e1ee38988e4248b9d1966e6dd1a4" category="list-text">Ao criar um plano de replicação e criar um grupo de recursos dentro do plano, você pode ver as VMs nos datastores.</block>
-  <block id="f7a1d657a7b8993c917f63602c0774a1" category="section-title">Notificações de avaliação gratuita ou expiração de licença</block>
-  <block id="38a9b45e86982c8330edcb875da55284" category="paragraph">Esta versão fornece notificações de que o teste gratuito expirará em 60 dias para garantir que você tenha tempo para obter uma licença. Esta versão também fornece notificações no dia em que a licença expira.</block>
-  <block id="5d940e67e8d433508306c751ff0ea678" category="section-title">Notificação de atualizações de serviço</block>
-  <block id="9bdd52eb995b6f47a02ffa6aa4318399" category="paragraph">Com esta versão, um banner aparece na parte superior para indicar que os serviços estão sendo atualizados e que o serviço é colocado no modo de manutenção. O banner aparece quando o serviço está sendo atualizado e desaparece quando a atualização é concluída. Embora possa continuar a trabalhar na IU enquanto a atualização estiver em curso, não é possível enviar novos trabalhos. Os trabalhos agendados serão executados após a conclusão da atualização e o serviço retornará ao modo de produção.</block>
   <block id="46c8a90c914cf567466d573545fb57d9" category="section-title">Painel de controlo de volume melhorado (pré-visualização)</block>
   <block id="d4400da5c041019019538ea47e6a4d7e" category="paragraph">O Painel de volume agora é carregado em menos de 10 segundos, fornecendo uma interface muito mais rápida e eficiente. Esta versão de pré-visualização está disponível para clientes selecionados, oferecendo-lhes uma visão antecipada dessas melhorias.</block>
   <block id="a43e01afb7862afba8cef123bb022bd8" category="section-title">Melhorias na IU</block>
@@ -745,47 +687,10 @@
   <block id="6a86c1cc6c3338bb337a5e643e80da8e" category="paragraph">Agora você pode habilitar a disposição em camadas para um locatário do Azure em um cenário em que o ambiente de trabalho do Cloud Volumes ONTAP é criado por um locatário e o BlueXP  Connector é criado por outro. Usando essa funcionalidade, você pode usar o mesmo conetor para categorizar dados para vários locatários do Azure.</block>
   <block id="879e91c0a0fa09577c58d0330291ff06" category="inline-link">Requisitos para categorizar dados para um locatário do Azure</block>
   <block id="215678b43321c729a07cabb64971f83c" category="paragraph"><block ref="215678b43321c729a07cabb64971f83c" category="inline-link-rx"></block></block>
-  <block id="848964f0743e2416b5d061a5e088ca73" category="paragraph">Versão 4.2.2</block>
-  <block id="ae493f6fb938d3c8c6db8b5a9e623794" category="paragraph">Versão 4.2.1</block>
-  <block id="78e5de64c036a105265b3f447a5fbbca" category="section-title">Suporte a proxy inteligente</block>
-  <block id="12430fc7d9e2c156fb2dc1af2bf60126" category="paragraph">O conetor BlueXP  suporta proxy inteligente. O proxy inteligente é uma maneira leve, segura e eficiente de conectar seu ambiente local ao serviço BlueXP . Ele fornece uma conexão segura entre o seu ambiente e o serviço BlueXP  sem exigir uma VPN ou acesso direto à Internet. Essa implementação de proxy otimizada descarrega o tráfego da API dentro da rede local.</block>
-  <block id="2baae43f4fa62104c66585e956c51e1e" category="paragraph">Quando um proxy é configurado, a recuperação de desastres do BlueXP  tenta se comunicar diretamente com o VMware ou o ONTAP e usa o proxy configurado se a comunicação direta falhar.</block>
-  <block id="a115e6ab8acfcda534f22a18d1d6940d" category="paragraph">A implementação do proxy de recuperação de desastres do BlueXP  requer comunicação da porta 443 entre o conetor e quaisquer vCenter Servers e arrays ONTAP usando um protocolo HTTPS. O agente de recuperação de desastres do BlueXP  no conetor se comunica diretamente com o VMware vSphere, o VC ou o ONTAP ao executar qualquer ação.</block>
-  <block id="7297a33a5c9a50db535ceb180e4e6c29" category="inline-link">Configure sua infraestrutura para recuperação de desastres no BlueXP</block>
-  <block id="a7a0475144b255eccfff4d2ee3e7a5c4" category="paragraph">Para obter mais informações sobre o proxy inteligente para recuperação de desastres do BlueXP ,<block ref="bf1bf7a536149f2406a2eab17db3a297" category="inline-link-rx"></block> consulte .</block>
-  <block id="146adb7944757e88795676b780c31811" category="inline-link">Configure um conetor para usar um servidor proxy</block>
-  <block id="635abfb2f80497d39998f2a81dfecd7e" category="paragraph">Para obter mais informações sobre a configuração geral do proxy no BlueXP ,<block ref="4d83a369cd8d5456206d71335578eaaa" category="inline-link-rx"></block> consulte .</block>
-  <block id="7469dc0d82ce9411c03b852f2163d515" category="section-title">Termine o teste gratuito a qualquer momento</block>
-  <block id="38567a6024618c3687de90b3e2cff86e" category="paragraph">Você pode parar o teste gratuito em qualquer dente ou você pode esperar até que ele expire.</block>
-  <block id="8d4d6551ee286317b2a4f297766952f5" category="inline-link">Termine a avaliação gratuita</block>
-  <block id="b618f30aeca114d464120de119b19ced" category="paragraph"><block ref="5f37f8bd4230e4b629c60b7dc23a5850" category="inline-link-rx"></block>Consulte .</block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">Suporte autocompleto do CloudShell</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">Ao usar o CloudShell de fábrica de carga de trabalho do BlueXP , você pode começar a digitar um comando e pressionar a tecla Tab para exibir as opções disponíveis. Se houver várias possibilidades, a CLI exibirá uma lista de sugestões. Esse recurso aumenta a produtividade minimizando erros e acelerando a execução de comandos.</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">Enviar eventos de digitalização para a linha do tempo do BlueXP </block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">13 de maio de 2025</block>
-  <block id="5a31c17caa12408e3b6093ed864c9821" category="paragraph">Versão 4.2.3</block>
-  <block id="c362166d3b35c5afaa0ddfbe7e69494b" category="section-title">Mapeamento de sub-rede</block>
-  <block id="2418e16fab8ca1ca0d50d0811f88b6eb" category="paragraph">Com essa versão, você pode gerenciar endereços IP no failover de uma nova maneira usando o mapeamento de sub-rede, que permite adicionar sub-redes para cada vCenter. Ao fazer isso, você define o CIDR IPv4, o gateway padrão e o DNS para cada rede virtual.</block>
-  <block id="eb784040bffb80024e0c56694e09283d" category="paragraph">Após o failover, a recuperação de desastres do BlueXP  determina o endereço IP apropriado de cada vNIC, observando o CIDR fornecido para a rede virtual mapeada e o usa para derivar o novo endereço IP.</block>
-  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">Por exemplo:</block>
-  <block id="7f1dd179b7af043e895b4af287c713da" category="list-text">NetworkA: 10,1.1.0/24</block>
-  <block id="130ee01552bdfbbae122682d96ada96f" category="list-text">NetworkB: 192.168.1.0/24</block>
-  <block id="c8512209d54525f96f71aef40bda4d89" category="paragraph">O VM1 tem um vNIC (10,1.1,50) que está conetado à NetworkA. O NetworkA é mapeado para o NetworkB nas configurações do plano de replicação.</block>
-  <block id="54f173771463f16f3b7367756ee8a6df" category="paragraph">Após o failover, a recuperação de desastres do BlueXP  substitui a parte de rede do endereço IP original (10,1.1) e mantém o endereço do host (.50) do endereço IP original (10,1.1,50). Para o VM1, a recuperação de desastres do BlueXP  analisa as configurações do CIDR para o NetworkB e usa a parte 192.168.1 da rede NetworkB enquanto mantém a parte do host (.50) para criar o novo endereço IP para o VM1. O novo IP torna-se 192.168.1.50.</block>
-  <block id="726a53952ba1f868d3ec9d1d32a62b2e" category="paragraph">Em resumo, o endereço do host permanece o mesmo, enquanto o endereço de rede é substituído pelo que estiver configurado no mapeamento de sub-rede do site. Isso permite que você gerencie a reatribuição de endereços IP após o failover com mais facilidade, especialmente se você tiver centenas de redes e milhares de VMs para gerenciar.</block>
-  <block id="e28871dd1f9f31bb54d653e42ab61487" category="paragraph">Para obter detalhes sobre como incluir o mapeamento de sub-redes em seus sites,<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block> consulte .</block>
-  <block id="a16eb72c6e9708bc4bdfd310db9a1760" category="section-title">Evite a proteção</block>
-  <block id="18a26d8a69342321f82f23b0b9667a2b" category="paragraph">Agora você pode ignorar a proteção para que o serviço não crie automaticamente uma relação de proteção reversa após um failover do plano de replicação. Isso é útil se você quiser executar operações adicionais no local restaurado antes de colocá-lo novamente on-line na recuperação de desastres do BlueXP .</block>
-  <block id="83f2c5047d69bb49c6372714354b223e" category="paragraph">Quando você inicia um failover, por padrão, o serviço cria automaticamente uma relação de proteção reversa para cada volume no plano de replicação, se o site de origem original estiver on-line. Isso significa que o serviço cria uma relação SnapMirror do site de destino de volta para o site de origem. O serviço também reverte automaticamente a relação do SnapMirror quando você inicia um failback.</block>
-  <block id="39adaab4c8da99c378ac7814cd837b82" category="paragraph">Ao iniciar um failover, agora você pode escolher a opção *Skip protection*. Com isso, o serviço não inverte automaticamente a relação do SnapMirror. Em vez disso, ele deixa o volume gravável em ambos os lados do plano de replicação.</block>
-  <block id="0ed1a7f2cfa308cb3f608d5a24b47b8f" category="paragraph">Depois que o site de origem original estiver novamente on-line, você poderá estabelecer proteção reversa selecionando *Protect Resources* no menu ações do plano de replicação. Isso tenta criar uma relação de replicação reversa para cada volume no plano. Pode executar este trabalho repetidamente até que a proteçãoão seja restaurada. Quando a proteção é restaurada, você pode iniciar um failback da maneira habitual.</block>
-  <block id="981aed0e5104e08339386a1c5379d13f" category="paragraph">Para obter mais detalhes sobre a proteção contra saltos,<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block> consulte .</block>
-  <block id="bc1bbd522e7b060cf5530955a21a60e0" category="section-title">O SnapMirror agenda atualizações no plano de replicação</block>
-  <block id="c8c9a99c726a6f5a1158a1753fb72b2a" category="paragraph">A recuperação de desastres do BlueXP  agora suporta o uso de soluções de gerenciamento de snapshot externas, como o agendador de políticas nativo do ONTAP SnapMirror ou integrações de terceiros com o ONTAP. Se cada armazenamento de dados (volume) no plano de replicação já tiver uma relação do SnapMirror que está sendo gerenciada em outro lugar, você poderá usar esses snapshots como pontos de recuperação na recuperação de desastres do BlueXP .</block>
-  <block id="51b94dd4c3836facc3789590ed219960" category="paragraph">Para configurar, na seção Plano de replicação &gt; Mapeamento de recursos, marque a caixa de seleção *usar backups gerenciados de plataforma e programações de retenção* ao configurar o mapeamento de datastores.</block>
-  <block id="a104b856c104ac1d20a94ca4ed8ba3f8" category="paragraph">Quando a opção é selecionada, a recuperação de desastres do BlueXP  não configura um agendamento de backup. No entanto, você ainda precisa configurar um cronograma de retenção porque snapshots podem ainda ser feitos para operações de teste, failover e failback.</block>
-  <block id="84c71600543673f6d7dd403d3e7a164a" category="paragraph">Depois que isso é configurado, o serviço não tira nenhum snapshot agendado regularmente, mas depende da entidade externa para tirar e atualizar esses snapshots.</block>
-  <block id="05861d9bf485f3b7dc6f56871ad28892" category="paragraph">Para obter detalhes sobre como usar soluções de snapshot externas no plano de replicação,<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block> consulte .</block>
   <block id="89f166f25960d4442ee3cf41fb712de0" category="section-title">Ressincronizar SnapMirror para Cloud para migrações de volume</block>
   <block id="f3afa2391337e5c71f0a9b02dedc2753" category="paragraph">O recurso Resync do SnapMirror para a nuvem simplifica a proteção e a continuidade dos dados durante migrações de volume em ambientes NetApp. Quando um volume é migrado usando a replicação lógica do SnapMirror (LRSE), de uma implantação de NetApp no local para outra ou para uma solução baseada em nuvem, como Cloud Volumes ONTAP ou Cloud Volumes Service, o SnapMirror para o Cloud Resync garante que os backups existentes na nuvem permaneçam intactos e operacionais.</block>
   <block id="9de9a72e99be1fee8dc0790411738dd4" category="paragraph">Esse recurso elimina a necessidade de uma operação de re-linha de base demorada e intensiva em recursos, permitindo que as operações de backup continuem após a migração. Esse recurso é valioso em cenários de migração de carga de trabalho, compatível com FlexVols e FlexGroups, e está disponível a partir do ONTAP versão 9.16.1.</block>
@@ -996,4 +901,42 @@
   <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">Usuários não federados podem habilitar a MFA para suas contas BlueXP para aumentar a segurança. Os administradores podem gerenciar as configurações de MFA, incluindo redefini-la ou desativá-la para os usuários, conforme necessário. Isso é suportado apenas no modo padrão.</block>
   <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">Funções de acesso BlueXP necessárias</block>
   <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">Agora você precisa de uma das seguintes funções de acesso para visualizar, descobrir ou gerenciar o StorageGRID no BlueXP: *Administrador da organização*, *Administrador de pasta ou projeto*, *Administrador de armazenamento* ou *Especialista em integridade de armazenamento*. <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="section-title">Versão 1,45</block>
+  <block id="8321b9867214f5caa9d5a37197549cfb" category="paragraph">Esta versão de BlueXP classification inclui alterações de código que otimizam a utilização de recursos e:</block>
+  <block id="8f993d1847870bf5334f9e8a709029c8" category="paragraph-title">Fluxo de trabalho aprimorado para adicionar compartilhamentos de arquivos para digitalização</block>
+  <block id="7363f98210e80281886d9b88b644899c" category="paragraph">O fluxo de trabalho para adicionar compartilhamentos de arquivos a um grupo de compartilhamento de arquivos foi simplificado. O processo agora também diferencia o suporte ao protocolo CIFS com base no tipo de autenticação (Kerberos ou NTLM).</block>
+  <block id="628bc6ea752b2d2bd10bc4f22b8cfcca" category="inline-xref-macro">Verificar compartilhamentos de arquivos</block>
+  <block id="1ac63d916d77b3c107f8a8cfa12fb2bb" category="paragraph">Para obter mais informações, <block ref="828b8ad7e27c62fe81ed86d552495069" category="inline-xref-macro-rx"></block>consulte .</block>
+  <block id="2cc1f0459a8aa18da26c0c17c08edd37" category="paragraph-title">Informações aprimoradas sobre o proprietário do arquivo</block>
+  <block id="11960942a6824585cdbadbb9ccfaa7b2" category="paragraph">Agora você pode visualizar mais informações sobre os proprietários dos arquivos capturados na aba "Investigação". Ao visualizar os metadados de um arquivo na aba "Investigação", localize o proprietário do arquivo e selecione **Exibir detalhes** para ver o nome de usuário, o e-mail e o nome da conta SAM. Você também pode visualizar outros itens pertencentes a este usuário. Este recurso está disponível apenas para ambientes de trabalho com o Active Directory.</block>
+  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-xref-macro">Investigue os dados armazenados em sua organização</block>
+  <block id="761b95894e65b7e84a1b42c7277548f8" category="paragraph">Para obter mais informações, <block ref="52346db20931f188e29e56e6e913f681" category="inline-xref-macro-rx"></block>consulte .</block>
+  <block id="875f73df70de111a8a6c2c5595b208a7" category="paragraph">Versão 4.2.5</block>
+  <block id="ef9968a47eda1ddd45a276b48c838f6f" category="section-title">Funções do usuário na BlueXP disaster recovery</block>
+  <block id="bc6794f75df9889a42be39a47210963d" category="paragraph">A BlueXP disaster recovery agora emprega funções para controlar o acesso que cada usuário tem a recursos e ações específicos.</block>
+  <block id="3136785ff416b16b75216e5331402fac" category="paragraph">O serviço usa as seguintes funções específicas para BlueXP disaster recovery.</block>
+  <block id="7625d6e45273de6987a1bcebc498baa7" category="list-text">*Administrador de recuperação de desastres*: Execute qualquer ação na BlueXP disaster recovery.</block>
+  <block id="5106b00f6760172bc5c45cb19eb9b8a5" category="list-text">*Administrador de failover de recuperação de desastres*: execute ações de failover e migração na BlueXP disaster recovery.</block>
+  <block id="64fbace2c8460fced3d10cb671f24651" category="list-text">*Administrador do aplicativo de recuperação de desastres*: Crie e modifique planos de replicação e inicie failovers de teste.</block>
+  <block id="8a8f884ac550044fb8c536c29fb404af" category="list-text">*Visualizador de recuperação de desastres*: visualize informações na BlueXP disaster recovery, mas não pode executar nenhuma ação.</block>
+  <block id="ffabfa17d07546861da02a532a19ee4b" category="paragraph">Se estiver clicando no serviço de BlueXP disaster recovery e configurando-o pela primeira vez, você deverá ter a permissão *SnapCenterAdmin* ou ter a função *Administrador da organização*.</block>
+  <block id="03f7d0a81585e8c5ce1a46f9bccaab7f" category="inline-link">Funções e permissões de usuário na BlueXP disaster recovery</block>
+  <block id="3a3f201899ef67ba5014b223f6b6f313" category="paragraph">Para obter detalhes, <block ref="024c70e4d2a5dd15bc5622316cbef3ed" category="inline-link-rx"></block>consulte .</block>
+  <block id="46204d4c84a080b8821b1d198e735e91" category="section-title">Outras atualizações na BlueXP disaster recovery</block>
+  <block id="982f7e3070a4d65cdf30b78b12adb75b" category="list-text">Descoberta de rede aprimorada</block>
+  <block id="3b5745c72d48a29358cef7c9db7cd826" category="list-text">Melhorias de escalabilidade:</block>
+  <block id="40228eea7c6ccc9e0cb61372c49d95eb" category="list-text">Filtragem dos metadados necessários em vez de todos os detalhes</block>
+  <block id="1ac913a5bb5ab0a16e36b313be789aac" category="list-text">Melhorias na descoberta para recuperar e atualizar recursos de VM mais rapidamente</block>
+  <block id="b5e4470910d5e523e0dc277cc4e74bb2" category="list-text">Otimização de memória e otimização de desempenho para recuperação e atualização de dados</block>
+  <block id="49b1bd71187a3dcbd19f786ef2a10764" category="list-text">Melhorias na criação de clientes do vCenter SDK e no gerenciamento de pools</block>
+  <block id="7af4cddf55cbfd0c887075f4b418f072" category="list-text">Gerenciamento de dados obsoletos na próxima descoberta agendada ou manual:</block>
+  <block id="0e9f332b69353d48350244fb204bbbe1" category="list-text">Quando uma VM é excluída no vCenter, a BlueXP disaster recovery agora a remove automaticamente do plano de replicação.</block>
+  <block id="20f175753c0dd9c623cb206ce579bc77" category="list-text">Quando um armazenamento de dados ou rede é excluído no vCenter, a BlueXP disaster recovery agora o exclui do plano de replicação e do grupo de recursos.</block>
+  <block id="e0f19e2b15951f47dcd9ce438c5ce481" category="list-text">Quando um cluster, host ou datacenter é excluído no vCenter, a BlueXP disaster recovery agora o exclui do plano de replicação e do grupo de recursos.</block>
+  <block id="24ed933119d9ba78138d2119f9ebbdac" category="inline-link">Documentação do Swagger</block>
+  <block id="33526279be472c4427abeef413d79850" category="list-text">Agora você pode acessar a documentação do Swagger no modo anônimo do seu navegador. Você pode acessá-la na BlueXP disaster recovery, na opção Configurações &gt; Documentação da API ou diretamente no seguinte URL no modo anônimo do seu navegador: <block ref="fbeb63b8afb1564cb8457db3650e3513" category="inline-link-rx"></block> .</block>
+  <block id="07249132999164b31d31db024261d558" category="list-text">Em algumas situações, após uma operação de failback, o iGroup era deixado para trás após a conclusão da operação. Esta atualização remove o iGroup se ele estiver obsoleto.</block>
+  <block id="3a92c0f069a6fb7a0d4811f90afdd47c" category="list-text">Se o FQDN do NFS foi usado no plano de replicação, a BlueXP disaster recovery agora o resolve para um endereço IP. Esta atualização é útil se o FQDN não puder ser resolvido no site de recuperação de desastres.</block>
+  <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">Melhorias no alinhamento da interface do usuário</block>
+  <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">Melhorias de log para capturar os detalhes de dimensionamento do vCenter após a descoberta bem-sucedida</block>
 </blocks>

@@ -524,6 +524,26 @@ Durante essa visualização, recomendamos que você explore esse novo recurso e 
 
 
 
+=== 14 de julho de 2025
+
+
+
+==== Versão 1,45
+
+Esta versão de BlueXP classification inclui alterações de código que otimizam a utilização de recursos e:
+
+.Fluxo de trabalho aprimorado para adicionar compartilhamentos de arquivos para digitalização
+O fluxo de trabalho para adicionar compartilhamentos de arquivos a um grupo de compartilhamento de arquivos foi simplificado. O processo agora também diferencia o suporte ao protocolo CIFS com base no tipo de autenticação (Kerberos ou NTLM).
+
+Para obter mais informações, xref:task-scanning-file-shares.html[Verificar compartilhamentos de arquivos]consulte .
+
+.Informações aprimoradas sobre o proprietário do arquivo
+Agora você pode visualizar mais informações sobre os proprietários dos arquivos capturados na aba "Investigação". Ao visualizar os metadados de um arquivo na aba "Investigação", localize o proprietário do arquivo e selecione **Exibir detalhes** para ver o nome de usuário, o e-mail e o nome da conta SAM. Você também pode visualizar outros itens pertencentes a este usuário. Este recurso está disponível apenas para ambientes de trabalho com o Active Directory.
+
+Para obter mais informações, xref:task-investigate-data.html[Investigue os dados armazenados em sua organização]consulte .
+
+
+
 === 10 de junho de 2025
 
 
@@ -982,6 +1002,59 @@ Para obter mais informações sobre os relatórios de uso, https://docs.netapp.c
 
 
 
+=== 14 de julho de 2025
+
+Versão 4.2.5
+
+
+
+==== Funções do usuário na BlueXP disaster recovery
+
+A BlueXP disaster recovery agora emprega funções para controlar o acesso que cada usuário tem a recursos e ações específicos.
+
+O serviço usa as seguintes funções específicas para BlueXP disaster recovery.
+
+* *Administrador de recuperação de desastres*: Execute qualquer ação na BlueXP disaster recovery.
+* *Administrador de failover de recuperação de desastres*: execute ações de failover e migração na BlueXP disaster recovery.
+* *Administrador do aplicativo de recuperação de desastres*: Crie e modifique planos de replicação e inicie failovers de teste.
+* *Visualizador de recuperação de desastres*: visualize informações na BlueXP disaster recovery, mas não pode executar nenhuma ação.
+
+
+Se estiver clicando no serviço de BlueXP disaster recovery e configurando-o pela primeira vez, você deverá ter a permissão *SnapCenterAdmin* ou ter a função *Administrador da organização*.
+
+Para obter detalhes,  https://docs.netapp.com/us-en/bluexp-disaster-recovery/reference/dr-reference-roles.html["Funções e permissões de usuário na BlueXP disaster recovery"]consulte .
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre as funções de acesso do BlueXP para todos os serviços"^].
+
+
+
+==== Outras atualizações na BlueXP disaster recovery
+
+* Descoberta de rede aprimorada
+* Melhorias de escalabilidade:
++
+** Filtragem dos metadados necessários em vez de todos os detalhes
+** Melhorias na descoberta para recuperar e atualizar recursos de VM mais rapidamente
+** Otimização de memória e otimização de desempenho para recuperação e atualização de dados
+** Melhorias na criação de clientes do vCenter SDK e no gerenciamento de pools
+
+
+* Gerenciamento de dados obsoletos na próxima descoberta agendada ou manual:
++
+** Quando uma VM é excluída no vCenter, a BlueXP disaster recovery agora a remove automaticamente do plano de replicação.
+** Quando um armazenamento de dados ou rede é excluído no vCenter, a BlueXP disaster recovery agora o exclui do plano de replicação e do grupo de recursos.
+** Quando um cluster, host ou datacenter é excluído no vCenter, a BlueXP disaster recovery agora o exclui do plano de replicação e do grupo de recursos.
+
+
+* Agora você pode acessar a documentação do Swagger no modo anônimo do seu navegador. Você pode acessá-la na BlueXP disaster recovery, na opção Configurações > Documentação da API ou diretamente no seguinte URL no modo anônimo do seu navegador:  https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Documentação do Swagger"^] .
+* Em algumas situações, após uma operação de failback, o iGroup era deixado para trás após a conclusão da operação. Esta atualização remove o iGroup se ele estiver obsoleto.
+* Se o FQDN do NFS foi usado no plano de replicação, a BlueXP disaster recovery agora o resolve para um endereço IP. Esta atualização é útil se o FQDN não puder ser resolvido no site de recuperação de desastres.
+* Melhorias no alinhamento da interface do usuário
+* Melhorias de log para capturar os detalhes de dimensionamento do vCenter após a descoberta bem-sucedida
+
+
+
+
 === 30 de junho de 2025
 
 Versão 4.2.4P2
@@ -1019,244 +1092,6 @@ O Windows Local Administrator Password Solution (Windows LAPS) é um recurso do 
 Agora você pode selecionar opções de mapeamento de sub-rede e marcar a opção LAPS fornecendo os detalhes do controlador de domínio. Com esta opção, você não precisa fornecer uma senha para cada uma das suas máquinas virtuais.
 
 Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-=== 13 de maio de 2025
-
-Versão 4.2.3
-
-
-
-==== Mapeamento de sub-rede
-
-Com essa versão, você pode gerenciar endereços IP no failover de uma nova maneira usando o mapeamento de sub-rede, que permite adicionar sub-redes para cada vCenter. Ao fazer isso, você define o CIDR IPv4, o gateway padrão e o DNS para cada rede virtual.
-
-Após o failover, a recuperação de desastres do BlueXP  determina o endereço IP apropriado de cada vNIC, observando o CIDR fornecido para a rede virtual mapeada e o usa para derivar o novo endereço IP.
-
-Por exemplo:
-
-* NetworkA: 10,1.1.0/24
-* NetworkB: 192.168.1.0/24
-
-
-O VM1 tem um vNIC (10,1.1,50) que está conetado à NetworkA. O NetworkA é mapeado para o NetworkB nas configurações do plano de replicação.
-
-Após o failover, a recuperação de desastres do BlueXP  substitui a parte de rede do endereço IP original (10,1.1) e mantém o endereço do host (.50) do endereço IP original (10,1.1,50). Para o VM1, a recuperação de desastres do BlueXP  analisa as configurações do CIDR para o NetworkB e usa a parte 192.168.1 da rede NetworkB enquanto mantém a parte do host (.50) para criar o novo endereço IP para o VM1. O novo IP torna-se 192.168.1.50.
-
-Em resumo, o endereço do host permanece o mesmo, enquanto o endereço de rede é substituído pelo que estiver configurado no mapeamento de sub-rede do site. Isso permite que você gerencie a reatribuição de endereços IP após o failover com mais facilidade, especialmente se você tiver centenas de redes e milhares de VMs para gerenciar.
-
-Para obter detalhes sobre como incluir o mapeamento de sub-redes em seus sites, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/sites-add.html["Adicione sites do vCenter Server"] consulte .
-
-
-
-==== Evite a proteção
-
-Agora você pode ignorar a proteção para que o serviço não crie automaticamente uma relação de proteção reversa após um failover do plano de replicação. Isso é útil se você quiser executar operações adicionais no local restaurado antes de colocá-lo novamente on-line na recuperação de desastres do BlueXP .
-
-Quando você inicia um failover, por padrão, o serviço cria automaticamente uma relação de proteção reversa para cada volume no plano de replicação, se o site de origem original estiver on-line. Isso significa que o serviço cria uma relação SnapMirror do site de destino de volta para o site de origem. O serviço também reverte automaticamente a relação do SnapMirror quando você inicia um failback.
-
-Ao iniciar um failover, agora você pode escolher a opção *Skip protection*. Com isso, o serviço não inverte automaticamente a relação do SnapMirror. Em vez disso, ele deixa o volume gravável em ambos os lados do plano de replicação.
-
-Depois que o site de origem original estiver novamente on-line, você poderá estabelecer proteção reversa selecionando *Protect Resources* no menu ações do plano de replicação. Isso tenta criar uma relação de replicação reversa para cada volume no plano. Pode executar este trabalho repetidamente até que a proteçãoão seja restaurada. Quando a proteção é restaurada, você pode iniciar um failback da maneira habitual.
-
-Para obter mais detalhes sobre a proteção contra saltos, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["Failover de aplicativos para um local remoto"] consulte .
-
-
-
-==== O SnapMirror agenda atualizações no plano de replicação
-
-A recuperação de desastres do BlueXP  agora suporta o uso de soluções de gerenciamento de snapshot externas, como o agendador de políticas nativo do ONTAP SnapMirror ou integrações de terceiros com o ONTAP. Se cada armazenamento de dados (volume) no plano de replicação já tiver uma relação do SnapMirror que está sendo gerenciada em outro lugar, você poderá usar esses snapshots como pontos de recuperação na recuperação de desastres do BlueXP .
-
-Para configurar, na seção Plano de replicação > Mapeamento de recursos, marque a caixa de seleção *usar backups gerenciados de plataforma e programações de retenção* ao configurar o mapeamento de datastores.
-
-Quando a opção é selecionada, a recuperação de desastres do BlueXP  não configura um agendamento de backup. No entanto, você ainda precisa configurar um cronograma de retenção porque snapshots podem ainda ser feitos para operações de teste, failover e failback.
-
-Depois que isso é configurado, o serviço não tira nenhum snapshot agendado regularmente, mas depende da entidade externa para tirar e atualizar esses snapshots.
-
-Para obter detalhes sobre como usar soluções de snapshot externas no plano de replicação, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-=== 16 de abril de 2025
-
-Versão 4.2.2
-
-
-
-==== Detecção programada para VMs
-
-A recuperação de desastres do BlueXP  realiza a descoberta a cada 24 horas. Com esta versão, agora você pode personalizar o cronograma de descoberta para atender às suas necessidades e reduzir o impactos no desempenho quando necessário. Por exemplo, se você tiver um grande número de VMs, poderá definir a programação de descoberta para ser executada a cada 48 horas. Se você tiver um pequeno número de VMs, poderá definir o agendamento de descoberta para ser executado a cada 12 horas.
-
-Se você não deseja agendar a descoberta, você pode desativar a opção de descoberta agendada e atualizar a descoberta manualmente a qualquer momento.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/sites-add.html["Adicione sites do vCenter Server"] consulte .
-
-
-
-==== Suporte ao datastore do grupo de recursos
-
-Anteriormente, você poderia criar grupos de recursos apenas por VMs. Com essa versão, você pode criar um grupo de recursos por datastores. Quando você estiver criando um plano de replicação e criando um grupo de recursos para esse plano, todas as VMs em um datastore serão listadas. Isso é útil se você tiver um grande número de VMs e quiser agrupá-las por datastore.
-
-Você pode criar um grupo de recursos com um datastore das seguintes maneiras:
-
-* Ao adicionar um grupo de recursos usando datastores, você pode ver uma lista de datastores. Você pode selecionar um ou mais datastores para criar um grupo de recursos.
-* Ao criar um plano de replicação e criar um grupo de recursos dentro do plano, você pode ver as VMs nos datastores.
-
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-==== Notificações de avaliação gratuita ou expiração de licença
-
-Esta versão fornece notificações de que o teste gratuito expirará em 60 dias para garantir que você tenha tempo para obter uma licença. Esta versão também fornece notificações no dia em que a licença expira.
-
-
-
-==== Notificação de atualizações de serviço
-
-Com esta versão, um banner aparece na parte superior para indicar que os serviços estão sendo atualizados e que o serviço é colocado no modo de manutenção. O banner aparece quando o serviço está sendo atualizado e desaparece quando a atualização é concluída. Embora possa continuar a trabalhar na IU enquanto a atualização estiver em curso, não é possível enviar novos trabalhos. Os trabalhos agendados serão executados após a conclusão da atualização e o serviço retornará ao modo de produção.
-
-
-
-=== 10 de março de 2025
-
-Versão 4.2.1
-
-
-
-==== Suporte a proxy inteligente
-
-O conetor BlueXP  suporta proxy inteligente. O proxy inteligente é uma maneira leve, segura e eficiente de conectar seu ambiente local ao serviço BlueXP . Ele fornece uma conexão segura entre o seu ambiente e o serviço BlueXP  sem exigir uma VPN ou acesso direto à Internet. Essa implementação de proxy otimizada descarrega o tráfego da API dentro da rede local.
-
-Quando um proxy é configurado, a recuperação de desastres do BlueXP  tenta se comunicar diretamente com o VMware ou o ONTAP e usa o proxy configurado se a comunicação direta falhar.
-
-A implementação do proxy de recuperação de desastres do BlueXP  requer comunicação da porta 443 entre o conetor e quaisquer vCenter Servers e arrays ONTAP usando um protocolo HTTPS. O agente de recuperação de desastres do BlueXP  no conetor se comunica diretamente com o VMware vSphere, o VC ou o ONTAP ao executar qualquer ação.
-
-Para obter mais informações sobre o proxy inteligente para recuperação de desastres do BlueXP , https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-setup.html["Configure sua infraestrutura para recuperação de desastres no BlueXP"] consulte .
-
-Para obter mais informações sobre a configuração geral do proxy no BlueXP , https://docs.netapp.com/us-en/bluexp-setup-admin/task-configuring-proxy.html["Configure um conetor para usar um servidor proxy"^] consulte .
-
-
-
-==== Termine o teste gratuito a qualquer momento
-
-Você pode parar o teste gratuito em qualquer dente ou você pode esperar até que ele expire.
-
- https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html#end-the-free-trial["Termine a avaliação gratuita"]Consulte .
-
-
-
-=== 19 de fevereiro de 2025
-
-Versão 4,2
-
-
-
-==== Suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS
-
-Essa versão da recuperação de desastres do BlueXP  oferece suporte ao ASA R2 para VMs e armazenamentos de dados no storage VMFS. Em um sistema ASA R2, o software ONTAP oferece suporte à funcionalidade essencial de SAN e remove recursos não suportados em ambientes SAN.
-
-Esta versão suporta os seguintes recursos para o ASA R2:
-
-* Provisionamento de grupo de consistência para armazenamento primário (apenas grupo de consistência plana, ou seja, apenas um nível sem estrutura hierárquica)
-* Operações de backup (grupo de consistência), incluindo automação de SnapMirror
-
-
-O suporte ao ASA R2 na recuperação de desastres do BlueXP  usa o ONTAP 9.16.1.
-
-Embora os datastores possam ser montados em um volume ONTAP ou em uma unidade de armazenamento ASA R2, um grupo de recursos na recuperação de desastres do BlueXP  não pode incluir um datastore do ONTAP e um do ASA R2. Você pode selecionar um datastore do ONTAP ou um datastore do ASA R2 em um grupo de recursos.
-
-
-
-=== 30 de outubro de 2024
-
-
-
-==== Relatórios
-
-Agora você pode gerar e baixar relatórios para ajudá-lo a analisar seu cenário. Os relatórios pré-projetados resumem failovers e failbacks, mostram detalhes de replicação em todos os locais e mostram os detalhes da tarefa nos últimos sete dias.
-
-Consulte a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/reports.html["Criar relatórios de recuperação de desastres"].
-
-
-
-==== teste gratuito de 30 dias
-
-Agora você pode se inscrever para uma avaliação gratuita de 30 dias da recuperação de desastres do BlueXP . Anteriormente, as avaliações gratuitas duravam 90 dias.
-
-Consulte a https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configure o licenciamento"].
-
-
-
-==== Desativar e ativar planos de replicação
-
-Uma versão anterior incluiu atualizações da estrutura de agendamento de teste de failover, que era necessária para dar suporte a programações diárias e semanais. Esta atualização exigiu que você desabilite e reative todos os planos de replicação existentes para que você possa usar as novas programações de teste de failover diárias e semanais. Este é um requisito único.
-
-Veja como:
-
-. No menu superior, selecione *planos de replicação*.
-. Selecione um plano e selecione o ícone ações para exibir o menu suspenso.
-. Selecione *Desativar*.
-. Após alguns minutos, selecione *Enable* (Ativar).
-
-
-
-
-==== Mapeamento de pastas
-
-Quando você cria um plano de replicação e mapeia recursos de computação, agora é possível mapear pastas para que as VMs sejam recuperadas em uma pasta especificada para datacenter, cluster e host.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-==== Detalhes da VM disponíveis para failover, failback e failover de teste
-
-Quando uma falha ocorre e você está iniciando um failover, executando um failback ou testando o failover, agora você pode ver detalhes das VMs e identificar quais VMs não reiniciaram.
-
-Consulte a https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["Failover de aplicativos para um local remoto"].
-
-
-
-==== Atraso de inicialização da VM com sequência de inicialização ordenada
-
-Quando você cria um plano de replicação, agora você pode definir um atraso de inicialização para cada VM no plano. Isso permite que você defina uma sequência para que as VMs comecem a garantir que todas as VMs prioritárias One estejam sendo executadas antes que as VMs prioritárias subsequentes sejam iniciadas.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-==== Informações do sistema operacional da VM
-
-Quando você cria um plano de replicação, agora você pode ver o sistema operacional de cada VM no plano. Isso é útil para decidir como agrupar VMs em um grupo de recursos.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-==== Alias de nome da VM
-
-Quando você cria um plano de replicação, agora é possível adicionar um prefixo e sufixo aos nomes da VM no SIT de recuperação de desastres. Isso permite que você use um nome mais descritivo para as VMs no plano.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] consulte .
-
-
-
-==== Limpe os instantâneos antigos
-
-Você pode excluir todos os snapshots que não forem mais necessários além da contagem de retenção especificada. Os snapshots podem se acumular ao longo do tempo quando você diminui a contagem de retenção de snapshots, e agora você pode removê-los para liberar espaço. Você pode fazer isso a qualquer momento sob demanda ou quando você excluir um plano de replicação.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["Gerencie sites, grupos de recursos, planos de replicação, armazenamentos de dados e informações de máquinas virtuais"] consulte .
-
-
-
-==== Reconciliar instantâneos
-
-Agora você pode reconciliar snapshots que estão fora de sincronia entre a origem e o destino. Isso pode ocorrer se os snapshots forem excluídos em um destino fora da recuperação de desastres do BlueXP . O serviço exclui o instantâneo na origem automaticamente a cada 24 horas. No entanto, você pode executar isso sob demanda. Esse recurso permite que você garanta que os snapshots sejam consistentes em todos os sites.
-
-Para obter detalhes, https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["Gerenciar planos de replicação"] consulte .
 
 
 
