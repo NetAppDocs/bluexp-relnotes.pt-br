@@ -869,7 +869,6 @@
   <block id="f7b353257b71afef5402701e6c93dc8a" category="section-title">Conector 3.9.54</block>
   <block id="98b6a9150dc84b6f02a11b49d3f18c05" category="paragraph">Esta versão do BlueXP Connector inclui melhorias de segurança, correções de bugs e os seguintes novos recursos:</block>
   <block id="0e0a4ccfeecf6ead97d3838c2dc57d40" category="inline-link-macro">Saiba mais sobre como configurar um proxy transparente.</block>
-  <block id="313ef52bd65a76709d5fc69694074f0c" category="list-text">Suporte para proxies transparentes para conectores dedicados ao suporte de serviços Cloud Volumes ONTAP . <block ref="139e9d43e4ebdf2d28d8a7ff0c85548a" category="inline-link-macro-rx"></block></block>
   <block id="4439ae12e6cc703b73c18fa22032bcff" category="list-text">Capacidade de usar tags de rede para ajudar a rotear o tráfego do Connector quando o Connector é implantado em um ambiente do Google Cloud.</block>
   <block id="a72a5a23a9089a372f557a0032363d4e" category="list-text">Notificações adicionais no produto para monitoramento de integridade do Connector, incluindo uso de CPU e RAM.</block>
   <block id="86c10fecfc44ffe6d27d3e73e9158cad" category="paragraph">No momento, a versão 3.9.54 está disponível para modo padrão e modo restrito.</block>
@@ -885,19 +884,16 @@
   <block id="a7cc903fc36eaee51a699d9d59b1496c" category="paragraph">O BlueXP agora oferece uma interface mais intuitiva para gerenciar a federação de identidades. Isso inclui navegação mais fácil, opções mais claras para configurar conexões federadas e melhor visibilidade das federações existentes.</block>
   <block id="c06fd8d559af4ac97a50afd1857f0e4e" category="paragraph">Habilitar o login único (SSO) por meio da federação de identidades permite que os usuários efetuem login no BlueXP com suas credenciais corporativas. Isso aumenta a segurança, reduz o uso de senhas e simplifica a integração.</block>
   <block id="62532a5520311cce692e8abb3a619189" category="inline-link-macro">Saiba mais sobre como importar sua conexão federada existente para o BlueXP.</block>
-  <block id="09de16a2da9f0884c7445f0a40b10aa4" category="paragraph">Você será solicitado a importar todas as conexões federadas existentes para a nova interface para obter acesso aos novos recursos de gerenciamento. Isso permite que você aproveite as melhorias mais recentes sem precisar recriar suas conexões federadas. <block ref="172066467f700483f74d71d92d89ce7c" category="inline-link-macro-rx"></block></block>
   <block id="35db97c0083a9f24d4de60744f2ae08c" category="paragraph">O gerenciamento aprimorado da federação permite que você:</block>
   <block id="c7cfa37b557dec5d42fe4ae1f33a84a9" category="list-text">Adicione mais de um domínio verificado a uma conexão federada, permitindo que você use vários domínios com o mesmo provedor de identidade (IdP).</block>
   <block id="b4a4e2a03df0b0c5b7847629f778c654" category="list-text">Desabilite ou exclua conexões federadas quando necessário, dando a você controle sobre o acesso e a segurança do usuário.</block>
   <block id="77f3e518793db250165393f568090955" category="list-text">Controle o acesso ao gerenciamento da federação com funções do IAM.</block>
   <block id="ac784304eb7a6a12a493cf93b5cef5a9" category="inline-link-macro">Saiba mais sobre federação de identidades no BlueXP.</block>
-  <block id="7970bfbac6093d2cbee1b40bcff193c3" category="paragraph"><block ref="7970bfbac6093d2cbee1b40bcff193c3" category="inline-link-macro-rx"></block></block>
   <block id="e16a950fa56f1c93596e628653af0177" category="section-title">Novas funções de acesso para BlueXP backup and recovery, BlueXP disaster recovery e gerenciamento de federação</block>
   <block id="f4b57a3793a05b2b72338f8e9fcc9496" category="paragraph">O BlueXP agora oferece suporte ao uso de funções do IAM para os seguintes recursos e serviços de dados:</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="list-text">Backup e recuperação do BlueXP</block>
   <block id="43db2a9bc6b7310c67fd6873bb6ca7a4" category="list-text">Federação</block>
   <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">Saiba mais sobre o uso de funções de acesso.</block>
-  <block id="10bab6385b6290f87ce28199462adf76" category="paragraph"><block ref="10bab6385b6290f87ce28199462adf76" category="inline-link-macro-rx"></block></block>
   <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">Usuários não federados podem habilitar a MFA para suas contas BlueXP para aumentar a segurança. Os administradores podem gerenciar as configurações de MFA, incluindo redefini-la ou desativá-la para os usuários, conforme necessário. Isso é suportado apenas no modo padrão.</block>
   <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">Funções de acesso BlueXP necessárias</block>
   <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">Agora você precisa de uma das seguintes funções de acesso para visualizar, descobrir ou gerenciar o StorageGRID no BlueXP: *Administrador da organização*, *Administrador de pasta ou projeto*, *Administrador de armazenamento* ou *Especialista em integridade de armazenamento*. <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
@@ -939,4 +935,8 @@
   <block id="3a92c0f069a6fb7a0d4811f90afdd47c" category="list-text">Se o FQDN do NFS foi usado no plano de replicação, a BlueXP disaster recovery agora o resolve para um endereço IP. Esta atualização é útil se o FQDN não puder ser resolvido no site de recuperação de desastres.</block>
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">Melhorias no alinhamento da interface do usuário</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">Melhorias de log para capturar os detalhes de dimensionamento do vCenter após a descoberta bem-sucedida</block>
+  <block id="5e976f8888129db7a70ab686bfcc86b9" category="list-text">Suporte para proxies transparentes para conectores dedicados ao suporte de serviços Cloud Volumes ONTAP . <block ref="addeb9305f92d41fc2dd640d1ef810f0" category="inline-link-macro-rx"></block></block>
+  <block id="a930f8ca18589b33c946f81801d0bbf6" category="paragraph">Você será solicitado a importar todas as conexões federadas existentes para a nova interface para obter acesso aos novos recursos de gerenciamento. Isso permite que você aproveite as melhorias mais recentes sem precisar recriar suas conexões federadas. <block ref="374020c220651e051317a80c1b5ae1db" category="inline-link-macro-rx"></block></block>
+  <block id="b658b3504fd725bf7abab622b28f1851" category="paragraph"><block ref="b658b3504fd725bf7abab622b28f1851" category="inline-link-macro-rx"></block></block>
+  <block id="12abdfb9ba5fcfe154c4363eb977b22b" category="paragraph"><block ref="12abdfb9ba5fcfe154c4363eb977b22b" category="inline-link-macro-rx"></block></block>
 </blocks>
