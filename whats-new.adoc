@@ -45,7 +45,7 @@ O BlueXP agora oferece suporte ao uso de uma função de acesso para o seguinte 
 * Google Cloud NetApp volumes
 
 
-link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["Saiba mais sobre o uso de funções de acesso."]
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre o uso de funções de acesso."]
 
 
 
@@ -394,7 +394,7 @@ Esta versão do BlueXP backup and recovery oferece uma interface de usuário atu
 Você pode se inscrever para a prévia preenchendo este formulário  https://forms.office.com/pages/responsepage.aspx?id=oBEJS5uSFUeUS8A3RRZbOojtBW63mDRDv3ZK50MaTlJUNjdENllaVTRTVFJGSDQ2MFJIREcxN0EwQi4u&route=shorturl["Formulário de inscrição de pré-visualização"^] .
 
 
-NOTE: ESTA DOCUMENTAÇÃO SOBRE A PROTEÇÃO DE CARGAS DE TRABALHO DO MICROSOFT SQL SERVER É FORNECIDA COMO UMA PRÉVIA DA TECNOLOGIA. Com esta oferta de pré-visualização, a NetApp reserva-se o direito de modificar os detalhes, o conteúdo e o cronograma da oferta antes da Disponibilidade Geral.
+NOTE: Esta documentação sobre a proteção de cargas de trabalho do Microsoft SQL Server é fornecida como uma prévia da tecnologia. Com esta oferta de prévia, a NetApp reserva-se o direito de modificar os detalhes, o conteúdo e o cronograma da oferta antes da disponibilidade geral.
 
 Esta versão do BlueXP backup and recovery inclui as seguintes atualizações:
 
@@ -771,6 +771,20 @@ Para obter mais informações, https://docs.netapp.com/us-en/cloud-volumes-ontap
 
 
 
+=== 25 de junho de 2025
+
+
+
+==== Disponibilidade restrita de licenciamento BYOL para Cloud Volumes ONTAP
+
+A partir de 25 de junho de 2025, a NetApp restringiu o modelo de licenciamento "traga sua própria licença" (BYOL) para o Cloud Volumes ONTAP. A restrição se aplica a todos os clientes e implantações do Cloud Volumes ONTAP na AWS, Azure e Google Cloud. As únicas exceções são os clientes do setor público dos EUA e as implantações na região da China.
+
+O suporte e os serviços da NetApp continuarão até o término do seu contrato BYOL, mas suas licenças expiradas não serão renovadas ou estendidas. Quando suas licenças BYOL expirarem, você deverá substituí-las por licenças baseadas em capacidade adquiridas por meio de suas assinaturas de marketplace em nuvem. Um modelo de licenciamento baseado em capacidade por meio de marketplaces de hiperescala otimiza a experiência de licenciamento e oferece maiores benefícios comerciais. Entre em contato com sua equipe de contas da NetApp ou com seus representantes de sucesso do cliente para discutir suas opções de conversão.
+
+Para mais informações, consulte este comunicado ao cliente:  https://mysupport.netapp.com/info/communications/CPC-00661.html["CPC-00661: Alterações na política BYOL do Cloud Volumes ONTAP"^] .
+
+
+
 === 29 de maio de 2025
 
 
@@ -780,26 +794,6 @@ Para obter mais informações, https://docs.netapp.com/us-en/cloud-volumes-ontap
 Agora você pode implantar o Cloud Volumes ONTAP 9.15.1 no modo privado na AWS, Azure e Google Cloud. O modo privado está ativado para implantações de nó único e alta disponibilidade (HA) do Cloud Volumes ONTAP 9.15.1.
 
 Para obter mais informações sobre implantações de modo privado, https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["Saiba mais sobre os modos de implantação do BlueXP "^]consulte .
-
-
-
-=== 12 de maio de 2025
-
-
-
-==== Descoberta de implantações feitas pelo marketplace do Azure no BlueXP
-
-O BlueXP  agora tem a capacidade de descobrir os sistemas Cloud Volumes ONTAP implantados diretamente no marketplace do Azure. Isso significa que agora você pode adicionar e gerenciar esses sistemas como ambientes de trabalho no BlueXP , assim como qualquer outro sistema Cloud Volumes ONTAP.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["Implante o Cloud Volumes ONTAP a partir do marketplace do Azure"^]
-
-
-
-==== Capacidade de categorizar dados para locatários do Azure
-
-Agora você pode habilitar a disposição em camadas para um locatário do Azure em um cenário em que o ambiente de trabalho do Cloud Volumes ONTAP é criado por um locatário e o BlueXP  Connector é criado por outro. Usando essa funcionalidade, você pode usar o mesmo conetor para categorizar dados para vários locatários do Azure.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html#requirements-to-tier-data-for-an-azure-tenant["Requisitos para categorizar dados para um locatário do Azure"^]
 
 
 
