@@ -961,5 +961,11 @@
   <block id="2ad14b464bc33278b17682af53ee8430" category="admonition">Use esta opção com cuidado e somente em casos de extrema necessidade de limpeza. O BlueXP backup and recovery não terão mais acesso a esses backups, mesmo que eles não sejam excluídos do armazenamento de objetos. Você precisará ir ao seu provedor de nuvem e excluir manualmente os backups.</block>
   <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">Proteja cargas de trabalho ONTAP</block>
   <block id="ca202cae1bb121b6ad0687a5afe91a23" category="paragraph">Consulte<block ref="21eafc85c1e02f8afb995baf9105bba6" category="inline-link-rx"></block> .</block>
-  <block id="d050676cc5292d576618457e004c3537" category="paragraph">Diretiva não resolvida em<block ref="faac70d8d5f83c69456fd13fe050e68d" category="inline-link-rx"></block> - incluir::../_whatsnew/2025-07-14.adoc[]</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Aprenda como visualizar o suporte intitulado switches</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
+  <block id="71d0ee5d411b8f72f571401cdab213ac" category="section-title">Suporte para Google Cloud NetApp Volumes no BlueXP</block>
+  <block id="775e62d1bed90f08196ce9665fe3b625" category="paragraph">Agora você pode gerenciar o Google Cloud NetApp Volumes diretamente do BlueXP:</block>
+  <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">Adicione um ambiente de trabalho.</block>
+  <block id="ee07da92eddb189dc56635b6831f1856" category="list-text">Visualize seus volumes.</block>
+  <block id="f842a501bbdfa7f71ac344c36591a1b8" category="list-text">Remova seu ambiente de trabalho.</block>
 </blocks>
