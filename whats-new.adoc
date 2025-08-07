@@ -792,6 +792,34 @@ Atualizamos o serviço de cópia e sincronização do BlueXP  e o corretor de d
 
 
 
+=== 06 de agosto de 2025
+
+
+
+==== Suporte a interruptores autorizados
+
+Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda como visualizar os switches com direito a suporte"] .
+
+
+
+==== Limite para dados de AutoSupport RSS
+
+O limite de Envios Interrompidos Recentemente (RSS), no widget AutoSupport , foi estendido de 48 horas (2 dias) para 216 horas (9 dias) antes que um sistema seja sinalizado como RSS. Isso é feito para acomodar plataformas como o StorageGRID , que enviam apenas dados semanais do AutoSupport .
+
+
+
+==== Seção de API obsoleta no catálogo de API do Digital Advisor
+
+Uma nova seção de API obsoleta está disponível no catálogo de API do Digital Advisor . Ele lista as APIs que estão programadas para descontinuação, juntamente com cronogramas de descontinuação e APIs alternativas.
+
+
+
+==== Previsão de capacidade V2 e descontinuação dos módulos da API End of Support
+
+Os módulos de previsão de capacidade V2 e API de fim de suporte estão programados para descontinuação. Para acessar as APIs obsoletas ou saber sobre os cronogramas de obsolescência e APIs alternativas, navegue até *Serviços de API -> Procurar -> APIs obsoletas*.
+
+
+
 === 09 de julho de 2025
 
 
@@ -829,18 +857,6 @@ O relatório de contratos de suporte foi melhorado para incluir o novo campo de 
 ==== Painel de sustentabilidade
 
 Agora você pode lançar o painel Sustentabilidade usando o link incluído na apresentação de sustentabilidade.
-
-
-
-=== 05 de março de 2025
-
-
-
-==== Consultor de atualização
-
-* Usando o Pacote de Qualificação de disco (DQP), agora você pode atualizar automaticamente os controladores de disco e o firmware do dispositivo de armazenamento de acordo com critérios predefinidos de integridade e desempenho. Isso reduz possíveis falhas e aumenta a confiabilidade geral do sistema.
-* O banco de dados de fuso horário (DB) foi introduzido para manter automaticamente o alinhamento do sistema com as definições de fuso horário mais recentes. Isso garante que as operações dependentes do tempo continuem sem problemas, mesmo quando as regras de fuso horário mudam.
-
 
 
 
