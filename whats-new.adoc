@@ -334,6 +334,95 @@ Você não pode mais criar um volume a partir de um modelo. Essa ação foi asso
 
 
 
+=== 25 de agosto de 2025
+
+Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
+
+
+
+==== Suporte para proteção de cargas de trabalho VMware na visualização
+
+Esta versão adiciona suporte de pré-visualização para proteger cargas de trabalho do VMware. Faça backup de VMs e datastores VMware de sistemas ONTAP locais para Amazon Web Services e StorageGRID.
+
+
+NOTE: A documentação sobre a proteção de cargas de trabalho do VMware é fornecida como uma prévia da tecnologia. Com esta oferta de visualização, a NetApp reserva-se o direito de modificar os detalhes, o conteúdo e o cronograma da oferta antes da disponibilidade geral.
+
+link:br-use-vmware-protect-overview.html["Saiba mais sobre como proteger cargas de trabalho VMware com BlueXP backup and recovery"] .
+
+
+
+==== A indexação de alto desempenho para AWS, Azure e GCP está geralmente disponível
+
+Em fevereiro de 2025, anunciamos a prévia da indexação de alto desempenho (Indexed Catalog v2) para AWS, Azure e GCP. Este recurso agora está disponível para o público em geral (GA). Em junho de 2025, fornecemos isso a todos os _novos_ clientes por padrão. Com esta versão, o suporte está disponível para _todos_ os clientes. A indexação de alto desempenho melhora o desempenho das operações de backup e restauração para cargas de trabalho protegidas no armazenamento de objetos.
+
+Ativado por padrão:
+
+* Se você for um novo cliente, a indexação de alto desempenho será habilitada por padrão.
+* Se você já for cliente, poderá habilitar a reindexação acessando a seção Restaurar da interface do usuário.
+
+
+
+
+=== 11 de agosto de 2025
+
+Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
+
+
+
+==== Carga de trabalho do Microsoft SQL Server com suporte em Disponibilidade Geral (GA)
+
+O suporte à carga de trabalho do Microsoft SQL Server agora está disponível de modo geral (GA) no BlueXP backup and recovery. Organizações que usam um ambiente MSSQL no ONTAP, Cloud Volumes ONTAP e Amazon FSx for NetApp ONTAP agora podem aproveitar este novo serviço de backup e recuperação para proteger seus dados.
+
+Esta versão inclui os seguintes aprimoramentos no suporte à carga de trabalho do Microsoft SQL Server em relação à versão de visualização anterior:
+
+* * Sincronização ativa do SnapMirror *: Esta versão agora oferece suporte à sincronização ativa do SnapMirror (também conhecida como SnapMirror Business Continuity [SM-BC]), que permite que os serviços empresariais continuem operando mesmo durante uma falha completa do site, permitindo que os aplicativos executem failover transparente usando uma cópia secundária. O BlueXP backup and recovery agora oferecem suporte à proteção de bancos de dados do Microsoft SQL Server em uma configuração de sincronização ativa do SnapMirror e Metrocluster. As informações aparecem na seção *Status de armazenamento e relacionamento* da página Detalhes de proteção. As informações de relacionamento são exibidas na seção atualizada *Configurações secundárias* da página Política.
++
+Consulte https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-policies-create.html["Use políticas para proteger suas cargas de trabalho"] .
+
++
+image:../media/screen-br-sql-protection-details.png["Página de detalhes de proteção para carga de trabalho do Microsoft SQL Server"]
+
+* *Suporte a vários buckets*: agora você pode proteger os volumes dentro de um ambiente de trabalho com até 6 buckets por ambiente de trabalho em diferentes provedores de nuvem.
+* *Atualizações de licenciamento e avaliação gratuita* para cargas de trabalho do SQL Server: agora você pode usar o modelo de licenciamento de backup e recuperação existente do BlueXP para proteger cargas de trabalho do SQL Server. Não há requisito de licenciamento separado para cargas de trabalho do SQL Server.
++
+Para mais detalhes, consulte https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["Configurar licenciamento para BlueXP backup and recovery"] .
+
+* *Nome de instantâneo personalizado*: agora você pode usar seu próprio nome de instantâneo em uma política que controla os backups para cargas de trabalho do Microsoft SQL Server. Insira essas informações na seção *Configurações avançadas* da página Política.
++
+image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["Captura de tela das configurações de formato SnapMirror e snapshot para políticas de BlueXP backup and recovery"]
+
++
+Consulte https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-policies-create.html["Use políticas para proteger suas cargas de trabalho"] .
+
+* *Prefixo e sufixo do volume secundário*: você pode inserir um prefixo e sufixo personalizados na seção *Configurações avançadas* da página Política.
+* *Gerenciamento de identidade e acesso (IAM)*: agora você pode controlar o acesso dos usuários aos recursos.
++
+Consulte https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-login.html["Faça login no BlueXP backup and recovery"] e https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-roles.html["Acesso aos recursos de BlueXP backup and recovery"] .
+
+* *Restaurar do armazenamento de objetos para um host alternativo*: Agora você pode restaurar do armazenamento de objetos para um host alternativo, mesmo que o armazenamento primário esteja inativo.
+* *Dados de backup de log*: A página de detalhes de proteção do banco de dados agora mostra backups de log. Você pode ver a coluna Tipo de backup que mostra se o backup é completo ou de log.
+* *Painel aprimorado*: O painel agora mostra economias de armazenamento e clone.
++
+image:../media/screen-br-dashboard3.png["Painel de BlueXP backup and recovery"]
+
+
+
+
+
+==== Melhorias na carga de trabalho do volume ONTAP
+
+* *Restauração de várias pastas para volumes ONTAP *: Até agora, você podia restaurar uma pasta ou vários arquivos de uma vez usando o recurso Navegar e restaurar. O BlueXP backup and recovery agora oferecem a capacidade de selecionar várias pastas ao mesmo tempo usando o recurso Procurar e restaurar.
+* *Visualizar e gerenciar backups de volumes excluídos*: O painel de BlueXP backup and recovery agora oferece uma opção para mostrar e gerenciar volumes excluídos do ONTAP. Com isso, você pode visualizar e excluir backups de volumes que não existem mais no ONTAP.
+* *Forçar exclusão de backups*: Em alguns casos extremos, você pode querer que o BlueXP backup and recovery não tenham mais acesso aos backups. Isso pode acontecer, por exemplo, se o serviço não tiver mais acesso ao bucket de backup ou se os backups forem protegidos pelo DataLock, mas você não os quiser mais. Anteriormente, não era possível excluí-los sozinho e era necessário ligar para o Suporte da NetApp . Com esta versão, você pode usar a opção para forçar a exclusão de backups (em níveis de volume e ambiente de trabalho).
+
+
+
+CAUTION: Use esta opção com cuidado e somente em casos de extrema necessidade de limpeza. O BlueXP backup and recovery não terão mais acesso a esses backups, mesmo que eles não sejam excluídos do armazenamento de objetos. Você precisará ir ao seu provedor de nuvem e excluir manualmente os backups.
+
+Consulte https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-overview.html["Proteja cargas de trabalho ONTAP"] .
+
+
+
 === 12 de agosto de 2025
 
 Esta versão de backup e recuperação do BlueXP  inclui as seguintes atualizações.
